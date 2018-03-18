@@ -1,0 +1,672 @@
+﻿#grid {
+	display: grid;
+	grid-template-areas: 'header menu' 'main menu';
+	width: 96%;
+	grid-gap: 1%;
+	grid-template-columns: 82% 17%;
+	box-sizing: border-box;
+	margin-left: 2%;
+}
+
+#edit {
+	grid-area: main;
+	height: 100%;
+}
+
+/*header*/
+#header {
+	grid-area: header;
+	box-sizing: border-box;
+	display: block;
+	width: 100%;
+	height: 100%;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	text-align: center;
+}
+
+	#header div {
+		border: 2px solid rgba(0, 0, 0, 0.8);
+		content: '';
+		box-sizing: border-box;
+	}
+
+		#header div div {
+			background: rgb(35, 35, 35);
+			box-sizing: border-box;
+			text-align: left;
+			padding: 2% 0;
+		}
+
+			#header div div img {
+				vertical-align: middle;
+			}
+
+			#header div div span {
+				margin-left: 5%;
+				color: white;
+				font: 4vw 'Century Gothic';
+				letter-spacing: 0;
+				vertical-align: middle;
+			}
+
+	#header .th {
+		box-sizing: border-box;
+		display: inline-block;
+		text-align: center;
+		width: 50%;
+		margin-right: -4px;
+	}
+
+	#header .thin {
+		box-sizing: border-box;
+		background: rgba(255, 255, 255, 0.3);
+		box-shadow: 1px 2px rgb(100, 100, 100);
+		width: 100%;
+		padding: 0.5%;
+		font: 4vw 'Century Gothic';
+		color: white;
+		margin: 0.5% 0;
+		border-bottom: 5px solid olive;
+	}
+
+		#header .thin:hover {
+			background: rgb(100, 100, 100);
+			box-shadow: 1px 2px rgb(30, 30, 30);
+			text-shadow: 1px 1px black;
+		}
+
+	#header .th_activated .thin {
+		background: rgba(0, 0, 0, 0.2);
+		border-bottom: 5px solid rgb(67, 154, 71);
+	}
+
+	#header ol {
+		width: 100%;
+		margin: 0.5% 0;
+		display: none;
+	}
+
+		#header ol input {
+			box-shadow: 1px 2px rgb(100, 100, 100);
+			width: 100%;
+			padding: 3px 0;
+			font-size: 2.5vw;
+			text-align: center;
+		}
+
+		#header ol li {
+			list-style-type: none;
+			text-align: center;
+		}
+
+		#header ol ul {
+			overflow-y: auto;
+			overflow-x: hidden;
+		}
+
+			#header ol ul li {
+				list-style-type: none;
+				background: rgb(200, 200, 200);
+				border: 1px solid rgb(100, 100, 100);
+				width: 100%;
+				padding: 2% 0;
+				font: 2.5vw 'Century Gothic';
+				text-shadow: 1px 1px rgb(100, 100, 100);
+			}
+
+				#header ol ul li:hover {
+					background: Gainsboro;
+					color: black;
+				}
+
+	#header .menu_button {
+		position: relative;
+		left: 30.9%;
+		width: 38.2%;
+		margin: 0.5% 0 0;
+		text-align: center;
+		padding: 2%;
+		font: 4vw 'Century Gothic';
+	}
+
+	#header section {
+		background: rgba(0, 0, 0, 0.8);
+	}
+
+		#header section img {
+			float: right;
+			margin-top: 2%;
+			margin: 0.5%;
+		}
+
+		#header section article {
+			box-sizing: border-box;
+			padding: 2.5%;
+			width: 100%;
+			font: 2vw 'Century Gothic';
+			color: white;
+			text-align: center;
+		}
+
+#searchbar {
+	width: 100%;
+	padding: 1.5% 2%;
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
+	font: 2.5vh 'Century Gothic';
+}
+
+/*menu AKA sidebar*/
+
+#menu {
+	background: rgba(35, 35, 35, 0.6);
+	border: 1px solid rgba(0, 0, 0, 0.8);
+	box-sizing: border-box;
+	padding: 0 0 1% 0;
+	text-align: center;
+	cursor: pointer;
+}
+
+#search_type {
+	box-sizing: 0;
+	margin: 5% 0 0 0;
+	padding: 0;
+	width: 100%;
+	text-align: left;
+	text-align: center;
+}
+
+#menu article {
+	font: 2vw 'Century Gothic';
+	color: white;
+	padding: 5%;
+	border-bottom: 10px solid rgb(67, 154, 71);
+}
+
+#menu section {
+	width: 100%;
+	padding: 0 4%;
+	box-sizing: border-box;
+}
+
+#menu p {
+	border-bottom: 5px solid rgb(67, 154, 71);
+	padding: 1%;
+	margin: 5% 0;
+	font: 1.5vw 'Century Gothic';
+	color: white;
+	text-shadow: 1px 1px black;
+}
+
+#menu .th {
+	box-sizing: border-box;
+	text-align: center;
+	width: 96%;
+	margin-right: -4px;
+	position: relative;
+	left: 2%;
+	margin-bottom: 8%;
+}
+
+#menu .thin {
+	box-sizing: border-box;
+	background: rgba(255, 255, 255, 0.2);
+	box-shadow: 1px 2px rgb(100, 100, 100);
+	width: 100%;
+	padding: 2%;
+	font: 1.5vw 'Century Gothic';
+	color: white;
+	margin: 0.5% 0;
+	border-bottom: 5px solid rgb(115, 136, 43);
+}
+
+	#menu .thin:hover {
+		background: rgb(100, 100, 100);
+		box-shadow: 1px 2px rgb(30, 30, 30);
+		text-shadow: 1px 1px black;
+	}
+
+#menu .th_activated .thin {
+	background: rgba(0, 0, 0, 0.2);
+	border-bottom: 5px solid rgb(67, 154, 71);
+}
+
+#menu ol {
+	width: 100%;
+	margin: 0.5% 0;
+	display: none;
+}
+
+	#menu ol input {
+		box-shadow: 1px 2px rgb(100, 100, 100);
+		width: calc(100% - 4px);
+		padding: 3px 0;
+		font-size: 1vw;
+		text-align: center;
+	}
+
+	#menu ol li {
+		list-style-type: none;
+		text-align: center;
+	}
+
+	#menu ol ul {
+		overflow-y: auto;
+		overflow-x: hidden;
+	}
+
+		#menu ol ul li {
+			list-style-type: none;
+			background: rgb(200, 200, 200);
+			border: 1px solid rgb(100, 100, 100);
+			width: 100%;
+			padding: 2% 0;
+			font: 1.25vw 'Century Gothic';
+			text-shadow: 1px 1px rgb(100, 100, 100);
+		}
+
+			#menu ol ul li:hover {
+				background: Gainsboro;
+				color: black;
+			}
+
+.menu_button {
+	position: relative;
+	bottom: 5%;
+	padding: 5%;
+	border: 3px solid rgb(70, 185, 90);
+	font: 2em 'Century Gothic';
+	color: white;
+}
+
+	.menu_button:hover {
+		box-shadow: -2px -2px 10px rgba(255, 255, 255, 0.3);
+		text-shadow: 1px 1px black;
+		background: rgba(255, 255, 255, 0.15);
+	}
+
+/*footer (pages)*/
+
+#c_footer {
+	background: rgba(35, 35, 35, 0.85);
+	border: 1px solid rgba(0, 0, 0, 0.4);
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.pagination {
+	display: inline-block;
+	margin-top: 1%;
+}
+
+	.pagination a {
+		float: left;
+		padding: 0.5em;
+		text-decoration: none;
+		transition: background-color .3s;
+		font: 1.25vw 'Century Gothic';
+		color: white;
+		text-shadow: 1px 1px black;
+	}
+
+		.pagination a:hover {
+			background: rgb(76, 175, 80);
+			border-radius: 20%;
+		}
+
+/*#main is the area with cards*/
+
+#main {
+	/*background: rgba(207, 229, 94, 0.2);*/
+	background: rgba(0, 0, 0, 0.4);
+	border: 1px solid rgba(0, 0, 0, 0.4);
+	padding: 5% 0;
+	clear: left;
+	box-sizing: border-box;
+	display: block;
+	overflow: auto;
+}
+
+	#main section {
+		box-sizing: border-box;
+		display: inline-block;
+		width: 20%;
+		margin: 2.5% 0;
+		margin-right: -4px;
+		margin-left: 4%;
+	}
+
+.mist_card {
+	box-sizing: border-box;
+	border-radius: 5%;
+	content: '';
+	width: 100%;
+	position: relative;
+	float: left;
+	text-align: center;
+	display: none;
+}
+
+.cancel_card {
+	box-sizing: border-box;
+	border-radius: 5%;
+	content: '';
+	width: 100%;
+	position: relative;
+	float: left;
+	text-align: center;
+	background: rgba(0, 0, 0, 0.75);
+	display: none;
+}
+
+.mist_card p, .cancel_card p {
+	font: 1.35vw 'Century Gothic';
+	color: white;
+}
+
+.mist_card div, .cancel_card div {
+	background: rgba(0, 0, 0, 0.6);
+	display: block;
+	width: 100%;
+	height: calc(50% - 1px);
+	padding-top: 5%;
+	box-sizing: border-box;
+}
+
+.m_c1 {
+	border-radius: 5% 5% 0 0;
+}
+
+.m_c2 {
+	border-radius: 0 0 5% 5%;
+	padding-top: 20%;
+}
+
+.underline {
+	background: rgb(231, 204, 14);
+	height: 2px;
+	content: '';
+}
+/*!!!CARDS!!!*/
+
+.cards {
+	width: 100%;
+	background: rgb(250, 250, 250);
+	text-align: center;
+	overflow: hidden;
+	border-radius: 5%;
+	height: auto;
+	box-sizing: border-box;
+}
+
+	.cards div {
+		align-items: center;
+		padding:0;
+
+	}
+
+		.cards div p {
+			position: relative;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+			padding:0;
+			width: 100%;
+		}
+
+	.cards:hover {
+		box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.75);
+		border: none;
+	}
+
+	.cards .header {
+		height: 20%;
+		background: rgb(83, 81, 78);
+		box-sizing: border-box;
+		border-bottom: 6px solid rgba(154, 12, 19, 0.7);
+	}
+
+	.header p {
+		position:relative;
+		top:calc(50% - 1.25vw - 4px);
+		font: 2.5vw 'Century Gothic';
+		color: white;
+	}
+
+.cards .footer {
+	background: rgb(83, 81, 78);
+	height: 10%;
+	padding: calc(5% - 1.25vw) 1%;
+	font: 2.25vw 'Century Gothic';
+}
+
+.cards .section, .cards .sub-section {
+	height: 15%;
+	box-sizing: border-box;
+}
+
+	.cards .section p {
+		font: 2vw 'Century Gothic';
+		position: relative;
+		top: calc(50% - 1vw - 4px);
+	}
+
+	.cards .sub-section p {
+		font: 2vw 'Century Gothic';
+		position: relative;
+		top: calc(50% - 1vw - 4px);
+	}
+
+.cards .section {
+	border-bottom: 4px solid rgba(154, 12, 19, 0.5);
+}
+
+.cards .sub-section {
+	border-bottom: 4px solid rgba(200, 200, 200, 0.25);
+}
+
+.cards .formula {
+	height: 40%;
+	box-sizing: border-box;
+	overflow: auto;
+}
+
+.cards .formula p {
+	font: 2.5vw 'Cambria Math';
+	position: relative;
+	top: calc(50% - 1.25vw - 8px);
+}
+
+/*!!!BIG_CARDS!!!*/
+
+.big_cards {
+	background: rgb(250, 250, 250);
+	text-align: center;
+	width: 100%;
+	overflow: hidden;
+	border-radius: 5%;
+	height: auto;
+	box-sizing: border-box;
+}
+
+	.big_cards div {
+		display: block;
+		align-items: center;
+	}
+
+		.big_cards div p {
+			position: relative;
+			color: black;
+			box-sizing: border-box;
+			display: inline-block;
+			width: 100%;
+		}
+
+	.big_cards:hover {
+		box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.75);
+		border: none;
+	}
+
+.big_header {
+	background: rgb(83, 81, 78);
+	padding: calc(10% - 1.25vw) 0;
+	height: 20%;
+	box-sizing: border-box;
+	border-bottom: 6px solid rgba(154, 12, 19, 0.7);
+}
+
+.big_footer {
+	background: rgb(83, 81, 78);
+	height: 10%;
+	padding: calc(5% - 1.25vw) 0;
+}
+
+.big_section {
+	height: 70%;
+	padding: calc(7.5% - 1.5vw) 0;
+	box-sizing: border-box;
+}
+
+	.big_section img {
+		margin-top: 2%;
+	}
+
+/*.cards font*/
+
+.big_header header p {
+	font: 2vw 'Century Gothic';
+	color: white;
+}
+
+.big_footer footer p {
+	font: 2vw 'Century Gothic';
+	color: white;
+}
+
+.big_section p {
+	font: bold 2vw 'Century Gothic';
+	border-bottom: 4px solid rgba(154, 12, 19, 0.5);
+}
+
+/*--------------------------------*/
+/*---------TABLET SCREEN----------*/
+/*--------------------------------*/
+
+@media screen and (min-width: 1000px) {
+	#grid {
+		display: grid;
+		grid-template-areas: 'header menu' 'main menu';
+	}
+
+	#edit {
+		grid-area: main;
+	}
+
+	#header {
+		grid-area: header;
+	}
+
+	#menu {
+		grid-area: menu;
+	}
+
+	#searchbar {
+		display: block;
+	}
+
+	#header #mobile_filter {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 999px) and (min-width: 501px) {
+
+	#menu {
+		display: none;
+	}
+
+	#searchbar {
+		display: none;
+	}
+
+	#grid {
+		display: block;
+	}
+
+	::-webkit-scrollbar {
+		width: 3px;
+		height: 3px;
+	}
+
+	#main section {
+		width: 26.67%;
+		margin-left: 5%;
+	}
+
+	#exp_card {
+		width: 80%;
+		max-width: 480px;
+	}
+
+	.pagiantion a {
+		font-size: 1.5vw;
+	}
+}
+
+@media screen and (max-width: 500px) {
+
+	#searchbar {
+		display: none;
+	}
+
+	#menu {
+		display: none;
+	}
+
+	#grid {
+		display: block;
+	}
+
+	.pagination a {
+		font-size: 3vw;
+	}
+
+	::-webkit-scrollbar {
+		width: 3px;
+		height: 3px;
+	}
+
+	#main section {
+		width: 40%;
+		margin-left: 6.67%;
+	}
+
+	.mist_card p, .cancel_card p {
+		font-size: 5vw;
+	}
+
+	.cards .header p {
+		font-size: 5vw;
+		top: calc(50% - 3vw);
+	}
+
+	.cards .section p, .cards .sub-section p {
+		font-size: 4vw;
+		top: calc(50% - 2.5vw);
+	}
+
+	.cards .formula p {
+		font-size: 4vw;
+		top: calc(50% - 2vw);
+	}
+
+	.cards .footer p {
+		font-size: 2.75vw;
+	}
+
+	/*#exp_card*/
+
+	#exp_card {
+		width: 80%;
+		max-width: 480px;
+	}
+}

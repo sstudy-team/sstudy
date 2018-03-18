@@ -1,0 +1,76 @@
+﻿@model List<MvcInternetApplication.Models.Card>
+
+@{
+	Layout = null;
+}
+
+<p>
+	@Html.ActionLink("Создать карточку", "CreateCard")
+</p>
+
+<table>
+	<tr>
+		<th>
+			Карточки
+		</th>
+		<th></th>
+	</tr>
+
+	@using (Html.BeginForm("SaveCards", "Cards"))
+	{
+		<input type="submit" value="Сохранить" />
+
+
+		<tr>
+			<td>
+				Номер
+			</td>
+			<td>
+				Название
+			</td>
+			<td>
+				Основа
+			</td>
+			<td>
+				Дополнение
+			</td>
+			<td>
+				Тема
+			</td>
+			<td>
+				Подраздел
+			</td>
+			<td>
+				Раздел
+			</td>
+		</tr>
+
+		for (int i = 0; i < Model.Count; i++)
+		{
+			<tr>
+				<td>
+					@Html.DisplayFor(m => m[i].CardId)
+				</td>
+				<td>
+					@Html.TextBoxFor(m => m[i].Title)
+				</td>
+				<td>
+					@Html.TextBoxFor(m => m[i].Prev)
+				</td>
+				<td>
+					@Html.TextBoxFor(m => m[i].Information)
+				</td>
+				<td>
+					@Html.TextBoxFor(m => m[i].Topic)
+				</td>
+				<td>
+					@Html.TextBoxFor(m => m[i].Subsection)
+				</td>
+				<td>
+					@Html.TextBoxFor(m => m[i].Section)
+				</td>
+			</tr>
+		}
+	}
+
+</table>

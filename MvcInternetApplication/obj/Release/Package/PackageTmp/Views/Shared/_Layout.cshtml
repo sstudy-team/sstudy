@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>	
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title</title>
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <meta charset="utf-8" name="viewport" content="width=device-width" />
+
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/js")
+    <script>
+        var searchMode = 0;
+        var catnip = 0;
+        var fall = [false, false, false];
+    </script>
+
+    <script type="text/javascript" async
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
+    </script>
+
+
+</head>
+	<body>
+		
+		<div class="exp_cat" id="cat_login">
+			<div class="paw" onclick="jQuery('.exp_cat').hide()"></div>
+			<section>
+				@Html.Action("Login", "Account")
+			</section>
+		</div>
+
+		<div class="exp_cat" id="cat_register">
+			<div class="paw" onclick="jQuery('.exp_cat').hide()"></div>
+			<section>
+				@Html.Action("Register", "Account")
+			</section>
+		</div>
+
+		<nav id="NAVIGATOR">
+			<section id="logo">
+				<img src="~/img/pic1.png" width="100%">
+			</section>
+			<section>
+				<div id="n1" class="navigator_point"> @Html.ActionLink("Главная", "Index")</div>
+				<div id="n2" class="navigator_point"> @Html.ActionLink("Карточки", "Cards")</div>
+				
+				@{
+					if (WebSecurity.IsAuthenticated)
+					{
+						<div id="n3" class="navigator_point">
+							@Html.ActionLink("Личный кабинет" ,"Cabinet")
+						</div>
+						<div id="n4" class="navigator_point">
+							@Html.ActionLink("Выход", "LogOff", "Account")
+						</div>
+					}
+					else
+					{
+						<div id="n3" class="navigator_point" onclick="meow(1)">
+							<a>Войти</a>
+						</div>
+						<div id="n4" class="navigator_point" onclick="meow(2)">
+							<a>Зарегистрироваться</a>
+						</div>
+					}
+				}
+			</section>
+
+		</nav>
+
+
+		@RenderBody()
+
+        <footer id="footer">
+            <div>
+                <article>Контактная информация</article>
+                <p>support@sstudy.net</p>
+				<p>support@sstudy.net</p>
+                <p>Фотография сделана Адамом Кулом</p>
+            </div>
+            <div style="float:right">
+                <p>©2018-2019, SStudy</p>
+            </div>
+        </footer>
+
+		@Scripts.Render("~/bundles/jquery")
+		@RenderSection("scripts", required: false)
+	</body>
+</html>

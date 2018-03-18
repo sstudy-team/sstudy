@@ -1,0 +1,374 @@
+﻿@{
+    ViewBag.Title = "Карточки";
+}
+
+<div id="grid">
+
+    <div id="header">
+        <div id="mobile_filter">
+            <div style="border-bottom:4px solid rgb(67, 154, 71);">
+                <img src="~/img/cog-magn_plusplus.png" width="20%">
+                <span>Настройки поиска:</span>
+            </div>
+
+            <div>
+
+                <div class="th th_activated" id="th1">
+                    <p class="thin">     Предмет		</p>
+
+                    <ol>
+                        <li><input type="search" data-role="none" placeholder="Search" results="0" data-mini="true" /></li>
+                        <li>
+                            <ul>
+                                <li id="subject1">Ведутся работы</li>
+                                <li id="subject2">Ведутся работы</li>
+                                <li id="subject3">Ведутся работы</li>
+                            </ul>
+                        </li>
+                    </ol>
+
+                </div>
+
+                <div class="th" id="th2">
+                    <p class="thin">     Раздел		</p>
+
+                    <ol>
+                        <li><input type="search" placeholder="Search" results="0" data-mini="true" /></li>
+                        <li>
+                            <ul>
+								<li class="subject1" id="section1_1">Ведутся работы</li>
+								<li class="subject1" id="section1_2">Ведутся работы</li>
+								<li class="subject2" id="section2_1">Ведутся работы</li>
+								<li class="subject2" id="section2_2">Ведутся работы</li>
+								<li class="subject3" id="section3_1">Ведутся работы</li>
+								<li class="subject3" id="section3_2">Ведутся работы</li>
+                            </ul>
+                        </li>
+                    </ol>
+
+                </div>
+
+                <div class="th" id="th3">
+                    <p class="thin">     Подраздел		</p>
+
+                    <ol>
+                        <li><input type="search" placeholder="Search" results="0" data-mini="true" /></li>
+                        <li>
+                            <ul>
+								<li class="section1_1" id="sub-section1_1_1">Ведутся работы</li>
+								<li class="section1_1" id="sub-section1_1_2">Ведутся работы</li>
+
+								<li class="section1_2" id="sub-section1_2_1">Ведутся работы</li>
+								<li class="section1_2" id="sub-section1_2_2">Ведутся работы</li>
+
+								<li class="section2_1" id="sub-section2_1_1">Ведутся работы</li>
+								<li class="section2_1" id="sub-section2_1_2">Ведутся работы</li>
+
+								<li class="section2_2" id="sub-section2_2_1">Ведутся работы</li>
+								<li class="section2_2" id="sub-section2_2_2">Ведутся работы</li>
+
+								<li class="section3_1" id="sub-section3_1_1">Ведутся работы</li>
+								<li class="section3_1" id="sub-section3_1_2">Ведутся работы</li>
+
+								<li class="section3_2" id="sub-section3_2_1">Ведутся работы</li>
+								<li class="section3_2" id="sub-section3_2_2">Ведутся работы</li>
+                            </ul>
+                        </li>
+                    </ol>
+
+                </div>
+
+                <div class="th" id="th4">
+                    <p class="thin">     Тема		</p>
+
+                    <ol>
+                        <li><input type="search" placeholder="Search" results="0" data-mini="true" /></li>
+                        <li>
+                            <ul>
+								<li class="sub-section1_1_1">Ведутся работы</li>
+								<li class="sub-section1_1_1">Ведутся работы</li>
+
+								<li class="sub-section1_1_2">Ведутся работы</li>
+								<li class="sub-section1_1_2">Ведутся работы</li>
+
+								<li class="sub-section1_2_1">Ведутся работы</li>
+								<li class="sub-section1_2_1">Ведутся работы</li>
+
+								<li class="sub-section1_2_2">Ведутся работы</li>
+								<li class="sub-section1_2_2">Ведутся работы</li>
+
+								<li class="sub-section2_1_1">Ведутся работы</li>
+								<li class="sub-section2_1_2">Ведутся работы</li>
+
+								<li class="sub-section2_2_1">Ведутся работы</li>
+								<li class="sub-section2_2_2">Ведутся работы</li>
+
+								<li class="sub-section3_1_1">Ведутся работы</li>
+								<li class="sub-section3_1_2">Ведутся работы</li>
+
+								<li class="sub-section3_2_1">Ведутся работы</li>
+								<li class="sub-section3_2_2">Ведутся работы</li>
+                            </ul>
+                        </li>
+                    </ol>
+
+                </div>
+
+                <p class="menu_button" id="header_button">Искать</p>
+            </div>
+            <span><input class="search" style="width:100%;font:3vw 'Century Gothic'; padding:5px 0;" type="text" placeholder="Search" results="0" />	</span>
+            <section>
+                <img src="~/img/close.png" width="2.5%">
+                <article>
+                    Чтобы сохранить карту, зажимайте карточку. Чтобы просмотреть в расширенном режиме, просто нажмите на неё.
+                </article>
+            </section>
+        </div>
+        <input id="searchbar" type="search" name="search" placeholder="search">
+    </div>
+
+    <!-----------------------------------------MENU-------------------------------------------->
+
+    <div id="menu">
+        <article>Настройки поиска</article>
+
+        <div id="search_type">
+            <img id="cog" src="~/img/cog-magn_plusplus.png" width="40%">
+        </div>
+
+        <section>
+
+            <p>Поиск в</p>
+
+            <div class="th th_activated" id="m_th1">
+				<p class="thin">     Предмет		</p>
+
+                <ol>
+                    <li><input type="search" placeholder="Search" results="0" data-mini="true" /></li>
+                    <li>
+                        <ul class="foo">
+                            <li id="subject1">Ведутся работы</li>
+							<li id="subject2">Ведутся работы</li>
+							<li id="subject3">Ведутся работы</li>
+                        </ul>
+                    </li>
+                </ol>
+
+            </div>
+
+            <div class="th" id="m_th2">
+				<p class="thin">     Раздел		</p>
+
+                <ol>
+                    <li><input type="search" placeholder="Search" results="0" data-mini="true" /></li>
+                    <li>
+                        <ul class="foo">
+							<li class="subject1" id="section1_1">Ведутся работы</li>
+							<li class="subject1" id="section1_2">Ведутся работы</li>
+							<li class="subject2" id="section2_1">Ведутся работы</li>
+							<li class="subject2" id="section2_2">Ведутся работы</li>
+							<li class="subject3" id="section3_1">Ведутся работы</li>
+							<li class="subject3" id="section3_2">Ведутся работы</li>
+                        </ul>
+                    </li>
+                </ol>
+
+            </div>
+
+            <div class="th" id="m_th3">
+				<p class="thin">     Подраздел		</p>
+
+                <ol>
+                    <li><input type="search" placeholder="Search" results="0" data-mini="true" /></li>
+                    <li>
+                        <ul class="foo">
+							<li class="section1_1" id="sub-section1_1_1">Ведутся работы</li>
+							<li class="section1_1" id="sub-section1_1_2">Ведутся работы</li>
+
+							<li class="section1_2" id="sub-section1_2_1">Ведутся работы</li>
+							<li class="section1_2" id="sub-section1_2_2">Ведутся работы</li>
+
+							<li class="section2_1" id="sub-section2_1_1">Ведутся работы</li>
+							<li class="section2_1" id="sub-section2_1_2">Ведутся работы</li>
+
+							<li class="section2_2" id="sub-section2_2_1">Ведутся работы</li>
+							<li class="section2_2" id="sub-section2_2_2">Ведутся работы</li>
+
+							<li class="section3_1" id="sub-section3_1_1">Ведутся работы</li>
+							<li class="section3_1" id="sub-section3_1_2">Ведутся работы</li>
+
+							<li class="section3_2" id="sub-section3_2_1">Ведутся работы</li>
+                            <li class="section3_2" id="sub-section3_2_2">Ведутся работы</li>
+                        </ul>
+                    </li>
+                </ol>
+
+            </div>
+
+            <div class="th" id="m_th4">
+				<p class="thin">     Тема		</p>
+
+                <ol>
+                    <li><input type="search" placeholder="Search" results="0" data-mini="true" /></li>
+                    <li>
+                        <ul class="foo">
+							<li class="sub-section1_1_1">Ведутся работы</li>
+							<li class="sub-section1_1_1">Ведутся работы</li>
+
+							<li class="sub-section1_1_2">Ведутся работы</li>
+							<li class="sub-section1_1_2">Ведутся работы</li>
+
+							<li class="sub-section1_2_1">Ведутся работы</li>
+							<li class="sub-section1_2_1">Ведутся работы</li>
+
+							<li class="sub-section1_2_2">Ведутся работы</li>
+							<li class="sub-section1_2_2">Ведутся работы</li>
+
+							<li class="sub-section2_1_1">Ведутся работы</li>
+							<li class="sub-section2_1_2">Ведутся работы</li>
+
+							<li class="sub-section2_2_1">Ведутся работы</li>
+							<li class="sub-section2_2_2">Ведутся работы</li>
+
+							<li class="sub-section3_1_1">Ведутся работы</li>
+							<li class="sub-section3_1_2">Ведутся работы</li>
+
+							<li class="sub-section3_2_1">Ведутся работы</li>
+							<li class="sub-section3_2_2">Ведутся работы</li>
+                        </ul>
+                    </li>
+                </ol>
+
+            </div>
+
+            <p style="content:'';margin-top:20%"></p>
+
+            <p class="menu_button">Искать</p>
+
+        </section>
+    </div>
+
+    <div id="edit">
+        @Html.Action("GetCards", "Cards")
+    </div>
+
+</div>
+<div id="screen">
+
+    <div id="active_zone" onclick="$('#screen').fadeOut(800, function () { });"></div>
+
+    <div id="exp_card">
+        <div>
+            <header id="topic"></header>
+        </div>
+        <div id="stripe">
+            <p>
+                <article onclick="$('#screen').fadeOut(800, function () { });">Закрыть</article>
+            </p>
+        </div>
+        <div id="inner">
+
+            <div id="definition">
+            </div>
+
+            <div id="exp_formula">
+            </div>
+
+            <div id="exp_card_main">
+            </div>
+
+        </div>
+
+        <div>
+            <footer></footer>
+        </div>
+
+    </div>
+</div>
+
+<script>
+
+	jQuery(".thin").on("click", function () {
+		if ($(this).parent().hasClass('th_activated') == true) {
+			$(this).siblings().slideToggle(500, function () { });
+
+
+
+			$(this).parent().siblings('.th_activated').find('.thin').siblings().hide(500);
+
+			$(this).siblings().find('ul').css('height', Math.round($(this).siblings().find('ul li').outerHeight(true) * 3));
+
+			$(this).parent().addClass('th_activated');
+		}
+	});
+
+	var flag = [0, 0, 0, 0];
+
+	$('ol ul li').on('click', function () {
+		var sel = $(this).parent().parent().parent().parent();
+		var next = $(sel).attr('id');
+
+		if ($(window).width() > 999) {
+			var next_digit = next.slice(4, 5);
+			next = next.slice(0, -1);
+			var n = parseInt(next_digit);
+			var m = n + 1;
+			var next_id = '#' + next + m;
+			var search = 'NULL';
+		}
+
+		else {
+			next_digit = next.slice(2, 3);
+			next = next.slice(0, -1);
+			n = parseInt(next_digit);
+			search = 'NULL';
+			m = n + 1;
+			next_id = '#' + next + m;
+		}
+
+
+		$(sel).addClass('th_activated');
+
+		if (flag[n] == 0) {
+			$(this).css('background', 'Gainsboro');
+
+			$(sel).find('ol').hide(500);
+			$(this).siblings().css('background', 'rgb(200, 200, 200)');
+
+			$(next_id).addClass('th_activated');
+			if ($(this).parent().parent().height() < $(this).outerHeight(true) * 3) $(next_id).find('ul').css('height', Math.round($(this).outerHeight(true) * 3));
+			$(next_id).find('ol').show();
+			$(next_id).find('ol ul li').hide();
+
+			var next_class = '.' + $(this).attr('id');
+			if (n == 5) {
+				search = $(this).attr('id');
+			}
+			else { $(next_id).find(next_class).show(); }
+			flag[n]++;
+		}
+
+		else {
+			$(sel).nextAll().find('ol li').css('background', 'rgb(200, 200, 200)');
+			$(sel).nextAll().removeClass('th_activated');
+			$(sel).nextAll().find('ol').hide(500);
+			search = 'NULL';
+			for (var i = n; i < 5; i++) { flag[i] = 0; }
+		}
+
+	});
+
+	function menu_ref() {
+		//resizing .foo
+		var h
+		if ($(window).width() > 999) {
+			h = 3 * $('#menu ol ul li').outerHeight(false);
+
+			if ($('#menu ol ul li').outerHeight(false) > h) { $('.foo').css('height', h); }
+		}
+		else {
+			h = 3 * $('#header ol ul li').outerHeight(false);
+			if ($('#header ol ul li').outerHeight(false) > h) { $('.foo').css('height', h); }
+		}
+	}
+</script>

@@ -1,0 +1,340 @@
+﻿@model IEnumerable<MvcInternetApplication.Models.Card>
+
+@{ 
+    Layout = null;
+}
+
+<div id="main" style="min-height: 100px;">
+
+	@{
+        int skip = (ViewBag.Number - 1) * 8;
+        var m = Model.OrderBy(Card => Card.CardId).Skip(skip).Take(8);
+	}
+
+	@foreach (var item in m)
+    {
+        string func2 = "ff" + @item.CardId + "()";
+        string func1 = "f" + @item.CardId + "();";
+        string func = "f" + @item.CardId + "()";
+        int dd = @item.CardId;
+        string ff = dd + "sss";
+
+        <script type="text/javascript">
+			function @func {
+				document.getElementById('definition').innerHTML = "<p>@item.Title</p>";
+				document.getElementById('exp_formula').innerHTML = "<p>@item.Prev</p>";
+				document.getElementById('exp_card_main').innerHTML = "<p>@item.Information</p>";
+				document.getElementById('topic').innerHTML = "@item.Topic";
+				MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+			}
+        </script>
+
+        if (WebSecurity.IsAuthenticated)
+        {
+            <section class="card_container" id="@item.CardId" onclick="if ($(window).width() < 1000) {@func1 rev(); }">
+                <div class="cards not_profile">
+                    <div class="header">
+                        <header><p>@item.Section</p></header>
+                    </div>
+                    <div class="section">
+                        <p>
+                            @item.Subsection
+                        </p>
+                    </div>
+                    <div class="sub-section">
+                        <p>
+                            @item.Title
+                        </p>
+                    </div>
+                    <div class="formula" id="@ff">
+                    </div>
+                    <div class="footer">
+                        <footer><p></p></footer>
+                    </div>
+                </div>
+                <div class="mist_card">
+                    <div class="m_c1">
+                        <img class="plus_icon" src="~/img/plus.png" width="40%">
+                        <p class="save_text">Сохранить карточку</p>
+                    </div>
+                    <p class="underline"></p>
+                    <div class="m_c2" onclick="@func1 rev()">
+                        <p>Открыть в расширенном режиме</p>
+                    </div>
+                </div>
+ 
+                <div class="cancel_card">
+                    <div class="m_c1" onclick="@func1 rev();">
+                        <img class="check_icon" src="~/img/check.png" width="40%">
+                        <p class="save_text">Карточка сохранена!</p>
+                    </div>
+                    <p class="underline"></p>
+                    <div class="m_c2">
+                        <p class="cancel_text">Удалить</p>
+                    </div>
+
+                </div>
+            </section>
+        }
+        else
+        {
+            <section class="card_container" id="@item.CardId" onclick="@func1 rev()">
+                <div class="cards">
+                    <div class="header">
+                        <header><p>@item.Section</p></header>
+                    </div>
+                    <div class="section">
+                        <p>
+                            @item.Subsection
+                        </p>
+                    </div>
+                    <div class="sub-section">
+                        <p>
+                            @item.Title
+                        </p>
+                    </div>
+                    <div class="formula" id="@ff">
+                    </div>
+                    <div class="footer">
+                        <footer><p></p></footer>
+                    </div>
+                </div>
+            </section>
+        }
+
+		<script type="text/javascript">
+            function @func2 {
+                if (@ViewBag.Saved == 1)
+                    document.getElementById('@item.CardId').firstElementChild.className += ' saved';
+                document.getElementById('@ff').innerHTML = "<p>@item.Prev</p>";
+                MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+                ref_cards();
+                }
+			@func2 ;
+		</script>
+
+
+    }
+
+</div>
+
+<div id="c_footer">
+	<div class="pagination">
+
+		@for (int i = ViewBag.Number - 1; i < ViewBag.Number; i++)
+		{
+			if (i < 1)
+			{
+				i = 1;
+			}
+
+			if (ViewBag.Saved == 1)
+			{
+				@Ajax.ActionLink("<<", "GetUserCards", new { number = i },
+				new AjaxOptions
+				{
+					UpdateTargetId = "edit"
+				})
+			}
+			else
+			{
+				@Ajax.ActionLink("<<", "GetCards", new { number = i },
+				new AjaxOptions
+				{
+					UpdateTargetId = "edit"
+				})
+			}
+		}
+
+		@if (ViewBag.Number - 4 < 0)
+		{
+			for (int i = ViewBag.Number - 3; i < ViewBag.Number + 4 - (ViewBag.Number - 4); i++)
+			{
+				if (i > 0 && (i <= Model.Count() / 8 || (i <= Model.Count() / 8 + 1 && Model.Count() % 8 > 0)))
+				{
+					if (ViewBag.Saved == 1)
+					{
+						@Ajax.ActionLink(Convert.ToString(i), "GetUserCards", new { number = i },
+						new AjaxOptions
+						{
+							UpdateTargetId = "edit"
+						})
+					}
+					else
+					{
+						@Ajax.ActionLink(Convert.ToString(i), "GetCards", new { number = i },
+						new AjaxOptions
+						{
+							UpdateTargetId = "edit"
+						})
+					}
+				}
+			}
+		}
+		else
+		{
+			for (int i = ViewBag.Number - 3; i < ViewBag.Number + 4; i++)
+			{
+				if (i > 0 && (i <= Model.Count() / 8 || (i <= Model.Count() / 8 + 1 && Model.Count() % 8 > 0)))
+				{
+					if (ViewBag.Saved == 1)
+					{
+						@Ajax.ActionLink(Convert.ToString(i), "GetUserCards", new { number = i },
+						new AjaxOptions
+						{
+							UpdateTargetId = "edit"
+						})
+					}
+					else
+					{
+						@Ajax.ActionLink(Convert.ToString(i), "GetCards", new { number = i },
+						new AjaxOptions
+						{
+							UpdateTargetId = "edit"
+						})
+					}
+				}
+			}
+		}
+
+		@for (int i = ViewBag.Number + 1; i < ViewBag.Number + 2; i++)
+		{
+			if (i > Model.Count())
+			{
+				i--;
+			}
+
+			if (ViewBag.Saved == 1)
+			{
+				@Ajax.ActionLink(">>", "GetUserCards", new { number = i },
+				new AjaxOptions
+				{
+					UpdateTargetId = "edit"
+				})
+			}
+			else
+			{
+				@Ajax.ActionLink(">>", "GetCards", new { number = i },
+				new AjaxOptions
+				{
+					UpdateTargetId = "edit"
+				})
+			}
+
+			i++;
+		}
+
+	</div>
+</div>
+
+<script>
+    $(document).ready(function() {
+        //resize cards
+        ref_cards();
+    })
+
+    var savedId; //это одна переменная. в ней хранится значение id последней карточки на которую нажали
+
+    // это просто появление .mist_card или .cancel_card при наведение курсора на компе
+
+    $('.cards').on("mouseenter", function () {
+        //if .cards doesn't have class saved, the show .mist_card
+        if (($(window).width() > 999) && ($(this).hasClass('saved') == false)) { $(this).siblings('.mist_card').fadeIn(500, function () { }) }
+
+        //if .cards has class saved, then show .cancel_card
+        if (($(window).width() > 999) && ($(this).hasClass('saved') == true)) {
+            $(this).siblings('.cancel_card').fadeIn(500, function () { });
+            $(this).siblings('.cancel_card').delay(2500).fadeOut(500);
+        }
+    });
+
+    $('.mist_card').on("mouseleave", function () {
+        if ($(window).width() > 999) { $(this).fadeOut(300, function () { }); }
+    });
+
+    //это хранение для компа ХРАНЕНИЕ ДЛЯ КОМПА
+
+    $('.mist_card .m_c1').on("click", function () {
+        //marking .cards as saved with class saved
+        $(this).parent().siblings('.cards').addClass('saved');
+
+        //hide .mist_card
+        $(this).parent().hide();
+
+        //show .cancel_card
+        $(this).parent().siblings('.cancel_card').fadeIn(500, function () { })
+
+        $(this).parent().siblings('.cancel_card').find('.check_icon').delay(1500).queue(function (next) {
+            $(this).css('visibility', 'hidden');
+        });
+
+        $(this).parent().siblings('.cancel_card').find('.save_text').delay(1500).queue(function (next) {
+            $(this).text('Расширить карточку');
+        });
+
+        //hide .cancel_card after a delay
+        $(this).parent().siblings('.cancel_card').delay(3250).fadeOut(300);
+
+        savedId = $(this).parent().parent().attr('id');
+
+        SaveCard(savedId);
+
+    });
+
+    //это хранение для мобильных ХРАНЕНИЕ ДЛЯ МОБИЛЬНЫХ
+
+    var touchDown;
+
+    $('.cards').on('touchstart', function () {
+        var sel = $(this).siblings('.cancel_card');
+        if ($(window).width() < 1000) {
+            touchDown = setTimeout(function () {
+                //show .cancel_card
+                sel.fadeIn(500, function () { });
+
+                sel.find('.check_icon').delay(1500).queue(function (next) {
+                    $(this).css('visibility', 'hidden');
+
+                    $(this).siblings().text('Расширить карточку');
+                });
+
+                //hide .cancel_card after a delay
+                sel.delay(3250).fadeOut(300);
+            }, 1000)
+            $(this).addClass('saved');
+        }
+
+        savedId = $(this).parent().attr('id');
+        SaveCard(savedId);
+    });
+
+    $('.cards').on('touchend', function () {
+        if ($(window).width() < 1000) { clearTimeout(touchDown); }
+    })
+
+    //это отмена сохранения ОТМЕНА ХРАНЕНИЯ
+
+    $('.cancel_card .m_c2').on("click", function () {
+        //hide .cancel_card (i.e the one shown)
+        $(this).parent().hide();
+
+        //unmarking .cards by removing class saved
+        $(this).parent().siblings('.cards').removeClass('saved');
+
+        savedId = $(this).parent().parent().attr('id');
+
+        if ($(this).parent().siblings('.cards').hasClass('profile') == true) { alert('!'); }
+
+        DeleteCard(savedId);
+    });
+
+
+	function SaveCard(cardId) {
+        $.get("/Cards/SaveCard?CardId=" + cardId);
+    }
+
+	function DeleteCard(cardId) {
+		$.get("/Cards/DeleteCard?CardId=" + cardId);
+		var realId = '#' + cardId;
+	}
+</script>

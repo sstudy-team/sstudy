@@ -1,0 +1,47 @@
+﻿@{
+    ViewBag.Title = "Личная страница";
+}
+
+<div id="profile">
+	<div id="pr_header">
+		<header>Профиль</header>
+		<div id="username">
+			<article>@ViewBag.Msg</article>
+		</div>
+	</div>
+
+	<div id="pr_nav">
+		<div class="profile_point" id="nav1">
+			@Ajax.ActionLink("Профиль", "Prof",
+			new AjaxOptions
+			{
+				UpdateTargetId = "pr_main"
+			})
+		</div>
+		<div class="profile_point" id="nav2">
+			@Ajax.ActionLink("Карточки", "ProfCard",
+			new AjaxOptions
+			{
+				UpdateTargetId = "pr_main"
+			})
+		</div>
+	</div>
+
+	<div id="pr_main">
+		@Html.Action("Prof")
+	</div>
+
+	<div id="frame_left"></div>
+	<div id="frame_right"></div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        $('#nav1').css('border-bottom', '10px solid rgb(205, 109, 39)');
+    }); 
+
+    /*$('#pr_nav .profile_point').click(function () {
+        $(this).css('border-bottom', '10px solid rgb(205, 109, 39)');
+        $(this).siblings().css('border-bottom', '10px solid rgb(67, 154, 71)');
+    });*/
+</script>

@@ -1,0 +1,79 @@
+@font-face {
+	font-family: 'Century Gothic';
+	src: url('fonts/century_gothic.ttf');
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: url('../img/bg.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+#blackscreen {
+	width: 90%;
+	height: 100%;
+	box-sizing: border-box;
+	border: 1px solid red;
+}
+
+#wood_bg {
+	box-sizing: border-box;
+}
+
+#NAVIGATOR {
+	grid-area: up;
+	overflow: hidden;
+}
+
+#blackscreen {
+	grid-area: down;
+}
+
+
+::-webkit-scrollbar {
+	width: 3px;
+	height: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #888;
+}
+
+	/* Handle on hover */
+	::-webkit-scrollbar-thumb:hover {
+		background: #555;
+	}
+
+@media screen and (min-width: 1000px) {
+
+	::-webkit-scrollbar {
+		width: 7.5px;
+		height: 7.5px;
+	}
+
+	/* Track */
+	::-webkit-scrollbar-track {
+		background: #f1f1f1;
+	}
+
+	/* Handle */
+	::-webkit-scrollbar-thumb {
+		background: #888;
+	}
+
+		/* Handle on hover */
+		::-webkit-scrollbar-thumb:hover {
+			background: #555;
+		}
+}

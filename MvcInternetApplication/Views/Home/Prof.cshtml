@@ -1,0 +1,65 @@
+﻿@model MvcInternetApplication.Models.LocalPasswordModel
+
+@{
+	Layout = null;
+}
+
+<section id="t1" class="tabs">
+	<div id="avatar">
+		
+		<section>
+			<img src="~/img/avatar.png" width="100%">
+		</section>
+		
+		<div class="button">
+			В разработке :(
+		</div>
+
+		<div class="button" onclick="profile_edit(1)">
+			Изменить
+		</div>
+	
+	</div>
+
+	<div class="side_info">
+
+		<div class="acc">
+			<article>Ваш логин</article>
+			<input type="text" name="username" value="@WebSecurity.CurrentUserName" disabled>
+		</div>
+
+		@using (Html.BeginForm("Manage", "Account"))
+		{
+			@Html.AntiForgeryToken()
+			@Html.ValidationSummary()
+
+			<div class="edit_profile acc">
+				<article>Старый пароль</article>
+				@Html.PasswordFor(m => m.OldPassword)
+			</div>
+
+			<div class="edit_profile acc">
+				<article>Новый пароль</article>
+				@Html.PasswordFor(m => m.NewPassword)
+			</div>
+
+			<div class="edit_profile acc">
+				<article>Подтверждение пароля</article>
+				@Html.PasswordFor(m => m.ConfirmPassword)
+			</div>
+
+			<div id="prOK" class="button" onclick="profile_edit(2)">
+				<input type="submit" value="Сохранить" />
+			</div>
+
+			<div id="prCancel" class="button" onclick="profile_edit(2)">
+				Отменить
+			</div>
+		}
+
+	</div>
+</section>
+
+<script>
+    $(document).ready(function () { profile_edit_no_anim(2); });
+</script>

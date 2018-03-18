@@ -1,0 +1,1121 @@
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\MvcInternetApplication.dll.config
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\MvcInternetApplication.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\MvcInternetApplication.pdb
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\Antlr3.Runtime.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\DotNetOpenAuth.AspNet.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\DotNetOpenAuth.Core.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\DotNetOpenAuth.OAuth.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\DotNetOpenAuth.OpenId.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\EntityFramework.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\Microsoft.Data.Edm.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\Microsoft.Data.OData.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\Microsoft.Web.Infrastructure.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\Newtonsoft.Json.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\System.Net.Http.Formatting.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\System.Spatial.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\System.Web.Helpers.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\System.Web.Http.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\System.Web.Http.OData.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\System.Web.Http.WebHost.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\System.Web.Mvc.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\System.Web.Optimization.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\System.Web.Razor.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\System.Web.WebPages.Deployment.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\System.Web.WebPages.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\System.Web.WebPages.Razor.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\WebGrease.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\WebMatrix.Data.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\WebMatrix.WebData.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\EntityFramework.xml
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\Newtonsoft.Json.xml
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\System.Net.Http.Formatting.xml
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\System.Web.Helpers.xml
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\System.Web.Http.xml
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\System.Web.Http.WebHost.xml
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\System.Web.Mvc.xml
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\System.Web.Razor.xml
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\System.Web.WebPages.xml
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\System.Web.WebPages.Deployment.xml
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\System.Web.WebPages.Razor.xml
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\WebMatrix.Data.xml
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\WebMatrix.WebData.xml
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\DotNetOpenAuth.AspNet.xml
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\DotNetOpenAuth.Core.xml
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\DotNetOpenAuth.OAuth.xml
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\DotNetOpenAuth.OpenId.xml
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\System.Web.Http.OData.xml
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\Microsoft.Data.Edm.xml
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\Microsoft.Data.OData.xml
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\System.Spatial.xml
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\de\Microsoft.Data.Edm.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\es\Microsoft.Data.Edm.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\fr\Microsoft.Data.Edm.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\it\Microsoft.Data.Edm.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\ja\Microsoft.Data.Edm.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\ko\Microsoft.Data.Edm.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\ru\Microsoft.Data.Edm.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\de\Microsoft.Data.OData.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\es\Microsoft.Data.OData.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\fr\Microsoft.Data.OData.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\it\Microsoft.Data.OData.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\ja\Microsoft.Data.OData.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\ko\Microsoft.Data.OData.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\ru\Microsoft.Data.OData.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\de\System.Spatial.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\es\System.Spatial.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\fr\System.Spatial.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\it\System.Spatial.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\ja\System.Spatial.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\ko\System.Spatial.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\ru\System.Spatial.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\zh-Hans\System.Spatial.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\bin\zh-Hant\System.Spatial.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\obj\Debug\MvcInternetApplication.csprojResolveAssemblyReference.cache
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\obj\Debug\MvcInternetApplication.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\MvcInternetApplication\MvcInternetApplication\obj\Debug\MvcInternetApplication.pdb
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\MvcInternetApplication.dll.config
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\MvcInternetApplication.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\MvcInternetApplication.pdb
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\Antlr3.Runtime.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\DotNetOpenAuth.AspNet.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\DotNetOpenAuth.Core.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\DotNetOpenAuth.OAuth.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\DotNetOpenAuth.OpenId.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\EntityFramework.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\Microsoft.Data.Edm.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\Microsoft.Data.OData.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\Microsoft.Web.Infrastructure.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\Newtonsoft.Json.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Net.Http.Formatting.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Spatial.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Web.Helpers.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Web.Http.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Web.Http.OData.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Web.Http.WebHost.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Web.Mvc.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Web.Optimization.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Web.Razor.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Web.WebPages.Deployment.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Web.WebPages.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Web.WebPages.Razor.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\WebGrease.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\WebMatrix.Data.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\WebMatrix.WebData.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\EntityFramework.xml
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\Newtonsoft.Json.xml
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Net.Http.Formatting.xml
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Web.Helpers.xml
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Web.Http.xml
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Web.Http.WebHost.xml
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Web.Mvc.xml
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Web.Razor.xml
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Web.WebPages.xml
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Web.WebPages.Deployment.xml
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Web.WebPages.Razor.xml
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\WebMatrix.Data.xml
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\WebMatrix.WebData.xml
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\DotNetOpenAuth.AspNet.xml
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\DotNetOpenAuth.Core.xml
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\DotNetOpenAuth.OAuth.xml
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\DotNetOpenAuth.OpenId.xml
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Web.Http.OData.xml
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\Microsoft.Data.Edm.xml
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\Microsoft.Data.OData.xml
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Spatial.xml
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\de\Microsoft.Data.Edm.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\es\Microsoft.Data.Edm.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\fr\Microsoft.Data.Edm.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\it\Microsoft.Data.Edm.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\ja\Microsoft.Data.Edm.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\ko\Microsoft.Data.Edm.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\ru\Microsoft.Data.Edm.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\de\Microsoft.Data.OData.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\es\Microsoft.Data.OData.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\fr\Microsoft.Data.OData.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\it\Microsoft.Data.OData.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\ja\Microsoft.Data.OData.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\ko\Microsoft.Data.OData.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\ru\Microsoft.Data.OData.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\de\System.Spatial.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\es\System.Spatial.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\fr\System.Spatial.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\it\System.Spatial.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\ja\System.Spatial.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\ko\System.Spatial.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\ru\System.Spatial.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\zh-Hans\System.Spatial.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\zh-Hant\System.Spatial.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\obj\Debug\MvcInternetApplication.csprojResolveAssemblyReference.cache
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\obj\Debug\MvcInternetApplication.dll
+D:\Lessons\ASP.NET MVC Fundamentals\007_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\obj\Debug\MvcInternetApplication.pdb
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\MvcInternetApplication.dll.config
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\MvcInternetApplication.dll
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\MvcInternetApplication.pdb
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\Antlr3.Runtime.dll
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\DotNetOpenAuth.AspNet.dll
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\DotNetOpenAuth.Core.dll
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\DotNetOpenAuth.OAuth.dll
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\DotNetOpenAuth.OpenId.dll
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\EntityFramework.dll
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\Microsoft.Data.Edm.dll
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\Microsoft.Data.OData.dll
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\Microsoft.Web.Infrastructure.dll
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\Newtonsoft.Json.dll
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Net.Http.Formatting.dll
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Spatial.dll
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Web.Helpers.dll
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Web.Http.dll
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Web.Http.OData.dll
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Web.Http.WebHost.dll
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Web.Mvc.dll
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Web.Optimization.dll
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Web.Razor.dll
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Web.WebPages.Deployment.dll
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Web.WebPages.dll
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Web.WebPages.Razor.dll
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\WebGrease.dll
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\WebMatrix.Data.dll
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\WebMatrix.WebData.dll
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\EntityFramework.xml
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\Newtonsoft.Json.xml
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Net.Http.Formatting.xml
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Web.Helpers.xml
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Web.Http.xml
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Web.Http.WebHost.xml
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Web.Mvc.xml
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Web.Razor.xml
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Web.WebPages.xml
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Web.WebPages.Deployment.xml
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Web.WebPages.Razor.xml
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\WebMatrix.Data.xml
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\WebMatrix.WebData.xml
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\DotNetOpenAuth.AspNet.xml
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\DotNetOpenAuth.Core.xml
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\DotNetOpenAuth.OAuth.xml
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\DotNetOpenAuth.OpenId.xml
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Web.Http.OData.xml
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\Microsoft.Data.Edm.xml
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\Microsoft.Data.OData.xml
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Spatial.xml
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\de\Microsoft.Data.Edm.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\es\Microsoft.Data.Edm.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\fr\Microsoft.Data.Edm.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\it\Microsoft.Data.Edm.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\ja\Microsoft.Data.Edm.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\ko\Microsoft.Data.Edm.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\ru\Microsoft.Data.Edm.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\de\Microsoft.Data.OData.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\es\Microsoft.Data.OData.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\fr\Microsoft.Data.OData.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\it\Microsoft.Data.OData.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\ja\Microsoft.Data.OData.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\ko\Microsoft.Data.OData.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\ru\Microsoft.Data.OData.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\de\System.Spatial.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\es\System.Spatial.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\fr\System.Spatial.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\it\System.Spatial.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\ja\System.Spatial.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\ko\System.Spatial.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\ru\System.Spatial.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\zh-Hans\System.Spatial.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\zh-Hant\System.Spatial.resources.dll
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\obj\Debug\MvcInternetApplication.csprojResolveAssemblyReference.cache
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\obj\Debug\MvcInternetApplication.dll
+D:\Lessons\ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\obj\Debug\MvcInternetApplication.pdb
+C:\Developing\C#\[ITVDN] ASP.NET MVC Fundamentals - 2014\[ITVDN] ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\MvcInternetApplication.dll.config
+C:\Developing\C#\[ITVDN] ASP.NET MVC Fundamentals - 2014\[ITVDN] ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\MvcInternetApplication.dll
+C:\Developing\C#\[ITVDN] ASP.NET MVC Fundamentals - 2014\[ITVDN] ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\MvcInternetApplication.pdb
+C:\Developing\C#\[ITVDN] ASP.NET MVC Fundamentals - 2014\[ITVDN] ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\Newtonsoft.Json.dll
+C:\Developing\C#\[ITVDN] ASP.NET MVC Fundamentals - 2014\[ITVDN] ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Net.Http.Formatting.dll
+C:\Developing\C#\[ITVDN] ASP.NET MVC Fundamentals - 2014\[ITVDN] ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Web.Http.dll
+C:\Developing\C#\[ITVDN] ASP.NET MVC Fundamentals - 2014\[ITVDN] ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Web.Http.WebHost.dll
+C:\Developing\C#\[ITVDN] ASP.NET MVC Fundamentals - 2014\[ITVDN] ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\EntityFramework.xml
+C:\Developing\C#\[ITVDN] ASP.NET MVC Fundamentals - 2014\[ITVDN] ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Net.Http.Formatting.xml
+C:\Developing\C#\[ITVDN] ASP.NET MVC Fundamentals - 2014\[ITVDN] ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Web.Helpers.xml
+C:\Developing\C#\[ITVDN] ASP.NET MVC Fundamentals - 2014\[ITVDN] ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Web.Http.xml
+C:\Developing\C#\[ITVDN] ASP.NET MVC Fundamentals - 2014\[ITVDN] ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Web.Http.WebHost.xml
+C:\Developing\C#\[ITVDN] ASP.NET MVC Fundamentals - 2014\[ITVDN] ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Web.Mvc.xml
+C:\Developing\C#\[ITVDN] ASP.NET MVC Fundamentals - 2014\[ITVDN] ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Web.Razor.xml
+C:\Developing\C#\[ITVDN] ASP.NET MVC Fundamentals - 2014\[ITVDN] ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Web.WebPages.xml
+C:\Developing\C#\[ITVDN] ASP.NET MVC Fundamentals - 2014\[ITVDN] ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Web.WebPages.Deployment.xml
+C:\Developing\C#\[ITVDN] ASP.NET MVC Fundamentals - 2014\[ITVDN] ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Web.WebPages.Razor.xml
+C:\Developing\C#\[ITVDN] ASP.NET MVC Fundamentals - 2014\[ITVDN] ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\WebMatrix.Data.xml
+C:\Developing\C#\[ITVDN] ASP.NET MVC Fundamentals - 2014\[ITVDN] ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Developing\C#\[ITVDN] ASP.NET MVC Fundamentals - 2014\[ITVDN] ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\WebMatrix.WebData.xml
+C:\Developing\C#\[ITVDN] ASP.NET MVC Fundamentals - 2014\[ITVDN] ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\DotNetOpenAuth.AspNet.xml
+C:\Developing\C#\[ITVDN] ASP.NET MVC Fundamentals - 2014\[ITVDN] ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\DotNetOpenAuth.Core.xml
+C:\Developing\C#\[ITVDN] ASP.NET MVC Fundamentals - 2014\[ITVDN] ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Developing\C#\[ITVDN] ASP.NET MVC Fundamentals - 2014\[ITVDN] ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\DotNetOpenAuth.OAuth.xml
+C:\Developing\C#\[ITVDN] ASP.NET MVC Fundamentals - 2014\[ITVDN] ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\DotNetOpenAuth.OpenId.xml
+C:\Developing\C#\[ITVDN] ASP.NET MVC Fundamentals - 2014\[ITVDN] ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Developing\C#\[ITVDN] ASP.NET MVC Fundamentals - 2014\[ITVDN] ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Web.Http.OData.xml
+C:\Developing\C#\[ITVDN] ASP.NET MVC Fundamentals - 2014\[ITVDN] ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\Microsoft.Data.Edm.xml
+C:\Developing\C#\[ITVDN] ASP.NET MVC Fundamentals - 2014\[ITVDN] ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\Microsoft.Data.OData.xml
+C:\Developing\C#\[ITVDN] ASP.NET MVC Fundamentals - 2014\[ITVDN] ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Spatial.xml
+C:\Developing\C#\[ITVDN] ASP.NET MVC Fundamentals - 2014\[ITVDN] ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Developing\C#\[ITVDN] ASP.NET MVC Fundamentals - 2014\[ITVDN] ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Developing\C#\[ITVDN] ASP.NET MVC Fundamentals - 2014\[ITVDN] ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Developing\C#\[ITVDN] ASP.NET MVC Fundamentals - 2014\[ITVDN] ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Developing\C#\[ITVDN] ASP.NET MVC Fundamentals - 2014\[ITVDN] ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Developing\C#\[ITVDN] ASP.NET MVC Fundamentals - 2014\[ITVDN] ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Developing\C#\[ITVDN] ASP.NET MVC Fundamentals - 2014\[ITVDN] ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Developing\C#\[ITVDN] ASP.NET MVC Fundamentals - 2014\[ITVDN] ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Developing\C#\[ITVDN] ASP.NET MVC Fundamentals - 2014\[ITVDN] ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Developing\C#\[ITVDN] ASP.NET MVC Fundamentals - 2014\[ITVDN] ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\de\Microsoft.Data.OData.resources.dll
+C:\Developing\C#\[ITVDN] ASP.NET MVC Fundamentals - 2014\[ITVDN] ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\es\Microsoft.Data.OData.resources.dll
+C:\Developing\C#\[ITVDN] ASP.NET MVC Fundamentals - 2014\[ITVDN] ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Developing\C#\[ITVDN] ASP.NET MVC Fundamentals - 2014\[ITVDN] ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\it\Microsoft.Data.OData.resources.dll
+C:\Developing\C#\[ITVDN] ASP.NET MVC Fundamentals - 2014\[ITVDN] ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Developing\C#\[ITVDN] ASP.NET MVC Fundamentals - 2014\[ITVDN] ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Developing\C#\[ITVDN] ASP.NET MVC Fundamentals - 2014\[ITVDN] ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Developing\C#\[ITVDN] ASP.NET MVC Fundamentals - 2014\[ITVDN] ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Developing\C#\[ITVDN] ASP.NET MVC Fundamentals - 2014\[ITVDN] ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Developing\C#\[ITVDN] ASP.NET MVC Fundamentals - 2014\[ITVDN] ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\de\System.Spatial.resources.dll
+C:\Developing\C#\[ITVDN] ASP.NET MVC Fundamentals - 2014\[ITVDN] ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\es\System.Spatial.resources.dll
+C:\Developing\C#\[ITVDN] ASP.NET MVC Fundamentals - 2014\[ITVDN] ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\fr\System.Spatial.resources.dll
+C:\Developing\C#\[ITVDN] ASP.NET MVC Fundamentals - 2014\[ITVDN] ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\it\System.Spatial.resources.dll
+C:\Developing\C#\[ITVDN] ASP.NET MVC Fundamentals - 2014\[ITVDN] ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\ja\System.Spatial.resources.dll
+C:\Developing\C#\[ITVDN] ASP.NET MVC Fundamentals - 2014\[ITVDN] ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\ko\System.Spatial.resources.dll
+C:\Developing\C#\[ITVDN] ASP.NET MVC Fundamentals - 2014\[ITVDN] ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\ru\System.Spatial.resources.dll
+C:\Developing\C#\[ITVDN] ASP.NET MVC Fundamentals - 2014\[ITVDN] ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\zh-Hans\System.Spatial.resources.dll
+C:\Developing\C#\[ITVDN] ASP.NET MVC Fundamentals - 2014\[ITVDN] ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\zh-Hant\System.Spatial.resources.dll
+C:\Developing\C#\[ITVDN] ASP.NET MVC Fundamentals - 2014\[ITVDN] ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\obj\Debug\MvcInternetApplication.csprojResolveAssemblyReference.cache
+C:\Developing\C#\[ITVDN] ASP.NET MVC Fundamentals - 2014\[ITVDN] ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\obj\Debug\MvcInternetApplication.csproj.CoreCompileInputs.cache
+C:\Developing\C#\[ITVDN] ASP.NET MVC Fundamentals - 2014\[ITVDN] ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\obj\Debug\MvcInternetApplication.dll
+C:\Developing\C#\[ITVDN] ASP.NET MVC Fundamentals - 2014\[ITVDN] ASP.NET MVC Fundamentals\008_Filters_And_Authorization\003_MvcInternetApplicationRoles\MvcInternetApplication\obj\Debug\MvcInternetApplication.pdb
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\MvcInternetApplication.dll.config
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\MvcInternetApplication.dll
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\MvcInternetApplication.pdb
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\Antlr3.Runtime.dll
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\DotNetOpenAuth.Core.dll
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\EntityFramework.dll
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\Microsoft.Data.Edm.dll
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\Microsoft.Data.OData.dll
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\Newtonsoft.Json.dll
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Net.Http.Formatting.dll
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Spatial.dll
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Web.Helpers.dll
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Web.Http.dll
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Web.Http.OData.dll
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Web.Http.WebHost.dll
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Web.Mvc.dll
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Web.Optimization.dll
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Web.Razor.dll
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Web.WebPages.dll
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Web.WebPages.Razor.dll
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\WebGrease.dll
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\WebMatrix.WebData.dll
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\Org.Mentalis.Security.Cryptography.dll
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\Mono.Math.dll
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\EntityFramework.xml
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\Newtonsoft.Json.xml
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Net.Http.Formatting.xml
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Web.Helpers.xml
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Web.Http.xml
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Web.Http.WebHost.xml
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Web.Mvc.xml
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Web.Razor.xml
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Web.WebPages.xml
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Web.WebPages.Razor.xml
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\WebMatrix.Data.xml
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\WebMatrix.WebData.xml
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\DotNetOpenAuth.Core.xml
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Web.Http.OData.xml
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\Microsoft.Data.Edm.xml
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\Microsoft.Data.OData.xml
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\System.Spatial.xml
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\Org.Mentalis.Security.Cryptography.xml
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\Mono.Math.xml
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\de\System.Spatial.resources.dll
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\es\System.Spatial.resources.dll
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\fr\System.Spatial.resources.dll
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\it\System.Spatial.resources.dll
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\ja\System.Spatial.resources.dll
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\ko\System.Spatial.resources.dll
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\ru\System.Spatial.resources.dll
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\obj\Debug\MvcInternetApplication.csprojResolveAssemblyReference.cache
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\obj\Debug\MvcInternetApplication.csproj.CoreCompileInputs.cache
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\obj\Debug\MvcInternetApplication.dll
+C:\Users\Никита\Desktop\003_MvcInternetApplicationRoles\MvcInternetApplication\obj\Debug\MvcInternetApplication.pdb
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\MvcInternetApplication.dll.config
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\MvcInternetApplication.dll
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\MvcInternetApplication.pdb
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\Antlr3.Runtime.dll
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\DotNetOpenAuth.Core.dll
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\EntityFramework.dll
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\Microsoft.Data.Edm.dll
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\Microsoft.Data.OData.dll
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\Newtonsoft.Json.dll
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\System.Net.Http.Formatting.dll
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\System.Spatial.dll
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\System.Web.Helpers.dll
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\System.Web.Http.dll
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\System.Web.Http.OData.dll
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\System.Web.Http.WebHost.dll
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\System.Web.Mvc.dll
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\System.Web.Optimization.dll
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\System.Web.Razor.dll
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\System.Web.WebPages.dll
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\System.Web.WebPages.Razor.dll
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\WebGrease.dll
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\WebMatrix.WebData.dll
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\Org.Mentalis.Security.Cryptography.dll
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\Mono.Math.dll
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\EntityFramework.xml
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\Newtonsoft.Json.xml
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\System.Net.Http.Formatting.xml
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\System.Web.Helpers.xml
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\System.Web.Http.xml
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\System.Web.Http.WebHost.xml
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\System.Web.Mvc.xml
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\System.Web.Razor.xml
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\System.Web.WebPages.xml
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\System.Web.WebPages.Razor.xml
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\WebMatrix.WebData.xml
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\DotNetOpenAuth.Core.xml
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\System.Web.Http.OData.xml
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\Microsoft.Data.Edm.xml
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\Microsoft.Data.OData.xml
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\System.Spatial.xml
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\Org.Mentalis.Security.Cryptography.xml
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\Mono.Math.xml
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\de\System.Spatial.resources.dll
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\es\System.Spatial.resources.dll
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\fr\System.Spatial.resources.dll
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\it\System.Spatial.resources.dll
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\ja\System.Spatial.resources.dll
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\ko\System.Spatial.resources.dll
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\ru\System.Spatial.resources.dll
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\obj\Debug\MvcInternetApplication.csproj.CoreCompileInputs.cache
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\obj\Debug\MvcInternetApplication.dll
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\obj\Debug\MvcInternetApplication.pdb
+C:\Users\Atlantis\Desktop\SS\MvcInternetApplication\obj\Debug\MvcInternetApplication.csprojResolveAssemblyReference.cache
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\MvcInternetApplication.dll.config
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\MvcInternetApplication.dll
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\MvcInternetApplication.pdb
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\Antlr3.Runtime.dll
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\DotNetOpenAuth.Core.dll
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\EntityFramework.dll
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\Microsoft.Data.Edm.dll
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\Microsoft.Data.OData.dll
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\Newtonsoft.Json.dll
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\System.Net.Http.Formatting.dll
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\System.Spatial.dll
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\System.Web.Helpers.dll
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\System.Web.Http.dll
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\System.Web.Http.OData.dll
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\System.Web.Http.WebHost.dll
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\System.Web.Mvc.dll
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\System.Web.Optimization.dll
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\System.Web.Razor.dll
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\System.Web.WebPages.dll
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\System.Web.WebPages.Razor.dll
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\WebGrease.dll
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\WebMatrix.WebData.dll
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\Org.Mentalis.Security.Cryptography.dll
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\Mono.Math.dll
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\EntityFramework.xml
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\Newtonsoft.Json.xml
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\System.Net.Http.Formatting.xml
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\System.Web.Helpers.xml
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\System.Web.Http.xml
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\System.Web.Http.WebHost.xml
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\System.Web.Mvc.xml
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\System.Web.Razor.xml
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\System.Web.WebPages.xml
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\System.Web.WebPages.Razor.xml
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\WebMatrix.WebData.xml
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\DotNetOpenAuth.Core.xml
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\System.Web.Http.OData.xml
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\Microsoft.Data.Edm.xml
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\Microsoft.Data.OData.xml
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\System.Spatial.xml
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\Org.Mentalis.Security.Cryptography.xml
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\Mono.Math.xml
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\de\System.Spatial.resources.dll
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\es\System.Spatial.resources.dll
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\fr\System.Spatial.resources.dll
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\it\System.Spatial.resources.dll
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\ja\System.Spatial.resources.dll
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\ko\System.Spatial.resources.dll
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\ru\System.Spatial.resources.dll
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\obj\Debug\MvcInternetApplication.csprojResolveAssemblyReference.cache
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\obj\Debug\MvcInternetApplication.csproj.CoreCompileInputs.cache
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\obj\Debug\MvcInternetApplication.dll
+C:\Users\Никита\Downloads\SS (1)\SS\MvcInternetApplication\obj\Debug\MvcInternetApplication.pdb
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\MvcInternetApplication.dll.config
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\MvcInternetApplication.dll
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\MvcInternetApplication.pdb
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\Antlr3.Runtime.dll
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\DotNetOpenAuth.Core.dll
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\EntityFramework.dll
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\Microsoft.Data.Edm.dll
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\Microsoft.Data.OData.dll
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\Newtonsoft.Json.dll
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\System.Net.Http.Formatting.dll
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\System.Spatial.dll
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\System.Web.Helpers.dll
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\System.Web.Http.dll
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\System.Web.Http.OData.dll
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\System.Web.Http.WebHost.dll
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\System.Web.Mvc.dll
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\System.Web.Optimization.dll
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\System.Web.Razor.dll
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\System.Web.WebPages.dll
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\System.Web.WebPages.Razor.dll
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\WebGrease.dll
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\WebMatrix.WebData.dll
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\Org.Mentalis.Security.Cryptography.dll
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\Mono.Math.dll
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\EntityFramework.xml
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\Newtonsoft.Json.xml
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\System.Net.Http.Formatting.xml
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\System.Web.Helpers.xml
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\System.Web.Http.xml
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\System.Web.Http.WebHost.xml
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\System.Web.Mvc.xml
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\System.Web.Razor.xml
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\System.Web.WebPages.xml
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\System.Web.WebPages.Razor.xml
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\WebMatrix.WebData.xml
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\DotNetOpenAuth.Core.xml
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\System.Web.Http.OData.xml
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\Microsoft.Data.Edm.xml
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\Microsoft.Data.OData.xml
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\System.Spatial.xml
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\Org.Mentalis.Security.Cryptography.xml
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\Mono.Math.xml
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\de\System.Spatial.resources.dll
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\es\System.Spatial.resources.dll
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\fr\System.Spatial.resources.dll
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\it\System.Spatial.resources.dll
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\ja\System.Spatial.resources.dll
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\ko\System.Spatial.resources.dll
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\ru\System.Spatial.resources.dll
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\obj\Debug\MvcInternetApplication.csprojResolveAssemblyReference.cache
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\obj\Debug\MvcInternetApplication.csproj.CoreCompileInputs.cache
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\obj\Debug\MvcInternetApplication.dll
+C:\Users\Atlantis\Desktop\SS (1)\SS\MvcInternetApplication\obj\Debug\MvcInternetApplication.pdb
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\MvcInternetApplication.dll.config
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\MvcInternetApplication.dll
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\MvcInternetApplication.pdb
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\Antlr3.Runtime.dll
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\DotNetOpenAuth.Core.dll
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\EntityFramework.dll
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\Microsoft.Data.Edm.dll
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\Microsoft.Data.OData.dll
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\Newtonsoft.Json.dll
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Net.Http.Formatting.dll
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Spatial.dll
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.Helpers.dll
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.Http.dll
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.Http.OData.dll
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.Http.WebHost.dll
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.Mvc.dll
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.Optimization.dll
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.Razor.dll
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.WebPages.dll
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.WebPages.Razor.dll
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\WebGrease.dll
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\WebMatrix.WebData.dll
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\Org.Mentalis.Security.Cryptography.dll
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\Mono.Math.dll
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\EntityFramework.xml
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\Newtonsoft.Json.xml
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Net.Http.Formatting.xml
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.Helpers.xml
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.Http.xml
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.Http.WebHost.xml
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.Mvc.xml
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.Razor.xml
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.WebPages.xml
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.WebPages.Razor.xml
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\WebMatrix.WebData.xml
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\DotNetOpenAuth.Core.xml
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.Http.OData.xml
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\Microsoft.Data.Edm.xml
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\Microsoft.Data.OData.xml
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Spatial.xml
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\Org.Mentalis.Security.Cryptography.xml
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\Mono.Math.xml
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\de\System.Spatial.resources.dll
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\es\System.Spatial.resources.dll
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\fr\System.Spatial.resources.dll
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\it\System.Spatial.resources.dll
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\ja\System.Spatial.resources.dll
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\ko\System.Spatial.resources.dll
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\ru\System.Spatial.resources.dll
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\obj\Debug\MvcInternetApplication.csprojResolveAssemblyReference.cache
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\obj\Debug\MvcInternetApplication.csproj.CoreCompileInputs.cache
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\obj\Debug\MvcInternetApplication.dll
+C:\Users\Никита\Downloads\SS (1) (3)\SS (1)\SS\MvcInternetApplication\obj\Debug\MvcInternetApplication.pdb
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\MvcInternetApplication.dll.config
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\MvcInternetApplication.dll
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\MvcInternetApplication.pdb
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\Antlr3.Runtime.dll
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\DotNetOpenAuth.AspNet.dll
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\DotNetOpenAuth.Core.dll
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\DotNetOpenAuth.OAuth.Consumer.dll
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\DotNetOpenAuth.OAuth.dll
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\DotNetOpenAuth.OpenId.dll
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\EntityFramework.dll
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\Microsoft.Data.Edm.dll
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\Microsoft.Data.OData.dll
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\Microsoft.Web.Infrastructure.dll
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\Microsoft.Web.WebPages.OAuth.dll
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\Newtonsoft.Json.dll
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Net.Http.Formatting.dll
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Spatial.dll
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.Helpers.dll
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.Http.dll
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.Http.OData.dll
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.Http.WebHost.dll
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.Mvc.dll
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.Optimization.dll
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.Razor.dll
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.WebPages.Deployment.dll
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.WebPages.dll
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.WebPages.Razor.dll
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\WebGrease.dll
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\WebMatrix.WebData.dll
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\Org.Mentalis.Security.Cryptography.dll
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\Mono.Math.dll
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\EntityFramework.xml
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\Newtonsoft.Json.xml
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Net.Http.Formatting.xml
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.Helpers.xml
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.Http.xml
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.Http.WebHost.xml
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.Mvc.xml
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.Razor.xml
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.WebPages.xml
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.WebPages.Deployment.xml
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.WebPages.Razor.xml
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\Microsoft.Web.WebPages.OAuth.xml
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\WebMatrix.WebData.xml
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\DotNetOpenAuth.AspNet.xml
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\DotNetOpenAuth.Core.xml
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\DotNetOpenAuth.OAuth.Consumer.xml
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\DotNetOpenAuth.OAuth.xml
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\DotNetOpenAuth.OpenId.xml
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.Http.OData.xml
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\Microsoft.Data.Edm.xml
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\Microsoft.Data.OData.xml
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Spatial.xml
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\Org.Mentalis.Security.Cryptography.xml
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\Mono.Math.xml
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\de\Microsoft.Data.Edm.resources.dll
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\es\Microsoft.Data.Edm.resources.dll
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\fr\Microsoft.Data.Edm.resources.dll
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\it\Microsoft.Data.Edm.resources.dll
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\ja\Microsoft.Data.Edm.resources.dll
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\ko\Microsoft.Data.Edm.resources.dll
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\ru\Microsoft.Data.Edm.resources.dll
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\de\Microsoft.Data.OData.resources.dll
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\es\Microsoft.Data.OData.resources.dll
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\fr\Microsoft.Data.OData.resources.dll
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\it\Microsoft.Data.OData.resources.dll
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\ja\Microsoft.Data.OData.resources.dll
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\ko\Microsoft.Data.OData.resources.dll
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\ru\Microsoft.Data.OData.resources.dll
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\de\System.Spatial.resources.dll
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\es\System.Spatial.resources.dll
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\fr\System.Spatial.resources.dll
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\it\System.Spatial.resources.dll
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\ja\System.Spatial.resources.dll
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\ko\System.Spatial.resources.dll
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\ru\System.Spatial.resources.dll
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\zh-Hans\System.Spatial.resources.dll
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\zh-Hant\System.Spatial.resources.dll
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\obj\Debug\MvcInternetApplication.csprojResolveAssemblyReference.cache
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\obj\Debug\MvcInternetApplication.csproj.CoreCompileInputs.cache
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\obj\Debug\MvcInternetApplication.dll
+E:\SS (1) (3)\SS (1)\SS\MvcInternetApplication\obj\Debug\MvcInternetApplication.pdb
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\MvcInternetApplication.dll.config
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\MvcInternetApplication.dll
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\MvcInternetApplication.pdb
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\Antlr3.Runtime.dll
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\DotNetOpenAuth.Core.dll
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\EntityFramework.dll
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\Microsoft.Data.Edm.dll
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\Microsoft.Data.OData.dll
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\Newtonsoft.Json.dll
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Net.Http.Formatting.dll
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Spatial.dll
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.Helpers.dll
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.Http.dll
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.Http.OData.dll
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.Http.WebHost.dll
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.Mvc.dll
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.Optimization.dll
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.Razor.dll
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.WebPages.dll
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.WebPages.Razor.dll
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\WebGrease.dll
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\WebMatrix.WebData.dll
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\Org.Mentalis.Security.Cryptography.dll
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\Mono.Math.dll
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\EntityFramework.xml
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\Newtonsoft.Json.xml
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Net.Http.Formatting.xml
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.Helpers.xml
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.Http.xml
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.Http.WebHost.xml
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.Mvc.xml
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.Razor.xml
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.WebPages.xml
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.WebPages.Razor.xml
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\WebMatrix.WebData.xml
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\DotNetOpenAuth.Core.xml
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.Http.OData.xml
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\Microsoft.Data.Edm.xml
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\Microsoft.Data.OData.xml
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Spatial.xml
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\Org.Mentalis.Security.Cryptography.xml
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\Mono.Math.xml
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\de\System.Spatial.resources.dll
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\es\System.Spatial.resources.dll
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\fr\System.Spatial.resources.dll
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\it\System.Spatial.resources.dll
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\ja\System.Spatial.resources.dll
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\ko\System.Spatial.resources.dll
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\ru\System.Spatial.resources.dll
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\obj\Debug\MvcInternetApplication.csprojResolveAssemblyReference.cache
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\obj\Debug\MvcInternetApplication.csproj.CoreCompileInputs.cache
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\obj\Debug\MvcInternetApplication.dll
+C:\Users\Atlantis\Desktop\SS (1) (3)\SS (1)\SS\MvcInternetApplication\obj\Debug\MvcInternetApplication.pdb
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\MvcInternetApplication.dll.config
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\MvcInternetApplication.dll
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\MvcInternetApplication.pdb
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\Antlr3.Runtime.dll
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\DotNetOpenAuth.Core.dll
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\EntityFramework.dll
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\Microsoft.Data.Edm.dll
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\Microsoft.Data.OData.dll
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\Newtonsoft.Json.dll
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Net.Http.Formatting.dll
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Spatial.dll
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.Helpers.dll
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.Http.dll
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.Http.OData.dll
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.Http.WebHost.dll
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.Mvc.dll
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.Optimization.dll
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.Razor.dll
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.WebPages.dll
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.WebPages.Razor.dll
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\WebGrease.dll
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\WebMatrix.WebData.dll
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\Org.Mentalis.Security.Cryptography.dll
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\Mono.Math.dll
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\EntityFramework.xml
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\Newtonsoft.Json.xml
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Net.Http.Formatting.xml
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.Helpers.xml
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.Http.xml
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.Http.WebHost.xml
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.Mvc.xml
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.Razor.xml
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.WebPages.xml
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.WebPages.Razor.xml
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\WebMatrix.WebData.xml
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\DotNetOpenAuth.Core.xml
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Web.Http.OData.xml
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\Microsoft.Data.Edm.xml
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\Microsoft.Data.OData.xml
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\System.Spatial.xml
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\Org.Mentalis.Security.Cryptography.xml
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\Mono.Math.xml
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\de\System.Spatial.resources.dll
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\es\System.Spatial.resources.dll
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\fr\System.Spatial.resources.dll
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\it\System.Spatial.resources.dll
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\ja\System.Spatial.resources.dll
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\ko\System.Spatial.resources.dll
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\ru\System.Spatial.resources.dll
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\obj\Debug\MvcInternetApplication.csprojResolveAssemblyReference.cache
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\obj\Debug\MvcInternetApplication.csproj.CoreCompileInputs.cache
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\obj\Debug\MvcInternetApplication.dll
+C:\Users\Никита Кураев\Downloads\SS (1) (3) (1)\SS (1) (3)\SS (1)\SS\MvcInternetApplication\obj\Debug\MvcInternetApplication.pdb
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\MvcInternetApplication.dll.config
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\MvcInternetApplication.dll
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\MvcInternetApplication.pdb
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\Antlr3.Runtime.dll
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\DotNetOpenAuth.Core.dll
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\EntityFramework.dll
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\Microsoft.Data.Edm.dll
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\Microsoft.Data.OData.dll
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\Newtonsoft.Json.dll
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\System.Net.Http.Formatting.dll
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\System.Spatial.dll
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\System.Web.Helpers.dll
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\System.Web.Http.dll
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\System.Web.Http.OData.dll
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\System.Web.Http.WebHost.dll
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\System.Web.Mvc.dll
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\System.Web.Optimization.dll
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\System.Web.Razor.dll
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\System.Web.WebPages.dll
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\System.Web.WebPages.Razor.dll
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\WebGrease.dll
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\WebMatrix.WebData.dll
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\Org.Mentalis.Security.Cryptography.dll
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\Mono.Math.dll
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\EntityFramework.xml
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\Newtonsoft.Json.xml
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\System.Net.Http.Formatting.xml
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\System.Web.Helpers.xml
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\System.Web.Http.xml
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\System.Web.Http.WebHost.xml
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\System.Web.Mvc.xml
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\System.Web.Razor.xml
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\System.Web.WebPages.xml
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\System.Web.WebPages.Razor.xml
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\WebMatrix.WebData.xml
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\DotNetOpenAuth.Core.xml
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\System.Web.Http.OData.xml
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\Microsoft.Data.Edm.xml
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\Microsoft.Data.OData.xml
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\System.Spatial.xml
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\Org.Mentalis.Security.Cryptography.xml
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\Mono.Math.xml
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\de\System.Spatial.resources.dll
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\es\System.Spatial.resources.dll
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\fr\System.Spatial.resources.dll
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\it\System.Spatial.resources.dll
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\ja\System.Spatial.resources.dll
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\ko\System.Spatial.resources.dll
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\ru\System.Spatial.resources.dll
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\obj\Debug\MvcInternetApplication.csprojResolveAssemblyReference.cache
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\obj\Debug\MvcInternetApplication.csproj.CoreCompileInputs.cache
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\obj\Debug\MvcInternetApplication.dll
+C:\Users\Никита Кураев\source\repos\sstudy\sstudy\MvcInternetApplication\obj\Debug\MvcInternetApplication.pdb
