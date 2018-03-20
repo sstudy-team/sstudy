@@ -265,13 +265,6 @@
     <Content Include="Views\Cards\GetCards.cshtml" />
     <Content Include="Views\Home\Prof.cshtml" />
     <Content Include="Views\Home\ProfCard.cshtml" />
-    <Content Include="Views\Cards\Hierarchy.cshtml" />
-    <Content Include="Views\Cards\HierarchySub.cshtml" />
-    <Content Include="Views\Cards\HierarchySec.cshtml" />
-    <Content Include="Views\Cards\HierarchySubsec.cshtml" />
-    <Content Include="Views\Cards\HierarchyTop.cshtml" />
-    <Content Include="Views\Cards\ShowCards.cshtml" />
-    <Content Include="Views\Cards\CreateCard.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
