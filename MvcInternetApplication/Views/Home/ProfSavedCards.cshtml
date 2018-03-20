@@ -1,0 +1,54 @@
+﻿@{
+    Layout = null;
+}
+
+<div id="saved_cards">
+
+    <section id="pr_sign" style="background:rgb(35, 35, 35);margin:2% 0;box-sizing:border-box;padding:1.5% 2%;text-align:center;">
+        <article style="font:3vw 'Century Gothic';color:white;">Чтобы убедиться что карточка сохранена, зажмите её.</article>
+    </section>
+
+    <div id="edit">
+        @Html.Action("GetUserCards", "Cards")
+    </div>
+
+    <div id="screen">
+
+        <div id="active_zone" onclick="$('#screen').fadeOut(800, function () { });"></div>
+
+        <div id="exp_card">
+            <div id="exp_header">
+                <p></p>
+            </div>
+            <div id="stripe">
+                <article onclick="$('#screen').fadeOut(800, function () { });"></article>
+            </div>
+            <div id="inner" class="no">
+
+                <div id="definition">
+                    <p></p>
+                </div>
+
+                <div id="exp_formula">
+                    <p></p>
+                </div>
+
+                <div id="exp_card_main">
+                    <p></p>
+                </div>
+            </div>
+
+            <div id="exp_footer">
+                <p></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+	$(document).ready(function () {
+		$('.cancel_card').find('.check_icon').css('visibility', 'hidden');
+
+		$('.cancel_card').find('.check_icon').siblings().text('Расширить карточку');
+	});
+</script>

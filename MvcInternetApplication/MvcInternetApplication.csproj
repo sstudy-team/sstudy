@@ -201,6 +201,7 @@
     <Content Include="Content\footer.css" />
     <Content Include="Content\index.css" />
     <Content Include="Content\main.css" />
+    <Content Include="Content\mathquill.css" />
     <Content Include="Content\nav.css" />
     <Content Include="Content\profile.css" />
     <Content Include="favicon.ico" />
@@ -224,6 +225,7 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\knockout-2.2.0.debug.js" />
     <Content Include="Scripts\knockout-2.2.0.js" />
+    <Content Include="Scripts\mathquill.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\nav.js" />
     <Content Include="Scripts\profile.js" />
@@ -272,6 +274,9 @@
     <Content Include="Views\Cards\HierarchyTop.cshtml" />
     <Content Include="Views\Cards\ShowCards.cshtml" />
     <Content Include="Views\Cards\CreateCard.cshtml" />
+    <Content Include="Views\Home\ProfCreateCards.cshtml" />
+    <Content Include="Views\Home\ProfSavedCards.cshtml" />
+    <Content Include="Views\Home\ProfVoteCards.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

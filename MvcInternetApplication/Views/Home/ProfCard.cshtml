@@ -2,57 +2,44 @@
 	Layout = null;
 }
 
-<section id="t2" class="tabs">
+<div id="t2">
+    <style>
+        #t2 {
+            display: flex;
+            flex: 1;
+        }
+    </style>
 
-	<section id="pr_sign" style="background:rgb(35, 35, 35);margin:2% 0;box-sizing:border-box;padding:1.5% 2%;text-align:center;">
-		<article style="font:3vw 'Century Gothic';color:white;">Чтобы убедиться что карточка сохранена, зажмите её.</article>
-	</section>
+    <div id="t2_collumn" style="margin-left:0.5%;border-right:1px solid black;">
+        <article>
+            @Ajax.ActionLink("Сохранённые карточки", "ProfSavedCards",
+             new AjaxOptions
+             {
+                 UpdateTargetId = "pr_content"
+             })
+        </article>
 
-	<div id="edit">
-		@Html.Action("GetUserCards", "Cards")
-	</div>
+        <article class="t2_nav_active">
+            @Ajax.ActionLink("Создать новую карточку", "ProfCreateCards",
+          new AjaxOptions
+          {
+              UpdateTargetId = "pr_content"
+          })
+        </article>
 
-	<div id="screen">
+        <article>
+            @Ajax.ActionLink("Одобрить новую карточку", "ProfVoteCards",
+          new AjaxOptions
+          {
+              UpdateTargetId = "pr_content"
+          })
+        </article>
+    </div>
+    
+    <!--наверху была менюшка с левой стороны; она должна вызывать ProfSavedCards, ProfCreateCards, и ProfVoteCards-->
 
-		<div id="active_zone" onclick="$('#screen').fadeOut(800, function () { });"></div>
+    <div id="pr_content">
+        <!--Вызови ProfSavedCards-->
+    </div>
 
-		<div id="exp_card">
-			<div>
-				<header id="topic"></header>
-			</div>
-
-			<div id="stripe">
-				<p>
-					<article onclick="$('#screen').fadeOut(800, function () { });">Закрыть</article>
-				</p>
-			</div>
-
-			<div id="inner">
-
-				<div id="definition">
-				</div>
-
-				<div id="exp_formula">
-				</div>
-
-				<div id="exp_card_main">
-				</div>
-
-			</div>
-
-			<div>
-				<footer></footer>
-			</div>
-
-		</div>
-	</div>
-
-</section>
-
-<script>
-	$(document).ready(function () {
-		$('.cancel_card').find('.check_icon').css('visibility', 'hidden');
-
-		$('.cancel_card').find('.check_icon').siblings().text('Расширить карточку');
-	});
-</script>
+</div>
