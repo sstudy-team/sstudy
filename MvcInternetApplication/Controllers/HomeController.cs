@@ -21,36 +21,6 @@ namespace MvcInternetApplication.Controllers
 			return View();
         }
 
-		[Authorize]
-		public ActionResult Cabinet(int? Message)
-		{
-            if (Message != null)
-                if (Message == 1)
-                {
-                    ViewBag.Msg = "Пароль успешно изменен";
-                }
-                else
-                {
-                    ViewBag.Msg = "Произошла ошибка смены пароля";
-                }
-
-            return View();
-		}
-
-		[Authorize]
-		public ActionResult Prof()
-		{
-
-			return View();
-		}
-
-		[Authorize]
-		public ActionResult ProfCard()
-		{
-
-			return View();
-		}
-
 		public ActionResult Cards()
 		{
 			

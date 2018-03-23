@@ -188,6 +188,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\CardsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ProfileController.cs" />
     <Compile Include="Filters\InitializeSimpleMembershipAttribute.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -261,16 +262,16 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Web.config" />
-    <Content Include="Views\Home\Cabinet.cshtml" />
+    <Content Include="Views\Profile\Cabinet.cshtml" />
     <Content Include="Views\Account\Login.cshtml" />
     <Content Include="Views\Home\Cards.cshtml" />
     <Content Include="Views\Cards\GetCards.cshtml" />
-    <Content Include="Views\Home\Prof.cshtml" />
-    <Content Include="Views\Home\ProfCard.cshtml" />
-    <Content Include="Views\Home\ProfSavedCards.cshtml" />
-    <Content Include="Views\Home\ProfVoteCards.cshtml" />
-    <Content Include="Views\Home\ProfCreateCardsMin.cshtml" />
-    <Content Include="Views\Home\ProfCreateCardsExp.cshtml" />
+    <Content Include="Views\Profile\Prof.cshtml" />
+    <Content Include="Views\Profile\ProfCard.cshtml" />
+    <Content Include="Views\Profile\ProfSavedCards.cshtml" />
+    <Content Include="Views\Profile\ProfVoteCards.cshtml" />
+    <Content Include="Views\Profile\ProfCreateCardsMin.cshtml" />
+    <Content Include="Views\Profile\ProfCreateCardsExp.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

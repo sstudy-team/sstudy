@@ -20,19 +20,19 @@
         </article>
 
         <article class="t2_nav_active">
-            @Ajax.ActionLink("Создать новую карточку", "ProfCreateCards",
-          new AjaxOptions
-          {
-              UpdateTargetId = "pr_content"
-          })
+            @Ajax.ActionLink("Создать новую карточку", "ProfCreateCardsMin",
+			  new AjaxOptions
+			  {
+				  UpdateTargetId = "pr_content"
+			  })
         </article>
 
         <article>
             @Ajax.ActionLink("Одобрить новую карточку", "ProfVoteCards",
-          new AjaxOptions
-          {
-              UpdateTargetId = "pr_content"
-          })
+			  new AjaxOptions
+			  {
+				  UpdateTargetId = "pr_content"
+			  })
         </article>
     </div>
     

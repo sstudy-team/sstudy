@@ -42,14 +42,14 @@
 				<img src="~/img/pic1.png" width="100%">
 			</section>
 			<section>
-				<div id="n1" class="navigator_point"> @Html.ActionLink("Главная", "Index")</div>
-				<div id="n2" class="navigator_point"> @Html.ActionLink("Карточки", "Cards")</div>
+				<div id="n1" class="navigator_point"> @Html.ActionLink("Главная", "Index", "Home")</div>
+				<div id="n2" class="navigator_point"> @Html.ActionLink("Карточки", "Cards", "Home")</div>
 				
 				@{
 					if (WebSecurity.IsAuthenticated)
 					{
 						<div id="n3" class="navigator_point">
-							@Html.ActionLink("Личный кабинет" ,"Cabinet")
+							@Html.ActionLink("Личный кабинет", "Cabinet", "Profile")
 						</div>
 						<div id="n4" class="navigator_point">
 							@Html.ActionLink("Выход", "LogOff", "Account")

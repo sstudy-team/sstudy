@@ -1,0 +1,228 @@
+﻿@{
+	Layout = null;
+}
+
+<article class="t2_sec">
+	Шаг 1:
+</article>
+
+<div id="make_min">
+
+	<section>
+		<div id="pr_sel">
+
+			<div class="th th_activated" id="th1">
+				<p class="thin">     Предмет		</p>
+
+				<ol>
+					<li><input type="search" placeholder="Search" results="0" data-mini="true" /></li>
+					<li>
+						<ul class="foo">
+							<li id="subject1">Ведутся работы</li>
+							<li id="subject2">Ведутся работы</li>
+							<li id="subject3">Ведутся работы</li>
+						</ul>
+					</li>
+				</ol>
+
+			</div>
+
+			<div class="th" id="th2">
+				<p class="thin">     Раздел		</p>
+
+				<ol>
+					<li><input type="search" placeholder="Search" results="0" data-mini="true" /></li>
+					<li>
+						<ul class="foo">
+							<li class="subject1" id="section1_1">Ведутся работы</li>
+							<li class="subject1" id="section1_2">Ведутся работы</li>
+							<li class="subject2" id="section2_1">Ведутся работы</li>
+							<li class="subject2" id="section2_2">Ведутся работы</li>
+							<li class="subject3" id="section3_1">Ведутся работы</li>
+							<li class="subject3" id="section3_2">Ведутся работы</li>
+						</ul>
+					</li>
+				</ol>
+
+			</div>
+
+			<div class="th" id="th3">
+				<p class="thin">     Подраздел		</p>
+
+				<ol>
+					<li><input type="search" placeholder="Search" results="0" data-mini="true" /></li>
+					<li>
+						<ul class="foo">
+							<li class="section1_1" id="sub-section1_1_1">Ведутся работы</li>
+							<li class="section1_1" id="sub-section1_1_2">Ведутся работы</li>
+
+							<li class="section1_2" id="sub-section1_2_1">Ведутся работы</li>
+							<li class="section1_2" id="sub-section1_2_2">Ведутся работы</li>
+
+							<li class="section2_1" id="sub-section2_1_1">Ведутся работы</li>
+							<li class="section2_1" id="sub-section2_1_2">Ведутся работы</li>
+
+							<li class="section2_2" id="sub-section2_2_1">Ведутся работы</li>
+							<li class="section2_2" id="sub-section2_2_2">Ведутся работы</li>
+
+							<li class="section3_1" id="sub-section3_1_1">Ведутся работы</li>
+							<li class="section3_1" id="sub-section3_1_2">Ведутся работы</li>
+
+							<li class="section3_2" id="sub-section3_2_1">Ведутся работы</li>
+							<li class="section3_2" id="sub-section3_2_2">Ведутся работы</li>
+						</ul>
+					</li>
+				</ol>
+
+			</div>
+
+			<div class="th" id="th4">
+				<p class="thin">     Тема		</p>
+
+				<ol>
+					<li><input type="search" placeholder="Search" results="0" data-mini="true" /></li>
+					<li>
+						<ul class="foo">
+							<li class="sub-section1_1_1">Ведутся работы</li>
+							<li class="sub-section1_1_1">Ведутся работы</li>
+
+							<li class="sub-section1_1_2">Ведутся работы</li>
+							<li class="sub-section1_1_2">Ведутся работы</li>
+
+							<li class="sub-section1_2_1">Ведутся работы</li>
+							<li class="sub-section1_2_1">Ведутся работы</li>
+
+							<li class="sub-section1_2_2">Ведутся работы</li>
+							<li class="sub-section1_2_2">Ведутся работы</li>
+
+							<li class="sub-section2_1_1">Ведутся работы</li>
+							<li class="sub-section2_1_2">Ведутся работы</li>
+
+							<li class="sub-section2_2_1">Ведутся работы</li>
+							<li class="sub-section2_2_2">Ведутся работы</li>
+
+							<li class="sub-section3_1_1">Ведутся работы</li>
+							<li class="sub-section3_1_2">Ведутся работы</li>
+
+							<li class="sub-section3_2_1">Ведутся работы</li>
+							<li class="sub-section3_2_2">Ведутся работы</li>
+						</ul>
+					</li>
+				</ol>
+			</div>
+		</div>
+
+		<script>
+			jQuery(".thin").on("click", function () {
+				if ($(this).parent().hasClass('th_activated') == true) {
+					$(this).siblings().slideToggle(500, function () { });
+
+					$(this).parent().siblings('.th_activated').find('.thin').siblings().hide(500);
+
+					$(this).siblings().find('ul').css('height', Math.round($(this).siblings().find('ul li').outerHeight(true) * 3));
+
+					$(this).parent().addClass('th_activated');
+				}
+			});
+
+			var flag = [0, 0, 0, 0];
+
+			$('ol ul li').on('click', function () {
+
+				var sel = $(this).parent().parent().parent().parent();
+				var next = $(sel).attr('id');
+
+				var next_digit = next.slice(2, 3);
+				next = next.slice(0, -1);
+				var n = parseInt(next_digit);
+				var m = n + 1;
+				var next_id = '#' + next + m;
+				var search = 'NULL';
+				$(sel).addClass('th_activated');
+
+				cards_class = '.lvl' + n;
+				$(cards_class).find('p').text($(this).text());
+
+				if (flag[n] == 0) {
+					$(this).css('background', 'Gainsboro');
+
+					$(sel).find('ol').hide(500);
+					$(this).siblings().css('background', 'rgb(200, 200, 200)');
+
+					$(next_id).addClass('th_activated');
+					if ($(this).parent().parent().height() < $(this).outerHeight(true) * 3) $(next_id).find('ul').css('height', Math.round($(this).outerHeight(true) * 3));
+					$(next_id).find('ol').show();
+					$(next_id).find('ol ul li').hide();
+
+					var next_class = '.' + $(this).attr('id');
+					if (n == 5) {
+						search = $(this).attr('id');
+					}
+					else { $(next_id).find(next_class).show(); }
+					flag[n]++;
+				}
+
+				else {
+					$(sel).nextAll().find('ol li').css('background', 'rgb(200, 200, 200)');
+					$(sel).nextAll().removeClass('th_activated');
+					$(sel).nextAll().find('ol').hide(500);
+					search = 'NULL';
+					for (var i = n; i < 5; i++) { flag[i] = 0; }
+				}
+
+				if (n == 4) { sync('min'); }
+
+			});
+
+			function menu_ref() {
+				//resizing .foo
+				var h
+				h = 3 * $('#pr_sel ol ul li').outerHeight(false);
+
+				if ($('#pr_sel ol ul li').outerHeight(false) > h) { $('.foo').css('height', h); }
+			}
+		</script>
+
+		<a class="pr_make_button" href="#make_exp" style="width:50%;display:inline-block;margin-right:-4px;">
+			Назад
+			<!--страница назад-->
+		</a>
+
+		<a class="pr_make_button" href="#make_exp" style="display:inline-block;margin-right:-4px;width:50%;">
+			Далее
+			<!--страница вперёд-->
+		</a>
+
+	</section>
+
+	<section id="card_window">
+		<div class="cards">
+			<div class="header lvl2">
+				<p>Раздел</p>
+			</div>
+			<div class="section lvl3">
+				<p>Подраздел</p>
+			</div>
+			<div class="sub-section lvl4">
+				<p>Тема</p>
+			</div>
+			<div class="formula">
+				<p>Формула</p>
+			</div>
+			<div class="footer">
+				<p style="color:white;"></p>
+			</div>
+		</div>
+		<article>
+			Отображение карточки
+		</article>
+
+	</section>
+
+	<script>
+		$(document).ready(function () {
+			$('.cards').css('height', $('.cards').width() * 1.618);
+		});
+	</script>
+
+</div>
