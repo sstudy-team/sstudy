@@ -20,7 +20,7 @@
         </article>
 
         <article class="t2_nav_active">
-            @Ajax.ActionLink("Создать новую карточку", "ProfCreateCardsMin",
+            @Ajax.ActionLink("Создать новую карточку", "CreateStep1",
 			  new AjaxOptions
 			  {
 				  UpdateTargetId = "pr_content"
@@ -35,11 +35,9 @@
 			  })
         </article>
     </div>
-    
-    <!--наверху была менюшка с левой стороны; она должна вызывать ProfSavedCards, ProfCreateCards, и ProfVoteCards-->
 
     <div id="pr_content">
-        <!--Вызови ProfSavedCards-->
+        @Html.Action("ProfSavedCards", "Profile")
     </div>
 
 </div>

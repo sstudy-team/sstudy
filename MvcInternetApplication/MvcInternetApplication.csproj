@@ -270,8 +270,9 @@
     <Content Include="Views\Profile\ProfCard.cshtml" />
     <Content Include="Views\Profile\ProfSavedCards.cshtml" />
     <Content Include="Views\Profile\ProfVoteCards.cshtml" />
-    <Content Include="Views\Profile\ProfCreateCardsMin.cshtml" />
-    <Content Include="Views\Profile\ProfCreateCardsExp.cshtml" />
+    <Content Include="Views\Profile\CreateStep1.cshtml" />
+    <Content Include="Views\Profile\CreateStep2.cshtml" />
+    <Content Include="Views\Home\Filter.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

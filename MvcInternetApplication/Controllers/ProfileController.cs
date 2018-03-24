@@ -41,12 +41,12 @@ namespace MvcInternetApplication.Controllers
 			return View();
 		}
 
-		public ActionResult ProfCreateCardsExp()
+		public ActionResult CreateStep2()
 		{
 			return View();
 		}
-
-		public ActionResult ProfCreateCardsMin()
+		
+		public ActionResult CreateStep1()
 		{
 			return View();
 		}

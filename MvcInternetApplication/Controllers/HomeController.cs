@@ -27,6 +27,12 @@ namespace MvcInternetApplication.Controllers
 			return View();
 		}
 
+		public ActionResult Filter()
+		{
+
+			return View();
+		}
+
 	}
 }
 
