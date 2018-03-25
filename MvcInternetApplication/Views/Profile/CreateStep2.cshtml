@@ -2,42 +2,43 @@
 	Layout = null;
 }
 
+<article class="t2_sec" style="margin-top:5%;">
+	Создание расширенной карточки
+</article>
+
 <div id="make_exp" style="margin-bottom:2%;display:flex">
-	<article class="t2_sec" style="margin-top:5%;">
-		Создание расширенной карточки
-	</article>
 	<section id="exp_card_container">
-		<div id="exp_card">
-			<div id="exp_header">
+		<div id="pr_exp_card">
+			<div id="pr_exp_header">
 				<p>Тема</p>
 			</div>
-			<div id="stripe">
+			<div id="pr_stripe">
 				<article onclick="$('#screen').fadeOut(800, function () { });">Закрыть</article>
 			</div>
-			<div id="inner" class="no">
+			<div id="pr_inner" class="no">
 
-				<div id="definition">
+				<div id="pr_definition">
 					<p contenteditable>Термин</p>
 				</div>
 
-				<div id="exp_formula">
+				<div id="pr_exp_formula">
 					<span class="t2_exp_span" id="math-field-2" style="border:none;border-bottom:1px solid black;" onclick="last_field=2">Формула	</span>
 				</div>
 
-				<div id="exp_card_main">
+				<div id="pr_exp_card_main">
 					<span class="t2_exp_span" id="math-field-3" style="border:none;border-bottom:1px solid black;" onclick="last_field=3">Дополнительная информация	</span>
 				</div>
 			</div>
 
-			<div id="exp_footer">
+			<div id="pr_exp_footer">
 				<p contenteditable>Футер</p>
 			</div>
 		</div>
 
 		<section style="text-align:left;">
-			<p style="display:none;" class="t2_exp_p" style="width:100%;margin:2% 0;"><span id="latex-1"></span></p>
-			<p style="display:none;" class="t2_exp_p" style="width:100%;margin:2% 0;"><span id="latex-2"></span></p>
-			<p style="display:none;" class="t2_exp_p" style="width:100%;margin:2% 0;"><span id="latex-3"></span></p>
+			<p style="display:none;" class="t2_exp_p"><span id="latex-1"></span></p>
+			<p style="display:none;" class="t2_exp_p"><span id="latex-2"></span></p>
+			<p style="display:none;" class="t2_exp_p"><span id="latex-3"></span></p>
 		</section>
 
 		<div class="pr_make_button" href="#make_exp" style="width:50%;display:inline-block;margin-right:-4px;">
@@ -63,7 +64,7 @@
 
 			<script>
 				$('.t2_sub_article').on('click', function () {
-					$('.dr').css('height', $('#exp_card').height() / 2);
+					$('.dr').css('height', $('#pr_exp_card').height() / 2);
 				});
 			</script>
 		</section>
@@ -135,9 +136,9 @@
 
 
 	<script>
-		$(document).ready(function () { $('#exp_card').css('height', $('#exp_card').width() * 1.618); });
+		$(document).ready(function () { $('#pr_exp_card').css('height', $('#pr_exp_card').width() * 1.618); });
 
-		$('#exp_card p').on('click', function () {
+		$('#pr_exp_card p').on('click', function () {
 			var cell = this;
 			// select all text in contenteditable
 			// see http://stackoverflow.com/a/6150060/145346
@@ -208,18 +209,13 @@
 
 	}
 
-	$('.t2_exp_span').on('focus', function () {
-		alert('!');
-	});
-
 	$('#t2_exp_save').on('click', function () {
 		$('.formula p').text($('#t2_exp_p').text());
 		$('#t2_exp_container').hide(800);
-		sync('min');
 	});
 
 	$(document).ready(function () {
-		$('.dr').css('height', $('#exp_card').height() / 2);
+		$('.dr').css('height', $('pr_#exp_card').height() / 2);
 	});
 	MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
 </script>

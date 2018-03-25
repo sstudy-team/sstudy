@@ -7,6 +7,11 @@
     <section id="pr_sign" style="background:rgb(35, 35, 35);margin:2% 0;box-sizing:border-box;padding:1.5% 2%;text-align:center;">
         <article style="font:3vw 'Century Gothic';color:white;">Чтобы убедиться что карточка сохранена, зажмите её.</article>
     </section>
+	<script>
+		$(document).ready(function () {
+			if ($(document).width() > 499) { $('#pr_sign').hide();}
+		})
+	</script>
 
     <div id="edit">
         @Html.Action("GetUserCards", "Cards")

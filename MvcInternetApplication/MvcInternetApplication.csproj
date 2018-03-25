@@ -205,6 +205,8 @@
     <Content Include="Content\mathquill.css" />
     <Content Include="Content\nav.css" />
     <Content Include="Content\profile.css" />
+    <Content Include="Content\profile_t2.css" />
+    <Content Include="Content\profile_t1.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="img\Thumbs.db" />

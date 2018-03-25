@@ -1,0 +1,91 @@
+﻿#t1 {
+	display: flex;
+	width: 80%;
+	margin: 2% 10%;
+}
+
+#avatar {
+	width: 38.2%;
+	padding: 0 2%;
+	box-sizing: border-box;
+}
+
+#avatar section {
+	box-sizing: border-box;
+	padding: 2.5%;
+	background: rgb(35, 35, 35);
+	margin-bottom: 2%;
+}
+
+#t1 .button {
+	width: 100%;
+	font: 1vw 'Century Gothic';
+	padding: 1% 2%;
+	box-sizing: border-box;
+	border: 1px solid rgba(0, 0, 0, 0.5);
+	box-shadow: 2px 3px rgb(100, 100, 100);
+	text-align: center;
+	margin-bottom: 1.5%;
+}
+
+.side_info {
+	width: 61.8%;
+	box-sizing: border-box;
+	padding: 2% 3%;
+}
+
+.side_info .acc {
+	display: flex;
+	margin-bottom: 1%;
+}
+
+.side_info .acc article {
+	font: 1vw 'Century Gothic';
+	width: 25%;
+	padding: 1% 0;
+}
+
+.acc input[type=text], .acc input[type=password] {
+	width: 75%;
+	font: 1vw 'Century Gothic';
+	padding: 1% 0;
+}
+
+#t1 input[type=submit] {
+	font: 1vw 'Century Gothic';
+	background: none;
+	border: none;
+	width: 100%;
+}
+
+@media screen and (max-width: 500px) {
+	#t1 {
+		display: block;
+	}
+
+	#avatar {
+		width:		38.2%;
+		margin-left:30.9%;
+	}
+
+	#t1 .button {
+		font: 2vw 'Century Gothic';
+	}
+
+	.side_info {
+		width:			61.8%;
+		margin-left:	19.1%;
+	}
+
+	.side_info .acc article {
+		font: 2vw 'Century Gothic';
+	}
+
+	.acc input[type=text], .acc input[type=password] {
+		font: 2vw 'Century Gothic';
+	}
+
+	#t1 input[type=submit] {
+		font: 2vw 'Century Gothic';
+	}
+}

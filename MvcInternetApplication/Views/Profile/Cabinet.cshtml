@@ -1,7 +1,5 @@
 ﻿@{
-                /**/
-
-                ViewBag.Title = "Личная страница";
+	ViewBag.Title = "Личная страница";
 }
 
 <div id="profile_frame" style="width:96%;background:rgb(35, 35, 35);padding:0.5% 0;position:relative;left:2%;">
@@ -14,7 +12,7 @@
                     UpdateTargetId = "pr_main"
                 })
             </section>
-            <section style="right:15px">
+            <section style="right:1vh">
                 @Ajax.ActionLink("Карточки", "ProfCard",
                  new AjaxOptions
                  {
