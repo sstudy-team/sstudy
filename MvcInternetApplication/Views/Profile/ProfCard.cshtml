@@ -10,9 +10,9 @@
         }
     </style>
 
-    <div id="t2_collumn" style="margin-left:0.5%;border-right:1px solid black;">
+    <div id="t2_collumn" style="border-right:1px solid black;">
         <article>
-            @Ajax.ActionLink("Сохранённые карточки", "ProfSavedCards",
+            @Ajax.ActionLink("Сохранённые", "ProfSavedCards",
              new AjaxOptions
              {
                  UpdateTargetId = "pr_content"
@@ -20,7 +20,7 @@
         </article>
 
         <article class="t2_nav_active">
-            @Ajax.ActionLink("Создать новую карточку", "CreateStep1",
+            @Ajax.ActionLink("Создать новую", "CreateStep1",
 			  new AjaxOptions
 			  {
 				  UpdateTargetId = "pr_content"
@@ -28,7 +28,7 @@
         </article>
 
         <article>
-            @Ajax.ActionLink("Одобрить новую карточку", "ProfVoteCards",
+            @Ajax.ActionLink("Одобрить новую", "ProfVoteCards",
 			  new AjaxOptions
 			  {
 				  UpdateTargetId = "pr_content"

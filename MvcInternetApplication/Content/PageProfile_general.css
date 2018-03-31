@@ -14,9 +14,9 @@
 	box-sizing: border-box;
 	width:		calc(26% + 8.5px);
 	height:		0;
-	border-bottom:	2vh solid rgba(0, 0, 0, 0.5);
+	border-bottom:	5vmin solid rgba(0, 0, 0, 0.5);
 	border-left:	0px solid transparent;
-	border-right:	1vh solid transparent;
+	border-right:	2.5vmin solid transparent;
 	box-shadow:		8px 8px 16px rgb(140, 140, 140) inset;
 	z-index:	1;
 
@@ -25,17 +25,17 @@
 }
 
 #profile nav .pr_nav_active {
-	border-bottom:	2vh solid rgb(250, 250, 250);
+	border-bottom:	5vmin solid rgb(250, 250, 250);
 	z-index:		2;
 }
 
 #profile nav section:hover {
-	border-bottom:	2vh solid rgba(0, 0, 0, 0.8);
+	border-bottom:	5vmin solid rgba(0, 0, 0, 0.8);
 	z-index:		3;
 }
 
 #profile nav .pr_nav_active:hover {
-	border-bottom:	2vh solid rgb(250, 250, 250);
+	border-bottom:	5vmin solid rgb(250, 250, 250);
 }
 
 #profile nav a{
@@ -43,9 +43,13 @@
 	text-overflow:	ellipsis;
 	white-space:	nowrap;
 
+	position:	absolute;
+	top:		calc(2.5vmin - 0.625vmax);
+	left:		2.5vmin;
+
 	color:	rgb(250, 250, 250);
-	font:	bold 1.25vh 'Century Gothic';
-	text-decoration: none;
+	font:	bold 1.25vmax 'Century Gothic';
+	text-decoration: none;	
 }
 
 #profile nav .pr_nav_active a {
@@ -58,4 +62,8 @@
 
 #pr_content #edit{
 	width:	97.5%;
+}
+
+.button:hover{
+	background:	rgba(200, 200, 200, 0.5);
 }

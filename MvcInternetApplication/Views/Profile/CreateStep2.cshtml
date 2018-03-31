@@ -8,29 +8,29 @@
 
 <div id="make_exp" style="margin-bottom:2%;display:flex">
 	<section id="exp_card_container">
-		<div id="pr_exp_card">
-			<div id="pr_exp_header">
+		<div class="exp_card">
+			<div class="exp_header">
 				<p>Тема</p>
 			</div>
-			<div id="pr_stripe">
+			<div class="stripe">
 				<article onclick="$('#screen').fadeOut(800, function () { });">Закрыть</article>
 			</div>
-			<div id="pr_inner" class="no">
+			<div class="inner no">
 
-				<div id="pr_definition">
+				<div class="definition">
 					<p contenteditable>Термин</p>
 				</div>
 
-				<div id="pr_exp_formula">
+				<div class="exp_formula">
 					<span class="t2_exp_span" id="math-field-2" style="border:none;border-bottom:1px solid black;" onclick="last_field=2">Формула	</span>
 				</div>
 
-				<div id="pr_exp_card_main">
-					<span class="t2_exp_span" id="math-field-3" style="border:none;border-bottom:1px solid black;" onclick="last_field=3">Дополнительная информация	</span>
+				<div class="exp_card_main">
+					<p class="exp_span" onclick="last_field=3" contenteditable>Дополнительная информация	</p>
 				</div>
 			</div>
 
-			<div id="pr_exp_footer">
+			<div class="exp_footer">
 				<p contenteditable>Футер</p>
 			</div>
 		</div>
@@ -56,16 +56,45 @@
 	</section>
 
 	<section style="width:61.8%;text-align:center;">
-		<article style="font:2vw 'Century Gothic';border-bottom:3px solid black;margin-bottom:2%;">Конструктор формул</article>
+		<article  id="builder_article">Конструктор формул</article>
 
-		<section style="display:flex">
-			<article class="t2_sub_article" onclick="$('.op').toggle(800);">Операции</article>
-			<article class="t2_sub_article" onclick="$('.sym').toggle(800);">Символы</article>
+		<section style="display:flex" id="formula_open">
+			<article class="t2_sub_article" id="op_trigger">Операции</article>
+			<article class="t2_sub_article" id="sym_trigger">Символы</article>
 
 			<script>
 				$('.t2_sub_article').on('click', function () {
-					$('.dr').css('height', $('#pr_exp_card').height() / 2);
+					$('.dr').css('height', $('.exp_card').height()/2);
 				});
+
+				$('#op_trigger').on('click', function () {
+					if ($('#operators').css('display') == 'none') {
+						$('#operators').css('display', 'flex');
+						$(this).css('border-bottom', '0.625vmin solid black');
+
+						$('#symbols').hide();
+					}
+					else {
+						$('#operators').hide();
+						$(this).css('border-bottom', '0.625vmin double black');
+					}
+
+
+				})
+
+				$('#sym_trigger').on('click', function () {
+
+					if ($('#symbols').css('display') == 'none') {
+						$('#symbols').css('display', 'flex');
+						$(this).css('border-bottom', '0.625vmin solid black');
+
+						$('#operators').hide();
+					}
+					else {
+						$('#symbols').hide();
+						$(this).css('border-bottom', '0.625vmin double black');
+					}
+				})
 			</script>
 		</section>
 
@@ -73,7 +102,7 @@
 			<div class="dr" id="operators">
 				<div class="button norm op" onclick="add('\\+')">			<p>+				</p></div>
 				<div class="button norm op" onclick="add('-')">				<p>-				</p></div>
-				<div class="button norm op" onclick="add('\\cdot')">			<p>X				</p></div>
+				<div class="button norm op" onclick="add('\\cdot')">		<p>X				</p></div>
 				<div class="button norm op" onclick="add(':')">				<p>:				</p></div>
 				<div class="button norm op" onclick="add('\\pm')">			<p>±				</p></div>
 
@@ -131,14 +160,15 @@
 			</div>
 		</section>
 
+		<div style="background:white;padding:1%;width:100%;margin-top:4%;text-align:left;overflow:auto;">
+			<p id="math-field-3" style="font:1vmax 'Century Gothic'" onclick="last_field = 3"></p>
+		</div>
 	</section>
 
 
 
 	<script>
-		$(document).ready(function () { $('#pr_exp_card').css('height', $('#pr_exp_card').width() * 1.618); });
-
-		$('#pr_exp_card p').on('click', function () {
+		$('.exp_card p').on('click', function () {
 			var cell = this;
 			// select all text in contenteditable
 			// see http://stackoverflow.com/a/6150060/145346
@@ -184,7 +214,7 @@
 	});
 
 	var mathField3 = MQ.MathField(mathFieldSpan3, {
-		spaceBehavesLikeTab: true, // configurable
+		spaceBehavesLikeTab: false, // configurable
 		handlers: {
 			edit: function () { // useful event handlers
 				latexSpan3.textContent = mathField3.latex();
@@ -192,6 +222,13 @@
 			}
 		}
 	});
+
+	/*
+	$('#math-field-3').keypress(function (e) {
+		if (e.which == 13) {
+			mathField3.write('\n');
+		}
+	});*/
 
 	var symbol_value;
 
@@ -215,7 +252,7 @@
 	});
 
 	$(document).ready(function () {
-		$('.dr').css('height', $('pr_#exp_card').height() / 2);
+		ref_cards();
 	});
 	MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
 </script>

@@ -2,102 +2,175 @@
 	Layout = null;
 }
 
-<div class="th th_activated" id="th1">
-	<p class="thin">     Предмет		</p>
+<div class="th_container">
+	<div class="th th_activated" id="th1">
+		<p class="thin">     Предмет		</p>
 
-	<ol>
-		<li><input type="search" placeholder="Search" results="0" data-mini="true" /></li>
-		<li>
-			<ul class="foo">
-				<li id="subject1">Ведутся работы</li>
-				<li id="subject2">Ведутся работы</li>
-				<li id="subject3">Ведутся работы</li>
-			</ul>
-		</li>
-	</ol>
+		<ol>
+			<li><input type="search" placeholder="Search" results="0" data-mini="true" /></li>
+			<li>
+				<ul class="foo">
+					<li id="subject1">Ведутся работы</li>
+					<li id="subject2">Ведутся работы</li>
+					<li id="subject3">Ведутся работы</li>
+				</ul>
+			</li>
+		</ol>
+
+	</div>
+
+	<div class="th" id="th2">
+		<p class="thin">     Раздел		</p>
+
+		<ol>
+			<li><input type="search" placeholder="Search" results="0" data-mini="true" /></li>
+			<li>
+				<ul class="foo">
+					<li class="subject1" id="section1_1">Ведутся работы</li>
+					<li class="subject1" id="section1_2">Ведутся работы</li>
+					<li class="subject2" id="section2_1">Ведутся работы</li>
+					<li class="subject2" id="section2_2">Ведутся работы</li>
+					<li class="subject3" id="section3_1">Ведутся работы</li>
+					<li class="subject3" id="section3_2">Ведутся работы</li>
+				</ul>
+			</li>
+		</ol>
+
+	</div>
+
+	<div class="th" id="th3">
+		<p class="thin">     Подраздел		</p>
+
+		<ol>
+			<li><input type="search" placeholder="Search" results="0" data-mini="true" /></li>
+			<li>
+				<ul class="foo">
+					<li class="section1_1" id="sub-section1_1_1">Ведутся работы</li>
+					<li class="section1_1" id="sub-section1_1_2">Ведутся работы</li>
+
+					<li class="section1_2" id="sub-section1_2_1">Ведутся работы</li>
+					<li class="section1_2" id="sub-section1_2_2">Ведутся работы</li>
+
+					<li class="section2_1" id="sub-section2_1_1">Ведутся работы</li>
+					<li class="section2_1" id="sub-section2_1_2">Ведутся работы</li>
+
+					<li class="section2_2" id="sub-section2_2_1">Ведутся работы</li>
+					<li class="section2_2" id="sub-section2_2_2">Ведутся работы</li>
+
+					<li class="section3_1" id="sub-section3_1_1">Ведутся работы</li>
+					<li class="section3_1" id="sub-section3_1_2">Ведутся работы</li>
+
+					<li class="section3_2" id="sub-section3_2_1">Ведутся работы</li>
+					<li class="section3_2" id="sub-section3_2_2">Ведутся работы</li>
+				</ul>
+			</li>
+		</ol>
+
+	</div>
+
+	<div class="th" id="th4">
+		<p class="thin">     Тема		</p>
+
+		<ol>
+			<li><input type="search" placeholder="Search" results="0" data-mini="true" /></li>
+			<li>
+				<ul class="foo">
+					<li class="sub-section1_1_1">Ведутся работы</li>
+					<li class="sub-section1_1_1">Ведутся работы</li>
+
+					<li class="sub-section1_1_2">Ведутся работы</li>
+					<li class="sub-section1_1_2">Ведутся работы</li>
+
+					<li class="sub-section1_2_1">Ведутся работы</li>
+					<li class="sub-section1_2_1">Ведутся работы</li>
+
+					<li class="sub-section1_2_2">Ведутся работы</li>
+					<li class="sub-section1_2_2">Ведутся работы</li>
+
+					<li class="sub-section2_1_1">Ведутся работы</li>
+					<li class="sub-section2_1_2">Ведутся работы</li>
+
+					<li class="sub-section2_2_1">Ведутся работы</li>
+					<li class="sub-section2_2_2">Ведутся работы</li>
+
+					<li class="sub-section3_1_1">Ведутся работы</li>
+					<li class="sub-section3_1_2">Ведутся работы</li>
+
+					<li class="sub-section3_2_1">Ведутся работы</li>
+					<li class="sub-section3_2_2">Ведутся работы</li>
+				</ul>
+			</li>
+		</ol>
+	</div>
 
 </div>
 
-<div class="th" id="th2">
-	<p class="thin">     Раздел		</p>
+<script>
+	var flag = [0, 0, 0, 0];
 
-	<ol>
-		<li><input type="search" placeholder="Search" results="0" data-mini="true" /></li>
-		<li>
-			<ul class="foo">
-				<li class="subject1" id="section1_1">Ведутся работы</li>
-				<li class="subject1" id="section1_2">Ведутся работы</li>
-				<li class="subject2" id="section2_1">Ведутся работы</li>
-				<li class="subject2" id="section2_2">Ведутся работы</li>
-				<li class="subject3" id="section3_1">Ведутся работы</li>
-				<li class="subject3" id="section3_2">Ведутся работы</li>
-			</ul>
-		</li>
-	</ol>
+	$(".thin").on("click", function () {
+		if ($(this).parent().hasClass('th_activated') == true) {
+			$(this).siblings().slideToggle(500, function () { });
 
-</div>
+			$(this).parent().siblings('.th_activated').find('ol').siblings().hide(500);
 
-<div class="th" id="th3">
-	<p class="thin">     Подраздел		</p>
+			$(this).siblings().find('ul').css('height', Math.round($(this).siblings().find('ul li').outerHeight(true) * 3));
+		}
+	});
 
-	<ol>
-		<li><input type="search" placeholder="Search" results="0" data-mini="true" /></li>
-		<li>
-			<ul class="foo">
-				<li class="section1_1" id="sub-section1_1_1">Ведутся работы</li>
-				<li class="section1_1" id="sub-section1_1_2">Ведутся работы</li>
+	$('ol ul li').on('click', function () {
+		var sel = $(this).parent().parent().parent().parent();
 
-				<li class="section1_2" id="sub-section1_2_1">Ведутся работы</li>
-				<li class="section1_2" id="sub-section1_2_2">Ведутся работы</li>
+		var next_digit = $(sel).attr('id').slice(2, 3);
+		var n = parseInt(next_digit);
 
-				<li class="section2_1" id="sub-section2_1_1">Ведутся работы</li>
-				<li class="section2_1" id="sub-section2_1_2">Ведутся работы</li>
+		var next_id = $(sel).next(); 
 
-				<li class="section2_2" id="sub-section2_2_1">Ведутся работы</li>
-				<li class="section2_2" id="sub-section2_2_2">Ведутся работы</li>
+		if (flag[n] == 0) {
+			$(this).css('background', 'Gainsboro');
 
-				<li class="section3_1" id="sub-section3_1_1">Ведутся работы</li>
-				<li class="section3_1" id="sub-section3_1_2">Ведутся работы</li>
+			$(sel).find('ol').hide(500);
+			$(this).siblings().css('background', 'rgb(200, 200, 200)');
 
-				<li class="section3_2" id="sub-section3_2_1">Ведутся работы</li>
-				<li class="section3_2" id="sub-section3_2_2">Ведутся работы</li>
-			</ul>
-		</li>
-	</ol>
+			$(next_id).addClass('th_activated');
 
-</div>
+			if ($(this).parent().parent().height() < $(this).outerHeight(true) * 3) {
+				$(next_id).find('ul').css('height', Math.round($(this).outerHeight(true) * 3));
+			}
 
-<div class="th" id="th4">
-	<p class="thin">     Тема		</p>
+			$(next_id).find('ol').show();
+			$(next_id).find('ol ul li').hide();
 
-	<ol>
-		<li><input type="search" placeholder="Search" results="0" data-mini="true" /></li>
-		<li>
-			<ul class="foo">
-				<li class="sub-section1_1_1">Ведутся работы</li>
-				<li class="sub-section1_1_1">Ведутся работы</li>
+			var next_class = '.' + $(this).attr('id');
 
-				<li class="sub-section1_1_2">Ведутся работы</li>
-				<li class="sub-section1_1_2">Ведутся работы</li>
+			if (n == 5) {
+				search = $(this).attr('id');
+			}
+			else { $(next_id).find(next_class).show(); }
 
-				<li class="sub-section1_2_1">Ведутся работы</li>
-				<li class="sub-section1_2_1">Ведутся работы</li>
+			flag[n]++;
+		}
 
-				<li class="sub-section1_2_2">Ведутся работы</li>
-				<li class="sub-section1_2_2">Ведутся работы</li>
+		else {
+			$(sel).nextAll().find('ol li').css('background', 'rgb(200, 200, 200)');
+			$(sel).nextAll().removeClass('th_activated');
+			$(sel).nextAll().find('ol').hide(500);
+			search = 'NULL';
+			for (var i = n; i < 5; i++) { flag[i] = 0; }
+		}
 
-				<li class="sub-section2_1_1">Ведутся работы</li>
-				<li class="sub-section2_1_2">Ведутся работы</li>
+	});
 
-				<li class="sub-section2_2_1">Ведутся работы</li>
-				<li class="sub-section2_2_2">Ведутся работы</li>
+	function menu_ref() {
+		var h
+		if ($(window).width() > 999) {
+			h = 3 * $('#menu ol ul li').outerHeight(false);
 
-				<li class="sub-section3_1_1">Ведутся работы</li>
-				<li class="sub-section3_1_2">Ведутся работы</li>
-
-				<li class="sub-section3_2_1">Ведутся работы</li>
-				<li class="sub-section3_2_2">Ведутся работы</li>
-			</ul>
-		</li>
-	</ol>
-</div>
+			if ($('#menu ol ul li').outerHeight(false) > h) { $('.foo').css('height', h); }
+		}
+		else {
+			h = 3 * $('#header ol ul li').outerHeight(false);
+			if ($('#header ol ul li').outerHeight(false) > h) { $('.foo').css('height', h); }
+		}
+	}
+</script>

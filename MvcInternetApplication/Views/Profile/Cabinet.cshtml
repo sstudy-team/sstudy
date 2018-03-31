@@ -5,14 +5,14 @@
 <div id="profile_frame" style="width:96%;background:rgb(35, 35, 35);padding:0.5% 0;position:relative;left:2%;">
     <div id="profile" style="padding-bottom:2%;">
         <nav>
-            <section class="pr_nav_active">
+            <section class="pr_nav_active" style="margin-top:0;">
                 @Ajax.ActionLink("Профиль", "Prof",
                 new AjaxOptions
                 {
                     UpdateTargetId = "pr_main"
                 })
             </section>
-            <section style="right:1vh">
+            <section style="right:2.5vmin">
                 @Ajax.ActionLink("Карточки", "ProfCard",
                  new AjaxOptions
                  {
@@ -21,7 +21,7 @@
             </section>
         </nav>
 
-        <div id="pr_main">
+        <div id="pr_main" style="padding-top:0.5%;">
             @Html.Action("Prof")
         </div>
     </div>

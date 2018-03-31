@@ -1,4 +1,8 @@
-function ref_cards() {
+function ref_cards() { 
+    //resizing exp_card;
+
+    $('.exp_card').css('height', $('.exp_card').width() * 1.618);
+
     //resizing cards
     var cards_h = $('.cards').width() * 1.618;
     jQuery('.cards').css("height", cards_h);
