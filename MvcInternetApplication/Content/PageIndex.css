@@ -13,22 +13,20 @@
 	display: block;
 	box-sizing: border-box;
 	background: rgb(50, 50, 50);
-	padding: 0 5% 5% 5%;
-	font: 2vw 'Century Gothic';
-	color: white;
+	padding: 0 5% 5% 5%;	
 	overflow-y: auto;
 }
 
-	#mission article {
-		font-size: 3vw;
-		font-weight: bold;
-		margin: 5% 0;
-	}
+#mission article {
+	color:	white;
+	font:	bold 2vmax 'Century Gothic';
+	margin: 5% 0;
+}
 
-	#mission p {
-		margin-left: 5%;
-		font: 3vw/3.5vw 'Century Gothic';
-	}
+#mission p {
+	font: 1.5vmax 'Century Gothic';
+	color: white;
+}
 
 .ind_left_block {
 	background: rgb(40, 40, 40);
@@ -38,27 +36,26 @@
 	border-radius: 10px;
 	box-shadow: 0 0 5px 5px rgb(30, 30, 30) inset;
 	text-align: center;
-	font: 4vw 'Century Gothic';
+	font: 3vmax 'Century Gothic';
 	color: white;
 }
 
-	.ind_left_block article {
-		font: 4vw 'Century Gothic';
-	}
+.ind_left_block article {
+	font: 1.5vmax 'Century Gothic';
+}
 
 #ind_signup article {
 	color: white;
-	font: 4vw 'Century Gothic';
-	border-bottom: 4px solid rgb(67, 154, 71);
+	font: 2vmax 'Century Gothic';
+	border-bottom: 0.25vmin solid rgb(67, 154, 71);
 }
 
 #user_count article {
 	padding: 2%;
 	background: rgba(60, 60, 60, 0.4);
 	padding-bottom: 1%;
-	font: 3vw 'Century Gothic';
+	font: 1.5vmax 'Century Gothic';
 }
-
 
 #foobar {
 	box-sizing: border-box;
@@ -66,7 +63,7 @@
 	margin: 2% 1% 2% 2%;
 	background: rgba(35, 35, 35, 0.9);
 	padding: 3%;
-	font: 3vw/4vw 'Century Gothic';
+	font: 1.5vmax 'Century Gothic';
 	color: white;
 }
 
@@ -76,41 +73,6 @@
 		display: grid;
 		grid-gap: 1%;
 		grid-template-columns: 37.7% 61.3%;
-	}
-
-	.ind_left_block {
-		background: rgb(40, 40, 40);
-		box-sizing: border-box;
-		padding: 1% 2%;
-		margin-bottom: 2%;
-		font: 3vw 'Century Gothic';
-		color: white;
-	}
-
-	#user_count article {
-		padding-bottom: 4%;
-		font: 1.5vw 'Century Gothic';
-	}
-
-	#user_count p{
-		margin:	8% 0;
-	}
-
-	.ind_left_block article{
-		font: 2vw 'Century Gothic';
-	}
-
-	#foobar {
-		font: 1.25vw/2.25vw 'Century Gothic';
-	}
-
-	#mission p {
-		font: 1.25vw 'Century Gothic';
-	}
-
-	#ind_signup article {
-		font:2vw 'Century Gothic';
-		border-bottom: 6px solid rgb(67, 154, 71);
 	}
 }
 

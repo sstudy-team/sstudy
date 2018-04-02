@@ -1,71 +1,47 @@
-#NAVIGATOR {
-	box-sizing: border-box;
-	width: 100%;
-	margin-bottom: 5%;
-	cursor: pointer;
+#lay_nav header{
+	text-align:	left;
+	width:		38.2%;
 }
 
-	#NAVIGATOR section {
-		background: rgba(35, 35, 35, 1);
-		box-sizing: border-box;
-		height: 100%;
-	}
+#lay_nav{
+	width:		100%;
+	background:	rgb(50, 50, 50);
+	display: 		flex;
+	justify-content:center;
 
-	#NAVIGATOR #logo {
-		box-sizing: border-box;
-		background: white;
-		padding: 1% 0;
-		border: none;
-		text-align: center;
-	}
-
-#logo img {
-	width: 38.2%;
+	margin-bottom:	2%;
 }
 
-#NAVIGATOR article {
-	font: bold 1.5vw 'Century';
-	color: black;
+#lay_nav_right{
+	width:			61.8%;
+	display:		flex;
+	align-items:	flex-start;
+	align-content:	flex-start;
+	justify-content:center;
 }
 
-.navigator_point {
-	display: inline-block;
-	background: rgb(50, 50, 50);
-	box-sizing: border-box;
-	width: 25%;
-	height: 100%;
-	padding: 3% 0;
-	margin-right: -4px;
-	box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.5) inset;
-	color: white;
-	text-align: center;
+.nav_tab{
+	position:		relative;
+	border-bottom:	0.5vmin solid rgb(248, 200, 7);
+	margin-right:	2%;
+	text-align:		center;
+	box-sizing:		border-box;
+	vertical-align:	middle;
+	
+	position:		relative;
+	top:			calc(50% - 0.75vmax - 0.25vmin);
 }
 
-	.navigator_point:hover {
-		background: rgb(0, 0, 0);
-	}
-
-	.navigator_point a {
-		color: white;
-		font: bold 2vw 'Century Gothic';
-		text-decoration: none;
-		padding: 0 2px 3px 2px;
-		border-bottom: 5px solid rgb(231, 204, 14);
-	}
+.nav_tab a{
+	text-decoration:	none;
+	color:				white;
+	font:				1.25vmax/1.5vmax 'Century Gothic';
+}
 
 /*--------------------------------*/
 /*---------TABLET SCREEN----------*/
 /*--------------------------------*/
-
-@media screen and (min-width: 1000px) {
-	.navigator_point {
-		padding: 1.25% 0;
-	}
-
-		.navigator_point a {
-			font-size: 1.5vw;
-		}
-}
+/*
 
 @media screen and (max-width: 999px) and (min-width: 501px) {
 }
@@ -74,4 +50,4 @@
 		.navigator_point a {
 			border-bottom: 3px solid rgb(231, 204, 14);
 		}
-}
+}*/
