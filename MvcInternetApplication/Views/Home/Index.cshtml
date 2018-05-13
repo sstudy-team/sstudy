@@ -1,153 +1,100 @@
 ﻿@{
-	ViewBag.Title = "Главная";	
+	ViewBag.Title = "Главная";
 }
 
-<style>
-	#slideshow_frame {
-		box-sizing: border-box;
-		width:		100%;
-		height:		16.18vmax;
-		margin-right:	1%;
-		margin-left:	2%;
-		background:		rgb(35, 35, 35);
-		padding:		1.25%;
-		overflow:		hidden;
-	}
+<div id="slideBanner">
+	<div class="sl"><img src="img/slides/1.jpg"></div>
+	<div class="sl"><img src="img/slides/2.png"></div>
+	<div class="sl"><img src="img/slides/3.png"></div>
+	<div class="sl"><img src="img/slides/4.jpg"></div>
+</div>
 
-	#slideshow {
-		background: rgb(20, 20, 20);
-		width: 100%;
-		text-align:	center;
-	}
+<article id="sstudy">
+	SStudy
+</article>
 
-	#slideshow img {
-		width: 100%;
-		position: relative;
-	}
-
-	#slideshow_frame #slideshow .sl {
-		display: none;
-	}
-</style>
-
-<section id="w">
-
-	<div id="h2">
-		<div id="slideshow_frame">
-			<div id="slideshow">
-				<img id="first_sl" class="current_sl" src="~/img/slides/1.jpg">
-				<!--<img class="sl" src="~/img/slides/1.jpg">
-				<img id="first_sl" class="current_sl" src="~/img/slides/1.png">
-				<img class="sl" src="~/img/slides/2.png">
-				<img class="sl" src="~/img/slides/3.png">
-				<img class="sl" src="~/img/slides/4.png">
-				<img class="sl" src="~/img/slides/5.png">-->
-			</div>
-		</div>
-
-		<div id="foobar">
-			<article>
-				SStudy - это не просто справочник по различным наукам и дисциплинам, это совершеннно иной подход к хранению информации.
-				Наш сервис направлен на то, чтобы облегчить вам взаимодействие с нужной информацией, будь то поиск или же изучение.
-				Это приложение способно вобрать в себя знание всех сведующих людей и делиться ими абсолютно с каждым, кто их жаждет.
-				Мы хотим чтобы вы учились!
-			</article>
-		</div>
+<section id="mission">
+	<div>
+		<article>Our Mission</article>
+		<img src="img/cup.png">
 	</div>
-
-    <div id="h1">
-        <div id="ind_bl">
-            <div id="user_count" class="ind_left_block">
-                @ViewBag.C из 250
-                <p style="content:'';border-bottom:2px solid rgb(100, 100, 100);width:100%;margin:2% 0;"></p>
-                <article>пользователей уже зарегистрировались!</article>
-                <article>Наша цель: 250 пользователей до конца марта, сможем?</article>
-            </div>
-
-            @{
-            if (WebSecurity.IsAuthenticated)
-            {
-                <div class="ind_left_block" id="ind_signup" style="padding:2%">
-                    <article>Спасибо, что зарегистрировались!</article>
-                </div>
-        }
-        else
-        {
-            <div class="ind_left_block" id="ind_signup" style="padding:2%" onclick="meow(2)">
-                <article>Скорее зарегистрируйся</article>
-            </div>
-    }
-            }
-        </div>
-        <div>
-            <div class="signup_poster" id="mission">
-                <article>Присоединитесь к нам!</article>
-                <p>
-                    На данным момент этот сайт и вся система находятся в состоянии активной доработки.
-                    Скорость написания нового функционала стремится к космической :)
-                    И все это чтобы вам было максимально удобно пользоваться нашим творением.
-                    Спасибо, что поддерживаете нас, мы рассчитываем на вас и на ваши отзывы!
-                </p>
-            </div>
-        </div>
-    </div>
+	<p>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin viverra ullamcorper enim vitae pharetra.
+		Phasellus bibendum hendrerit bibendum. Class aptent taciti sociosqu ad litora torquent per conubia nostra,
+		per inceptos himenaeos. Ut vel varius augue, at consequat tortor. Maecenas in.
+	</p>
 </section>
 
+<article id="how">
+	Why choose us?
+</article>
+
+<div id="excuses">
+	<section class="excusesLeft">
+		<article>Because we care</article>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin viverra ullamcorper enim vitae pharetra.
+			Phasellus bibendum hendrerit bibendum.
+		</p>
+
+		<div class="tail"></div>
+	</section>
+
+	<section class="excusesRight">
+		<article>Because we said so</article>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin viverra ullamcorper enim vitae pharetra.
+			Phasellus bibendum hendrerit bibendum.
+		</p>
+		<div class="tail"></div>
+	</section>
+
+	<section class="excusesLeft">
+		<article>Just ducking do it!</article>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin viverra ullamcorper enim vitae pharetra.
+			Phasellus bibendum hendrerit bibendum.
+		</p>
+		<div class="tail"></div>
+	</section>
+</div>
+
 <script>
-    var myVar;
+	var myVar;
 
-    $(document).ready(function () {
-        slides();
+	$(document).ready(function () {
+		$('.sl').first().addClass('current_sl');
+		slides();
+	});
 
-		//$('#slideshow_frame').css('height', $('#slideshow_frame').width() /5);
+	$(".sl").hover(
+		function () {
+			clearTimeout(myVar);
+		}, function () {
+			slides();
+		}
+	);
 
-        if ($(window).width() > 999) {
-            $('#mission').css('height', $('#ind_bl').outerHeight(false));
-        }
+	function slides() {
 
-        /*if ($('#first_sl').height() > $('#slideshow_frame').outerHeight(false)) {
-            $('#first_sl').css('height', $('#slideshow_frame').outerHeight(false) * 0.9);
-            $('#first_sl').css('width', 'auto');
-        }*/
+		myVar = setInterval(function () {
+			$('.current_sl').addClass('dummy');
 
-    });
+			var nextSlide;
 
-    $("#slideshow img").hover(
-        function () {
-            clearTimeout(myVar);
-        }, function () {
-            slides();
-        }
-    );
+			if ($('.current_sl').next().length == 1) {
+				nextSlide = $('.current_sl').next();
+			}
+			else {
+				nextSlide = $('.sl').first();
+			}
 
-    function slides() {
+			$('.current_sl').hide(800);
 
-        if ($('.current_sl').is("#first_sl") == true) {
-            if ($('#first_sl').height() > $('#slideshow_frame').outerHeight(false)) {
-                $('#first_sl').css('height', $('#slideshow_frame').outerHeight(false) * 0.9);
-                $('#first_sl').css('width', 'auto');
-            }
-        }
+			nextSlide.fadeIn(1500, function () { });
+			nextSlide.addClass('current_sl');
 
-        myVar = setInterval(function () {
-            $('.current_sl').hide();
-            $('.current_sl').addClass('dummy');
-            if ($('.current_sl').next().height() > $('#slideshow_frame').outerHeight(false)) {
-                $('.current_sl').next().css('height', $('#slideshow_frame').outerHeight(false) * 0.9);
-                $('.current_sl').next().css('width', 'auto');
-            }
-
-            if ($('.current_sl').next().length == 1) {
-                $('.current_sl').next().fadeIn(1500, function () { });
-                $('.current_sl').next().addClass('current_sl');
-            }
-            else {
-                $('#first_sl').fadeIn(1000, function () { });
-                $('#first_sl').addClass('current_sl');
-            }
-
-            $('.dummy').removeClass();
-        }, 4000);
-    }
-
+			$('.dummy').removeClass('current_sl dummy');
+		}, 8000);
+	}
 </script>

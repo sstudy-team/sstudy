@@ -26,3 +26,32 @@
         </div>
     </div>
 </div>
+
+<!--*******************-->
+
+<div id="profile">
+	<article id="profileTitul">Личный кабинет</article>
+
+	<nav>
+		<article class="profileNavActive">
+			@Ajax.ActionLink("Профиль", "Prof",
+			new AjaxOptions
+			{
+				UpdateTargetId = "pr_main"
+			})
+		</article>
+
+		<article>
+			@Ajax.ActionLink("Карточки", "ProfCardMenu",
+			new AjaxOptions
+			{
+				UpdateTargetId = "pr_main"
+			})
+		</article>
+	</nav>
+
+	<div id="profileContent">
+		@Html.Action("Prof")
+	</div>
+
+</div>

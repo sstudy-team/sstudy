@@ -1,135 +1,329 @@
-﻿.mist_card {
-	box-sizing: border-box;
-	border-radius: 5%;
-	content: '';
-	width: 100%;
-	position: relative;
-	float: left;
-	text-align: center;
-	display: none;
-}
-
-.cancel_card {
-	box-sizing: border-box;
-	border-radius: 5%;
-	content: '';
-	width: 100%;
-	position: relative;
-	float: left;
-	text-align: center;
-	background: rgba(0, 0, 0, 0.75);
-	display: none;
-}
-
-.mist_card p, .cancel_card p {
-	font: 1.35vw 'Century Gothic';
-	color: white;
-}
-
-.mist_card div, .cancel_card div {
-	background: rgba(0, 0, 0, 0.6);
-	display: block;
-	width: 100%;
-	height: calc(50% - 1px);
-	padding-top: 5%;
-	box-sizing: border-box;
-}
-
-.m_c1 {
-	border-radius: 5% 5% 0 0;
-}
-
-.m_c2 {
-	border-radius: 0 0 5% 5%;
-	padding-top: 20%;
-}
-
-.underline {
-	background: rgb(231, 204, 14);
-	height: 2px;
-	content: '';
-}
-
-.cards {
+.cardsContainer{
 	box-sizing:	border-box;
-	background: rgb(250, 250, 250);
-	width:		100%;
-	height:		auto;	
-	text-align: center;
-	overflow:	hidden;
-	border-radius:	5%;
+	padding:	1vw;
+	
+	background:	rgba(180, 180, 180, 0.10);
+	
+	display:		flex;
+	flex-wrap:		wrap;
+	justify-content:space-between;
 }
 
-.cards div {
-	align-items: center;
-	padding:0;
+.cards{
+	z-index:0;
+	margin:	5vh 2vw;
+	
+	box-sizing:	border-box;
+	width:	14vw;
+	height:	22.652vw;
+	
+	background:	rgb(235, 235, 235);
+	text-align:	center;
+	box-shadow:	0.1vmin 0.2vmin 0.5vmin rgb(200, 200, 200);
 }
 
-.cards div p {
-	position:		relative;
+.cards p{
 	overflow:		hidden;
-	text-overflow:	ellipsis;
-	white-space:	nowrap;
-	width:			100%;
+	text-overflow: 	ellipsis;
+	white-space: 	nowrap;
 }
 
-.cards:hover {
-	box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.75);
-	border:		none;
-}
-
-.cards .header {
-	height:			20%;
-	background:		rgb(83, 81, 78);
+.cards .header{
 	box-sizing:		border-box;
-	border-bottom:	0.75vmin solid rgba(154, 12, 19, 0.7);
+	padding-right:	1.5vmax;
+	height:			15%;
+	
+	display:	flex;
 }
 
-.header p {
+.cards .header p{
 	position:	relative;
-	top:		calc(50% - 1.25vmax - 4px);
-
-	color:		white;
-	font:		2.5vmax 'Century Gothic';
+	top:	calc(50% - 0.75vmax);
+	
+	color:	rgb(120, 120, 120);
+	font:	1.25vmax/1.5vmax 'Century Gothic';
+	
+	width:		calc(100% - 1.5vmax);
+	text-align:	center;
 }
 
-.cards .footer {
-	background: rgb(83, 81, 78);
-	height:		10%;
-	padding:	0 1%;
-
-	font: 1vmax 'Century Gothic';
-}
-
-.cards .section, .cards .sub-section {
-	box-sizing: border-box;
-	height:		15%;
-}
-
-.cards .section {
-	border-bottom: 0.5vmin solid rgba(154, 12, 19, 0.5);
-}
-
-.cards .sub-section {
-	border-bottom: 0.5vmin solid rgba(200, 200, 200, 0.25);
-}
-
-.cards .section p, .cards .sub-section p {
-	font:		2vmax 'Century Gothic';
-
+.cards .header .cardsHeaderRight{
 	position:	relative;
-	top:		calc(50% - 1vmax - 4px);
+	top:	calc(50% - 0.75vmax);
+	
+	width:	1.5vmax;
+	height:	1.5vmax;
+	
+	color:	rgb(150, 150, 150);
+	font:	1vmax/1.5vmax 'Century Gothic';
 }
 
-.cards .formula {
-	height: 40%;
-	box-sizing: border-box;
-	overflow: auto;
+.cards .formula{
+	height:	75%;
+	
+	background:		rgb(248, 248, 248);
 }
 
-.cards .formula p {
+.cards .formula p{
 	position:	relative;
-	top:		calc(50% - 1vmax);
+	top:	calc(50% - 1vmax);
+	
+	color:	rgb(80, 80, 80);
+	font:	1.5vmax/2vmax 'Century Gothic';
+}
 
-	font:		2vmax 'Cambria Math';
+.cards .footer{
+	height:	10%;
+	
+	background:	rgb(240, 240, 240);
+}
+
+.cards .footer p{
+	position:	relative;
+	top:	calc(50% - 0.5vmax);
+	
+	color:	rgb(120, 120, 120);
+	font:	1vmax/1vmax 'Century Gothic';
+}
+
+/*----------Pagination----------*/
+
+#pages{
+	box-sizing:	border-box;
+	padding:	1vh 0;
+	width:		100%;
+	height:		calc(1vmax + 4vh);
+	
+	border-top:	0.15vmin solid rgb(200, 200, 200);
+	background:	rgb(240, 240, 240);
+	text-align:	center;
+	
+	display:		flex;
+	justify-content:center;
+}
+
+#pages p{
+	padding:	1vh;
+	
+	color:	rgb(180, 180, 180);
+	font:	1vmax/1vmax 'Century Gothic';
+}
+
+#pages p:hover{
+	color:		rgb(100, 100, 100);
+	background:	rgb(200, 200, 200);
+}
+
+/*----------Expanded Card-----------*/
+
+.screen{
+	position:	fixed;
+	top:	0;
+	left:	0;
+	z-index:5;
+	
+	width:	100vw;
+	height:	100vh;
+	
+	background:	rgba(200, 200, 200, 0.8);
+	text-align:	center;
+	
+	display:	none;
+}
+
+.active_zone{
+	z-index:	4;
+	
+	width:	100vw;
+	height:	100vh;
+}
+
+.expCard{
+	z-index:	6;
+	position:	fixed;
+	top:		10vh;
+	right:		calc(50vw - 24.72vh);
+	
+	height:	80vh;
+	width:	49.44vh;
+	
+	background:	white;
+	text-align:	center;
+}
+
+.expCard .expHeader{
+	height:		7.5%;
+	
+	background:	rgb(220, 220, 220);
+}
+
+.expCard .expHeader p{
+	position:	relative;
+	top:	calc(50% - 0.75vmax);
+	color:	rgb(80, 80, 80);
+	font:	1.5vmax/1.5vmax 'Century Gothic';
+}
+
+.expCard .expNav{
+	height:	5%;
+	
+	border-bottom:	0.5vmin solid rgb(200, 200, 200);
+	text-align:		center;
+	
+	display:	flex;
+}
+
+.expCard .expNav section{
+	box-sizing:	border-box;
+	width:		50%;
+	height:		100%;
+	
+	background:	rgb(245, 245, 245);
+	box-shadow:	0.15vmin 0.15vmin 0.5vmin rgb(200, 200, 200) inset;	
+}
+
+.expCard .expNav article{
+	position:	relative;
+	top:	calc(50% - 0.5vmax);
+	
+	color:	rgb(180, 180, 180);
+	font:	1vmax/1vmax 'Century Gothic';
+}
+
+.expCard .expNav article:hover{
+	color:	rgb(140, 140, 140);
+}
+
+.expCard .expFooter{
+	height:	5%;
+	
+	background:	rgb(240, 240, 240);
+}
+
+.expCard .expFooter p{
+	position:	relative;
+	top:		calc(50% - 0.5vmax);
+	
+	color:	rgb(200, 200, 200);
+	font:	1vmax/1vmax 'Century Gothic';
+}
+
+.expCard .expScroll{
+	box-sizing:	border-box;
+	padding:	2vmin;	
+	height:		82.5%;
+	
+	overflow:	auto;
+}
+
+.expCard .expScroll .expExample{
+	display:	none;
+}
+
+.expCard .expDefinition{
+	padding:	1vh 0;
+	
+	text-align:	left;
+	
+	color:		rgb(80, 80, 80);
+	font:		1vmax/1.25vmax 'Century Gothic';
+	text-indent:2vmax;
+}
+
+.expCard .expFormula{
+	margin-bottom:	2vh;
+	
+	padding:	1vh 0;
+	
+	text-align:	center;
+	border-bottom:	0.15vmin solid rgb(150, 150, 150);
+	border-top:		0.15vmin solid rgb(200, 200, 200);
+	
+	color:		rgb(80, 80, 80);
+	font:		italic 1vmax/1.25vmax 'Century Gothic';
+}
+
+.expCard .expCardMain li{
+	padding:	1vh 0;
+	
+	text-align:	left;
+	
+	color:		rgb(80, 80, 80);
+	font:		1vmax/1.25vmax 'Century Gothic';
+}
+
+.expCard .expExample section{
+	border:	0.25vmax double rgba(200, 200, 200, 0.5);
+}
+
+.expCard .expExample .expTask{		
+	border-bottom:	0.15vmin solid rgb(220, 220, 220);
+}
+
+.expCard .expExample section article{
+	position:	relative;
+	top:	calc(50% - 0.5vmax);
+	
+	color:	rgb(35, 35, 35);
+	font:	1vmax 'Century Gothic';
+}
+
+.expCard .expExample section p{
+	padding:	1vmax 0;
+	background:	rgba(240, 240, 240, 0.35);
+}
+
+@media only screen and (max-width: 600px) {
+	.cards{
+		width:	20vw;
+		height:	32.36vw;
+	}
+	
+	.cards .header p{
+		font:	1.5vmax/1.5vmax 'Century Gothic';
+	}
+
+	.cards .formula p{
+		font:	1.75vmax/2vmax 'Century Gothic';
+	}
+
+	.cards .footer p{
+		font:	1.25vmax/1.25vmax 'Century Gothic';
+	}
+
+	#pages p{
+		font:	1.5vmax/1.5vmax 'Century Gothic';
+	}
+
+	.expCard{
+		top:		calc(50% - 56.63vw);
+		margin-right:	10%;
+		
+		width:	70vw;
+		height:	113.26vw;
+	}
+	
+	.expCard .expHeader p{
+		font:	2vmax/2vmax 'Century Gothic';
+	}
+
+	.expCard .expNav article{
+		font:	1.5vmax/1.5vmax 'Century Gothic';
+	}
+
+	.expCard .expFooter p{
+		font:	1.5vmax/1.5vmax 'Century Gothic';
+	}
+
+	.expCard .expDefinition{
+		font:		1.5vmax/1.5vmax 'Century Gothic';
+	}
+
+	.expCard .expFormula{
+		font:		italic 1.5vmax/1.5vmax 'Century Gothic';
+	}
+
+	.expCard .expCardMain li{
+		font:		1.5vmax/1.5vmax 'Century Gothic';
+	}
 }

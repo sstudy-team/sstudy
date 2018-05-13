@@ -1,0 +1,111 @@
+#profile #t1{
+	width:	100%;
+	
+	background:	rgba(100, 100, 100, 0.1);
+	
+	
+	display:flex;
+}
+
+#profile form{
+	box-sizing:	border-box;
+	padding:	2vh 2vw;
+	width:		61.8%;
+	
+	background:	rgba(250, 250, 250, 0.8);
+}
+
+#profile form section{
+	margin:		1.5vh 0;
+	text-align:	left;
+	
+	display:	flex;
+	align-items:center;
+}
+
+#profile form span{
+	box-sizing:		border-box;
+	padding-right:	2vw;
+	
+	width:	33%;
+	
+	color:	rgb(100, 100, 100);
+	font:	1vmax 'Century Gothic';
+	
+	text-align:	right;
+	
+	overflow:		hidden;
+	text-overflow: 	ellipsis;
+	white-space: 	nowrap;
+}
+
+#profile form input[type=text], #profile form input[type=password]{
+	width:	67%;
+	font:	1vmax 'Century Gothic';
+}
+
+#profile form .profileButton{
+	margin:	2vh 1%;	
+	width:	48%;
+}
+
+#profile #profileData{
+	padding-bottom:	1vw;
+	width:		38.2%;
+	
+	background:	rgba(250, 250, 250, 0.2);
+	text-align:	center;
+}
+
+#profile #profileData #avatar{
+	margin-left:35%;
+	
+	box-sizing:	border-box;
+	padding:	1.5vh;
+	width:	30%;
+}
+
+#profile #profileData #avatar img{
+	width:	100%;
+	height:	auto;
+}
+
+#profile #profileData .profileButton{
+	margin-left:	19.1%;
+	
+	width:	61.8%;
+}
+
+#profile #profileData ul{
+	margin-left:	19.1%;
+	
+	padding:0;
+	width:	61.8%;
+	
+	list-style-type:	none;	
+	text-align:	left;
+}
+
+#profile #profileData ul li{
+	box-sizing:	border-box;
+	padding:	0.5vh 0 0.5vh 1vw;
+	width:		100%;
+	
+	border:	0.15vmin solid rgb(200, 200, 200, 0.6);	
+	display:flex;
+	
+	color:	rgb(150, 150, 150);
+	font:	1vmax/1vmax 'Century Gothic';
+}
+
+#profile #profileData span{
+	width:	75%;
+	
+	border-right:	0.15vmin solid rgba(200, 200, 200, 0.6);
+}
+
+#profile #profileData p{
+	width:	25%;
+	
+	text-align:	center;	
+}

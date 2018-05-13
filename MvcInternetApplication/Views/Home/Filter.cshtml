@@ -2,135 +2,149 @@
 	Layout = null;
 }
 
-<div class="th_container">
-	<div class="th th_activated" id="th1">
-		<p class="thin">     Предмет		</p>
+<div class="filter">
+	<article class="filterTitul">Фильтр</article>
 
-		<ol>
-			<li><input type="search" placeholder="Search" results="0" data-mini="true" /></li>
-			<li>
-				<ul class="foo">
-					<li id="subject1">Ведутся работы</li>
-					<li id="subject2">Ведутся работы</li>
-					<li id="subject3">Ведутся работы</li>
-				</ul>
-			</li>
-		</ol>
+	<section class="filterSearch">
+		<input type="search" results="0" />
+		<div class="searchButton"><img src="img/magn.png"></div>
+	</section>
 
+	<article class="limit">Искать внутри:</article>
+
+	<div class="th_container">
+		<div class="th th_activated" id="th1">
+			<p class="thin">     Предмет		<span></span></p>
+
+			<ol>
+				<li class="th_search"><input type="search" placeholder="Search" /></li>
+				<li class="foo_container">
+					<ul class="foo">
+						<li id="subject1">Ведутся работы</li>
+						<li id="subject2">Ведутся работы</li>
+						<li id="subject3">Ведутся работы</li>
+					</ul>
+				</li>
+			</ol>
+
+		</div>
+
+		<div class="th" id="th2">
+			<p class="thin">     Раздел		</p>
+
+			<ol>
+				<li class="th_search"><input type="search" placeholder="Search" /></li>
+				<li class="foo_container">
+					<ul class="foo">
+						<li class="subject1" id="section1_1">Ведутся работы</li>
+						<li class="subject1" id="section1_2">Ведутся работы</li>
+						<li class="subject2" id="section2_1">Ведутся работы</li>
+						<li class="subject2" id="section2_2">Ведутся работы</li>
+						<li class="subject3" id="section3_1">Ведутся работы</li>
+						<li class="subject3" id="section3_2">Ведутся работы</li>
+					</ul>
+				</li>
+			</ol>
+
+		</div>
+
+		<div class="th" id="th3">
+			<p class="thin">     Подраздел		</p>
+
+			<ol>
+				<li class="th_search"><input type="search" placeholder="Search" /></li>
+				<li class="foo_container">
+					<ul class="foo">
+						<li class="section1_1" id="sub-section1_1_1">Ведутся работы</li>
+						<li class="section1_1" id="sub-section1_1_2">Ведутся работы</li>
+
+						<li class="section1_2" id="sub-section1_2_1">Ведутся работы</li>
+						<li class="section1_2" id="sub-section1_2_2">Ведутся работы</li>
+
+						<li class="section2_1" id="sub-section2_1_1">Ведутся работы</li>
+						<li class="section2_1" id="sub-section2_1_2">Ведутся работы</li>
+
+						<li class="section2_2" id="sub-section2_2_1">Ведутся работы</li>
+						<li class="section2_2" id="sub-section2_2_2">Ведутся работы</li>
+
+						<li class="section3_1" id="sub-section3_1_1">Ведутся работы</li>
+						<li class="section3_1" id="sub-section3_1_2">Ведутся работы</li>
+
+						<li class="section3_2" id="sub-section3_2_1">Ведутся работы</li>
+						<li class="section3_2" id="sub-section3_2_2">Ведутся работы</li>
+					</ul>
+				</li>
+			</ol>
+
+		</div>
+
+		<div class="th" id="th4">
+			<p class="thin">     Тема		</p>
+
+			<ol>
+				<li class="th_search"><input type="search" placeholder="Search" /></li>
+				<li class="foo_container">
+					<ul class="foo">
+						<li class="sub-section1_1_1">Ведутся работы</li>
+						<li class="sub-section1_1_1">Ведутся работы</li>
+
+						<li class="sub-section1_1_2">Ведутся работы</li>
+						<li class="sub-section1_1_2">Ведутся работы</li>
+
+						<li class="sub-section1_2_1">Ведутся работы</li>
+						<li class="sub-section1_2_1">Ведутся работы</li>
+
+						<li class="sub-section1_2_2">Ведутся работы</li>
+						<li class="sub-section1_2_2">Ведутся работы</li>
+
+						<li class="sub-section2_1_1">Ведутся работы</li>
+						<li class="sub-section2_1_2">Ведутся работы</li>
+
+						<li class="sub-section2_2_1">Ведутся работы</li>
+						<li class="sub-section2_2_2">Ведутся работы</li>
+
+						<li class="sub-section3_1_1">Ведутся работы</li>
+						<li class="sub-section3_1_2">Ведутся работы</li>
+
+						<li class="sub-section3_2_1">Ведутся работы</li>
+						<li class="sub-section3_2_2">Ведутся работы</li>
+					</ul>
+				</li>
+			</ol>
+		</div>
 	</div>
-
-	<div class="th" id="th2">
-		<p class="thin">     Раздел		</p>
-
-		<ol>
-			<li><input type="search" placeholder="Search" results="0" data-mini="true" /></li>
-			<li>
-				<ul class="foo">
-					<li class="subject1" id="section1_1">Ведутся работы</li>
-					<li class="subject1" id="section1_2">Ведутся работы</li>
-					<li class="subject2" id="section2_1">Ведутся работы</li>
-					<li class="subject2" id="section2_2">Ведутся работы</li>
-					<li class="subject3" id="section3_1">Ведутся работы</li>
-					<li class="subject3" id="section3_2">Ведутся работы</li>
-				</ul>
-			</li>
-		</ol>
-
-	</div>
-
-	<div class="th" id="th3">
-		<p class="thin">     Подраздел		</p>
-
-		<ol>
-			<li><input type="search" placeholder="Search" results="0" data-mini="true" /></li>
-			<li>
-				<ul class="foo">
-					<li class="section1_1" id="sub-section1_1_1">Ведутся работы</li>
-					<li class="section1_1" id="sub-section1_1_2">Ведутся работы</li>
-
-					<li class="section1_2" id="sub-section1_2_1">Ведутся работы</li>
-					<li class="section1_2" id="sub-section1_2_2">Ведутся работы</li>
-
-					<li class="section2_1" id="sub-section2_1_1">Ведутся работы</li>
-					<li class="section2_1" id="sub-section2_1_2">Ведутся работы</li>
-
-					<li class="section2_2" id="sub-section2_2_1">Ведутся работы</li>
-					<li class="section2_2" id="sub-section2_2_2">Ведутся работы</li>
-
-					<li class="section3_1" id="sub-section3_1_1">Ведутся работы</li>
-					<li class="section3_1" id="sub-section3_1_2">Ведутся работы</li>
-
-					<li class="section3_2" id="sub-section3_2_1">Ведутся работы</li>
-					<li class="section3_2" id="sub-section3_2_2">Ведутся работы</li>
-				</ul>
-			</li>
-		</ol>
-
-	</div>
-
-	<div class="th" id="th4">
-		<p class="thin">     Тема		</p>
-
-		<ol>
-			<li><input type="search" placeholder="Search" results="0" data-mini="true" /></li>
-			<li>
-				<ul class="foo">
-					<li class="sub-section1_1_1">Ведутся работы</li>
-					<li class="sub-section1_1_1">Ведутся работы</li>
-
-					<li class="sub-section1_1_2">Ведутся работы</li>
-					<li class="sub-section1_1_2">Ведутся работы</li>
-
-					<li class="sub-section1_2_1">Ведутся работы</li>
-					<li class="sub-section1_2_1">Ведутся работы</li>
-
-					<li class="sub-section1_2_2">Ведутся работы</li>
-					<li class="sub-section1_2_2">Ведутся работы</li>
-
-					<li class="sub-section2_1_1">Ведутся работы</li>
-					<li class="sub-section2_1_2">Ведутся работы</li>
-
-					<li class="sub-section2_2_1">Ведутся работы</li>
-					<li class="sub-section2_2_2">Ведутся работы</li>
-
-					<li class="sub-section3_1_1">Ведутся работы</li>
-					<li class="sub-section3_1_2">Ведутся работы</li>
-
-					<li class="sub-section3_2_1">Ведутся работы</li>
-					<li class="sub-section3_2_2">Ведутся работы</li>
-				</ul>
-			</li>
-		</ol>
-	</div>
-
 </div>
 
 <script>
 	var flag = [0, 0, 0, 0];
+	var cat = ['Bananas', 'in', 'pajamas', 'dahdahdahda'];
 
 	$(".thin").on("click", function () {
 		if ($(this).parent().hasClass('th_activated') == true) {
 			$(this).siblings().slideToggle(500, function () { });
 
-			$(this).parent().siblings('.th_activated').find('ol').siblings().hide(500);
+			$(this).parent().siblings('.th_activated').find('ol').hide(500);
 
 			$(this).siblings().find('ul').css('height', Math.round($(this).siblings().find('ul li').outerHeight(true) * 3));
 		}
 	});
 
 	$('ol ul li').on('click', function () {
+
 		var sel = $(this).parent().parent().parent().parent();
 
 		var next_digit = $(sel).attr('id').slice(2, 3);
 		var n = parseInt(next_digit);
 
-		var next_id = $(sel).next(); 
+		var step = '#createNumContainer ' + '.' + n;
+
+		var next_id = $(sel).next();
 
 		if (flag[n] == 0) {
-			$(this).css('background', 'Gainsboro');
+			$(this).addClass('dropItem_activated');
 
 			$(sel).find('ol').hide(500);
-			$(this).siblings().css('background', 'rgb(200, 200, 200)');
+			$(this).siblings().removeClass('dropItem_activated');
 
 			$(next_id).addClass('th_activated');
 
@@ -148,29 +162,24 @@
 			}
 			else { $(next_id).find(next_class).show(); }
 
+			$(step).addClass('createNumActive');
+
+			cat[n] = $(this).text();
+
 			flag[n]++;
 		}
 
 		else {
-			$(sel).nextAll().find('ol li').css('background', 'rgb(200, 200, 200)');
+			$(sel).nextAll().find('ol li').removeClass('dropItem_activated');
 			$(sel).nextAll().removeClass('th_activated');
 			$(sel).nextAll().find('ol').hide(500);
 			search = 'NULL';
-			for (var i = n; i < 5; i++) { flag[i] = 0; }
+			for (var i = n; i < 5; i++) {
+				flag[i] = 0;
+				step = '#createNumContainer ' + '.' + i;
+				$(step).removeClass('createNumActive');
+			}
 		}
 
 	});
-
-	function menu_ref() {
-		var h
-		if ($(window).width() > 999) {
-			h = 3 * $('#menu ol ul li').outerHeight(false);
-
-			if ($('#menu ol ul li').outerHeight(false) > h) { $('.foo').css('height', h); }
-		}
-		else {
-			h = 3 * $('#header ol ul li').outerHeight(false);
-			if ($('#header ol ul li').outerHeight(false) > h) { $('.foo').css('height', h); }
-		}
-	}
 </script>

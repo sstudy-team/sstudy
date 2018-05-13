@@ -9,11 +9,6 @@
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
     @Scripts.Render("~/bundles/js")
-    <script>
-        var searchMode = 0;
-        var catnip = 0;
-        var fall = [false, false, false];
-    </script>
 
     <script type="text/javascript" async
             src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
@@ -22,7 +17,7 @@
 
 </head>
 <body>
-
+	<!--
 	<div class="exp_cat" id="cat_login">
 		<div class="paw" onclick="jQuery('.exp_cat').hide()"></div>
 		<section>
@@ -72,26 +67,97 @@
 			}
 		</div>
 	</nav>
+	-->
+
+	<div id="layNav">
+		<div id="layNavActive"></div>
+		<section>
+			<div id="closeIcon">
+				<img src="img/close.png">
+			</div>
+			<header>
+				<img src="img/logo.png">
+				<article>SStudy - Study Smart</article>
+			</header>
+
+			<nav>
+				<div class="layNavPoint">	@Html.Action("Login", "Account")</div>
+				<div class="layNavPoint">	@Html.ActionLink("Карточки", "Cards", "Home")		</div>
+				@{
+					if (WebSecurity.IsAuthenticated)
+					{
+						<div class="layNavPoint">
+							@Html.ActionLink("Личный кабинет", "Cabinet", "Profile")
+						</div>
+						<div class="layNavPoint">
+							@Html.ActionLink("Выход", "LogOff", "Account")
+						</div>
+					}
+					else
+					{
+						<div class="layNavPoint">
+							@Html.ActionLink("Войти", "Login", "Profile")
+						</div>
+					}
+				}
+			</nav>
+
+			<p>	
+				@{
+					if (WebSecurity.IsAuthenticated)
+					{
+						<a>Спасибо что зарегистрировались!</a>
+					}
+					else
+					{
+						<div class="layNavPoint">
+							@Html.ActionLink("Зарегистрироваться", "Register", "Profile")
+						</div>
+					}
+				}
+
+			</p>
+
+			<footer>
+				<article class="layNavTitul">©2017-2019</article>
+
+				<article class="layNavTitul">Контактная информация:</article>
+
+				<article>support@sstudy.net</article>
+				<article>community@sstudy.net</article>
+
+			</footer>
+		</section>
+	</div>
 
 	<script>
-		$(document).ready(function () {
-			$('#lay_header img, #lay_nav').css('height', $('.nav_tab').height()*1.5);
+		$('#layNavActive').on('click', function () {
+			if (($(window).width() <= 600) && ($(this).hasClass('unfurled') == false)) {
+				$('#layNav').css('width', '100%');
+				$('#layNav').css('background', 'white');
+				$('#layNav').children().show();
+
+				$(this).hide();
+				$('#layNav').addClass('unfurled');
+			}
+		});
+
+		$('#closeIcon').on('click', function () {
+			$('#layNav').css('width', '10vw');
+
+			$('#layNav').css('background', 'white url("img/right.png") no-repeat center');
+			$('#layNav').css('background-size', '10vw 10vw');
+
+			$('#layNavActive').show();
+			$('#layNav section').hide();
+			$('#layNav').removeClass('unfurled');
+
 		});
 	</script>
 
-	@RenderBody()
-
-	<footer id="footer">
-		<div>
-			<article>Контактная информация</article>
-			<p>support@sstudy.net</p>
-			<p>support@sstudy.net</p>
-			<p>Фотография сделана Адамом Кулом</p>
-		</div>
-		<div style="float:right">
-			<p>©2018-2019, SStudy</p>
-		</div>
-	</footer>
+	<div id="layContent">
+		@RenderBody()
+	</div>
 
 	@Scripts.Render("~/bundles/jquery")
 	@RenderSection("scripts", required: false)

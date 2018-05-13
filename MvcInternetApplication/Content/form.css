@@ -1,0 +1,92 @@
+.regForm{
+	position:	absolute;
+	top:		calc(30vh - 0.15vmin);
+	right:		20%;
+	
+	width:	60%;
+	padding:2vw;
+	height:	calc(20vh + 0.15vmin + 4.5vmax);
+	
+	text-align:	center;
+	border:		0.35vmax double rgba(250, 250, 250, 0.35);
+	background:	rgba(200, 200, 200, 0.5);
+}
+
+.regForm article{
+	margin-bottom:	5vh;
+	
+	padding:	2vh 0;
+	
+	border-bottom:	0.15vmin solid rgba(250, 250, 250, 0.8);
+	
+	color:	rgb(80, 80, 80);
+	font:	1.25vmax/1.5vmax 'Century Gothic';
+}
+
+.regForm section{
+	margin:	2vh 0;
+	
+	width:	100%;
+	
+	display:	flex;
+	align-items:center;
+}
+
+.regForm section span{
+	box-sizing:	border-box;
+	padding:	0 2vw;
+	width:		20%;
+	
+	text-align:		right;
+	
+	color:	rgb(100, 100, 100);
+	font:	1vmax/1vmax 'Century Gothic';
+}
+
+.regForm input[type=text], .regForm input[type=password]{
+	padding:0.5vh 2vw;
+	width:	80%;
+	
+	background:	rgba(255, 255, 255, 0.5);
+	border:		none;
+	box-shadow:	0.15vmin 0.15vmin 0.5vmin rgb(180, 180, 180) inset;
+	
+	color:	rgb(200, 200, 200);
+	font:	1vmax/1vmax 'Century Gothic';
+}
+
+.regForm .confirmLog{
+	margin-top:	2vh;
+	margin-left:80%;
+	
+	box-sizing:	border-box;
+	padding:	0.5vw 0;
+	width:		20%;
+	
+	background:	white;
+	box-shadow:	0.15vmin 0.15vmin 0.3vmin rgb(200, 200, 200) inset;
+	
+	color:	rgb(100, 100, 100);
+	font:	1vmax/1vmax 'Century Gothic';
+}
+
+@media only screen and (max-width: 600px) {
+	.regForm{
+		margin-left:	10%;
+		
+		width:	80%;
+	}
+	
+	.regForm article{
+		font:	2vmax/2vmax 'Century Gothic';
+	}
+	
+	.regForm .confirmLog{
+		font:	1.5vmax/1.5vmax 'Century Gothic';
+	}
+	
+	.regForm input[type=text], .regForm input[type=password]{
+		padding:1vh 2vw;
+		font:	1.5vmax/1.5vmax 'Century Gothic';
+	}
+}

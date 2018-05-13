@@ -1,0 +1,39 @@
+﻿@{
+    ViewBag.Title = "ProfCardMenu";
+}
+<div id="t2">
+	<div id="t2OP">
+		<article id="choose">
+			What do you want to open?
+		</article>
+
+		<section>
+
+			<div>
+				@Html.ActionLink("Сохранённые карточки", "ProfCard", "Profile")
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae pharetra nunc.
+					Etiam vel mauris ut enim sollicitudin dictum.
+				</p>
+			</div>
+
+			<div>
+				@Html.ActionLink("Создать карточку", "ProfCreateCard", "Profile")
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae pharetra nunc.
+					Etiam vel mauris ut enim.
+				</p>
+			</div>
+
+			<div>
+				@Html.ActionLink("Одобрить карточки", "ProfApproveCard", "Profile")
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae pharetra nunc.
+					Etiam vel mauris ut enim sollicitudin dictum. Maecenas aliquam.
+				</p>
+			</div>
+
+		</section>
+
+	</div>
+</div>
