@@ -4,52 +4,7 @@
 
 <div id="grid">
 
-    <div id="header">
-        <div id="mobile_filter_container">
-            <div style="border-bottom:4px solid rgb(67, 154, 71);">
-                <img src="~/img/cog-magn_plusplus.png" width="20%">
-                <span>Настройки поиска:</span>
-            </div>
-
-            <div id="mobile_filter">
-
-                @Html.Action("Filter", "Home")
-
-                <p class="menu_button" id="header_button">Искать</p>
-
-            </div>
-            <span><input class="search" style="width:100%;font:3vw 'Century Gothic'; padding:5px 0;" type="text" placeholder="Search" results="0" />	</span>
-            <section>
-                <img src="~/img/close.png" width="2.5%">
-                <article>
-                    Чтобы сохранить карту, зажимайте карточку. Чтобы просмотреть в расширенном режиме, просто нажмите на неё.
-                </article>
-            </section>
-        </div>
-        <input id="searchbar" type="search" name="search" placeholder="search">
-    </div>
-
-    <!-----------------------------------------MENU-------------------------------------------->
-
-    <div id="menu">
-        <article>Настройки поиска</article>
-
-        <div id="search_type">
-            <img id="cog" src="~/img/cog-magn_plusplus.png" width="40%">
-        </div>
-
-		<section>
-
-			<p>Поиск в</p>
-
-			@Html.Action("Filter", "Home")
-
-			<p style="content:'';margin-top:20%"></p>
-
-			<p class="menu_button">Искать</p>
-
-		</section>
-    </div>
+	@Html.Action("Filter", "Home")
 
     <div id="edit">
         @Html.Action("GetCards", "Cards")

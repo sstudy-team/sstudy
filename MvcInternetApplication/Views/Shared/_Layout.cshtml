@@ -17,57 +17,7 @@
 
 </head>
 <body>
-	<!--
-	<div class="exp_cat" id="cat_login">
-		<div class="paw" onclick="jQuery('.exp_cat').hide()"></div>
-		<section>
-			@Html.Action("Login", "Account")
-		</section>
-	</div>
 
-	<div class="exp_cat" id="cat_register">
-		<div class="paw" onclick="jQuery('.exp_cat').hide()"></div>
-		<section>
-			@Html.Action("Register", "Account")
-		</section>
-	</div>
-
-	<nav id="lay_nav">
-		<header id="lay_header">
-			<img src="~/img/1.jpg" style="vertical-align:middle;" width="auto">
-		</header>
-
-		<div id="lay_nav_right">
-			<div class="nav_tab">
-				@Html.ActionLink("Главная", "Index", "Home")
-			</div>
-			<div class="nav_tab">
-				@Html.ActionLink("Карточки", "Cards", "Home")
-			</div>
-
-			@{
-				if (WebSecurity.IsAuthenticated)
-				{
-					<div class="nav_tab">
-						@Html.ActionLink("Личный кабинет", "Cabinet", "Profile")
-					</div>
-					<div class="nav_tab">
-						@Html.ActionLink("Выход", "LogOff", "Account")
-					</div>
-				}
-				else
-				{
-					<div class="nav_tab" onclick="meow(1)">
-						<a>Войти</a>
-					</div>
-					<div class="nav_tab" onclick="meow(2)">
-						<a>Зарегистрироваться</a>
-					</div>
-				}
-			}
-		</div>
-	</nav>
-	-->
 
 	<div id="layNav">
 		<div id="layNavActive"></div>
@@ -81,7 +31,7 @@
 			</header>
 
 			<nav>
-				<div class="layNavPoint">	@Html.Action("Login", "Account")</div>
+				<div class="layNavPoint">	@Html.ActionLink("Главная страница" ,"Index", "Home")</div>
 				<div class="layNavPoint">	@Html.ActionLink("Карточки", "Cards", "Home")		</div>
 				@{
 					if (WebSecurity.IsAuthenticated)
@@ -96,7 +46,7 @@
 					else
 					{
 						<div class="layNavPoint">
-							@Html.ActionLink("Войти", "Login", "Profile")
+							@Html.ActionLink("Войти", "Login", "Account")
 						</div>
 					}
 				}
@@ -111,7 +61,7 @@
 					else
 					{
 						<div class="layNavPoint">
-							@Html.ActionLink("Зарегистрироваться", "Register", "Profile")
+							@Html.ActionLink("Зарегистрироваться", "Register", "Account")
 						</div>
 					}
 				}
