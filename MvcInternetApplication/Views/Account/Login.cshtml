@@ -1,38 +1,28 @@
 ﻿@model MvcInternetApplication.Models.LoginModel
 
-@{ 
+@{ #line 2 "C:\Users\Atlantis\Source\Repos\alt\sstudy\MvcInternetApplication\Views\Account\Login.cshtml"
+				/**/
 }
 
 @using (Html.BeginForm(new { ReturnUrl = ViewBag.ReturnUrl }))
 {
 	@Html.AntiForgeryToken()
 	@Html.ValidationSummary(true)
-<div class="red">
-	<article class="purr">Войти</article>
-	<div class="kittie_grid">
 
-		<div>
-			<p class="kittie1">Логин</p>
+	<div class="regForm">
+		<article>Войти в аккаунт</article>
+
+		<section>
+			<span>Почта</span>
 			@Html.TextBoxFor(m => m.UserName, new { data_role = "none" })
 			@Html.ValidationMessageFor(m => m.UserName)
-		</div>
+		</section>
 
-		<div>
-			<p class="kittie2">Пароль</p>
+		<section>
 			@Html.PasswordFor(m => m.Password, new { id = "catnip3", data_role = "none" })
 			@Html.ValidationMessageFor(m => m.Password)
-		</div>
+		</section>
 
+		<div class="confirmLog">Ok</div>
 	</div>
-
-	<!--
-	<span class="kittie_span">
-		Forgot something?
-	</span>
-	-->
-
-	<div class="button3" onclick="$( '.exp_cat' ).fadeOut( 4000, function() {});">
-		<input type="submit" value="Войти" />
-	</div>
-</div>
 }

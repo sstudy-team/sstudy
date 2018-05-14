@@ -7,39 +7,29 @@
 {
 	@Html.AntiForgeryToken()
 	@Html.ValidationSummary(true)
-<div id="red">
-	<article class="purr">Регистрация</article>
-	<div class="kittie_grid">
 
-		<div>
-			<p class="kittie1">Логин</p>
+	<div class="regForm">
+		<article>Войти в аккаунт</article>
+
+		<section>
+			<span>Почта</span>
 			@Html.TextBoxFor(m => m.UserName, new { data_role = "none" })
-		</div>
+		</section>
 
-		<div>
-			<p class="kittie2">Пароль</p>
+		<section>
+			<span>Пароль</span>
 			@Html.PasswordFor(m => m.Password, new { id = "catnip3", data_role = "none" })
-		</div>
+		</section>
 
-		<div id="meowmeow">
-			<p id="kittie4">Подтверждение пароля</p>
+		<section>
+			<span>Потвердить пароль</span>
 			@Html.PasswordFor(m => m.ConfirmPassword, new { data_role = "none" })
-		</div>
+		</section>
 
+		<div class="confirmLog">Ok</div>
 	</div>
-
-	<!--
-	<span class="kittie_span">
-		Forgot something?
-	</span>
-	-->
-
-	<div class="button3" onclick="$( '.exp_cat' ).fadeOut( 4000, function() {});">
-		<input type="submit" value="Зарегистрироваться" />
-	</div>
-</div>
 }
 
 @section Scripts {
-    @Scripts.Render("~/bundles/jqueryval")
+	@Scripts.Render("~/bundles/jqueryval")
 }
