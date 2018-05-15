@@ -41,22 +41,17 @@ namespace MvcInternetApplication.Controllers
 			return View();
 		}
 
-		public ActionResult CreateStep2()
-		{
-			return View();
-		}
-		
-		public ActionResult CreateStep1()
+		public ActionResult ProfApproveCard()
 		{
 			return View();
 		}
 
-		public ActionResult ProfSavedCards()
+		public ActionResult ProfCardMenu()
 		{
 			return View();
 		}
 
-		public ActionResult ProfVoteCards()
+		public ActionResult ProfCreateCard()
 		{
 			return View();
 		}

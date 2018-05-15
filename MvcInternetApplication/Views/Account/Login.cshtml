@@ -9,20 +9,21 @@
 	@Html.AntiForgeryToken()
 	@Html.ValidationSummary(true)
 
-	<div class="regForm">
-		<article>Войти в аккаунт</article>
+<div class="regForm">
+	<article>Войти в аккаунт</article>
 
-		<section>
-			<span>Почта</span>
-			@Html.TextBoxFor(m => m.UserName, new { data_role = "none" })
-			@Html.ValidationMessageFor(m => m.UserName)
-		</section>
+	<section>
+		<span>Почта</span>
+		@Html.TextBoxFor(m => m.UserName, new { data_role = "none" })
+		@Html.ValidationMessageFor(m => m.UserName)
+	</section>
 
-		<section>
-			@Html.PasswordFor(m => m.Password, new { id = "catnip3", data_role = "none" })
-			@Html.ValidationMessageFor(m => m.Password)
-		</section>
+	<section>
+		<span>Пароль</span>
+		@Html.PasswordFor(m => m.Password, new { id = "catnip3", data_role = "none" })
+		@Html.ValidationMessageFor(m => m.Password)
+	</section>
 
-		<div class="confirmLog">Ok</div>
-	</div>
+	<div class="confirmLog"><input type="submit" value="Ok"></div>
+</div>
 }

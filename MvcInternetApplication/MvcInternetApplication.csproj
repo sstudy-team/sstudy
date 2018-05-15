@@ -279,10 +279,7 @@
     <Content Include="Views\Cards\GetCards.cshtml" />
     <Content Include="Views\Profile\Prof.cshtml" />
     <Content Include="Views\Profile\ProfCard.cshtml" />
-    <Content Include="Views\Profile\ProfSavedCards.cshtml" />
-    <Content Include="Views\Profile\ProfVoteCards.cshtml" />
-    <Content Include="Views\Profile\CreateStep1.cshtml" />
-    <Content Include="Views\Profile\CreateStep2.cshtml" />
+    <Content Include="Views\Profile\ProfApproveCard.cshtml" />
     <Content Include="Views\Home\Filter.cshtml" />
     <Content Include="Views\Profile\ProfCardMenu.cshtml" />
     <Content Include="Views\Profile\ProfCreateCard.cshtml" />
