@@ -7,7 +7,7 @@
 
 	<nav>
 		<article class="profileNavActive">
-			@Ajax.ActionLink("Профиль", "Prof",
+			@Ajax.ActionLink("Профиль", "PersonalPage",
 			new AjaxOptions
 			{
 				UpdateTargetId = "profileContent"
@@ -24,7 +24,7 @@
 	</nav>
 
 	<div id="profileContent">
-		@Html.Action("Prof")
+		@Html.Action("PersonalPage")
 	</div>
 
 </div>

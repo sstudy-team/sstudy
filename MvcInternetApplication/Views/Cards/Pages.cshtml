@@ -1,0 +1,125 @@
+﻿@{
+	Layout = null;
+}
+
+<div id="pages">
+
+	@for (int i = ViewBag.Number - 1; i < ViewBag.Number; i++)
+	{
+		if (i < 1)
+		{
+			i = 1;
+		}
+		if (ViewBag.Saved == 1)
+		{
+			<p>
+				@Ajax.ActionLink("<<", "GetUserCards", new { number = i },
+										new AjaxOptions
+										{
+											UpdateTargetId = "layContent"
+										})
+			</p>
+		}
+		else
+		{
+			<p>
+				@Ajax.ActionLink("<<", "GetCards", new { number = i },
+											new AjaxOptions
+											{
+												UpdateTargetId = "layContent"
+											})
+			</p>
+		}
+	}
+
+	@if (ViewBag.Number - 4 < 0)
+	{
+		for (int i = ViewBag.Number - 3; i < ViewBag.Number + 4 - (ViewBag.Number - 4); i++)
+		{
+			if (i > 0 && (i <= ViewBag.Count / 8 || (i <= ViewBag.Count / 8 + 1 && ViewBag.Count % 8 > 0)))
+			{
+				if (ViewBag.Saved == 1)
+				{
+				<p>
+					@Ajax.ActionLink(Convert.ToString(i), "GetUserCards", new { number = i },
+																	new AjaxOptions
+																	{
+																		UpdateTargetId = "layContent"
+																	})
+				</p>
+				}
+				else
+				{ 
+				<p>
+					@Ajax.ActionLink(Convert.ToString(i), "GetCards", new { number = i },
+																new AjaxOptions
+																{
+																	UpdateTargetId = "layContent"
+																})
+				</p>
+				}
+			}
+		}
+	}
+	else
+	{
+		for (int i = ViewBag.Number - 3; i < ViewBag.Number + 4; i++)
+		{
+			if (i > 0 && (i <= ViewBag.Count / 8 || (i <= ViewBag.Count / 8 + 1 && ViewBag.Count % 8 > 0)))
+			{
+				if (ViewBag.Saved == 1)
+				{
+					<p>
+					@Ajax.ActionLink(Convert.ToString(i), "GetUserCards", new { number = i },
+															new AjaxOptions
+															{
+																UpdateTargetId = "layContent"
+															})
+					</p>
+				}
+				else
+				{
+					<p>
+					@Ajax.ActionLink(Convert.ToString(i), "GetCards", new { number = i },
+															new AjaxOptions
+															{
+																UpdateTargetId = "layContent"
+															})
+					</p>
+				}
+			}
+		}
+	}
+
+	@for (int i = ViewBag.Number + 1; i < ViewBag.Number + 2; i++)
+	{
+		if (i > ViewBag.Count)
+		{
+			i--;
+		}
+
+		if (ViewBag.Saved == 1)
+		{
+			<p>
+			@Ajax.ActionLink(">>", "GetUserCards", new { number = i },
+									new AjaxOptions
+									{
+										UpdateTargetId = "layContent"
+									})
+			</p>
+		}
+		else
+		{
+			<p>
+			@Ajax.ActionLink(">>", "GetCards", new { number = i },
+									new AjaxOptions
+									{
+										UpdateTargetId = "layContent"
+									})
+			</p>
+		}
+
+		i++;
+	}
+
+</div>

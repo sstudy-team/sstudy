@@ -55,6 +55,16 @@ namespace MvcInternetApplication.Controllers
 			return View("GetCards", cards.ToList());
 		}
 
+		public ActionResult Pages(int number, int count, int saved)
+		{
+			ViewBag.Number = number;
+			ViewBag.Count = count;
+			ViewBag.Saved = saved;
+
+			return View();
+		}
+
+
 		[Authorize]
 		public void SaveCard(int CardId)
 		{

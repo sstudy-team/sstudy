@@ -15,8 +15,8 @@ namespace MvcInternetApplication.Controllers
 		// GET: /Profile/
 
 		UsersContext db = new UsersContext();
-
-		public ActionResult Cabinet(int? Message)
+		
+		public ActionResult Profile(int? Message)
 		{
 			if (Message != null)
 				if (Message == 1)
@@ -31,17 +31,7 @@ namespace MvcInternetApplication.Controllers
 			return View();
 		}
 
-		public ActionResult Prof()
-		{
-			return View();
-		}
-
-		public ActionResult ProfCard()
-		{
-			return View();
-		}
-
-		public ActionResult ProfApproveCard()
+		public ActionResult PersonalPage()
 		{
 			return View();
 		}
@@ -51,7 +41,24 @@ namespace MvcInternetApplication.Controllers
 			return View();
 		}
 
-		public ActionResult ProfCreateCard()
+
+		public ActionResult ApproveCard()
+		{
+			return View();
+		}
+
+
+		public ActionResult CreateCard1()
+		{
+			return View();
+		}
+
+		public ActionResult CreateCard2()
+		{
+			return View();
+		}
+		
+		public ActionResult CreateCard3()
 		{
 			return View();
 		}

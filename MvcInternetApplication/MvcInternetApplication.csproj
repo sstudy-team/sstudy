@@ -273,16 +273,18 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Web.config" />
-    <Content Include="Views\Profile\Cabinet.cshtml" />
+    <Content Include="Views\Profile\Profile.cshtml" />
     <Content Include="Views\Account\Login.cshtml" />
     <Content Include="Views\Home\Cards.cshtml" />
     <Content Include="Views\Cards\GetCards.cshtml" />
-    <Content Include="Views\Profile\Prof.cshtml" />
-    <Content Include="Views\Profile\ProfCard.cshtml" />
-    <Content Include="Views\Profile\ProfApproveCard.cshtml" />
+    <Content Include="Views\Profile\PersonalPage.cshtml" />
     <Content Include="Views\Home\Filter.cshtml" />
     <Content Include="Views\Profile\ProfCardMenu.cshtml" />
-    <Content Include="Views\Profile\ProfCreateCard.cshtml" />
+    <Content Include="Views\Profile\ApproveCard.cshtml" />
+    <Content Include="Views\Profile\CreateCard1.cshtml" />
+    <Content Include="Views\Profile\CreateCard2.cshtml" />
+    <Content Include="Views\Profile\CreateCard3.cshtml" />
+    <Content Include="Views\Cards\Pages.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
