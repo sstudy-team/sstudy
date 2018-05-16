@@ -70,6 +70,8 @@
 }
 
 #profile #t2Nav{
+	margin-bottom:	2vh;
+
 	padding:	0.25vmin 0;
 	height:		3vh;
 	
@@ -111,16 +113,16 @@
 	color:	rgb(135, 135, 135);
 }
 
-#profile #t2 .t2CreateWizard{
+.t2CreateWizard{
 	display:		flex;
 	justify-content:space-between;	
 }
 
-#profile #t2 .t2CreateWizard .profileButton{
+.t2CreateWizard .profileButton{
 	width:	38.2%;
 	background:	rgba(200, 200, 200, 0.25);
 }
-#profile #t2 .t2CreateWizard .profileButton:hover{
+.t2CreateWizard .profileButton:hover{
 	width:	38.2%;
 	background:	rgba(220, 220, 220, 0.25);
 }
@@ -174,8 +176,7 @@
 	top:	calc(7.5vmax + 10vh);
 }
 
-#profile.th_container ol li{
-
+#profile .th_container ul li, #profile .th_container ol .th_search{
 	height:	calc(2vmin + 0.625vmax);
 }
 
@@ -223,20 +224,20 @@
 	color:	white;
 }
 
-#t2 #t2CreateStep2, #t2 #t2CreateStep3{
+#t2CreateStep2{
 	display:	flex;
 	
 	justify-content:	space-between;
 }
 
-#t2 #t2CreateStep2 .t2CreateWizard{
+#t2CreateStep2 .t2CreateWizard{
 	position:	absolute;
 	bottom:		0;
 	
 	width:	55vw;
 }
 
-#profile #t2 #createCards .expCard, #profile #t2 #createCards .cards{
+#profile .expCard, #profile #createCards .cards{
 	z-index:	0;
 	position:	relative;
 	top:	0;
@@ -350,6 +351,16 @@
 	display:		flex;
 	justify-content:center;
 	align-items:	center;
+}
+
+#t2CreateStep3{
+	margin-left:	10%;
+	margin-bottom:	2vh;
+
+	width:		80%;
+	
+	display:	flex;
+	justify-content:	space-between;
 }
 
 @media only screen and (max-width: 600px) {

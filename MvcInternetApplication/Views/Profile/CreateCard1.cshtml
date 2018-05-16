@@ -2,37 +2,49 @@
 	Layout = null;
 }
  
-<div id="t2Content">
-	<div id="createCards">
-		<article class="step">Select category</article>
+<div id="t2">
+	<div id="t2Content">
+		<div id="t2Nav">
+			<a href="profile_t2.html"><img src="~/img/home.png"></a>
+			<article>Current page</article>
+		</div>
+		<div id="createCards">
+			<article class="step">Select category</article>
 
-		<div id="t2CreateStep1">
+			<div id="t2CreateStep1" class="t2CreateSteps">
 
-			<div id="createNumContainer">
-				<div class="createNum createNumActive 1">1</div>	<div class="chain"></div>
+				<div id="createNumContainer">
+					<div class="createNum createNumActive 1">1</div>	<div class="chain"></div>
 
-				<div class="createNum 2">2</div>	<div class="chain"></div>
+					<div class="createNum 2">2</div>	<div class="chain"></div>
 
-				<div class="createNum 3">3</div>	<div class="chain"></div>
+					<div class="createNum 3">3</div>	<div class="chain"></div>
 
-				<div class="createNum 4">4</div> 
+					<div class="createNum 4">4</div>
+				</div>
+
+				@Html.Action("Filter", "Home")
+
 			</div>
 
-			@Html.Action("Filter", "Home")
+			<div class="t2CreateWizard">
+				<div class="profileButton">Назад</div>
+				<div class="profileButton" id="next">
+					@Ajax.ActionLink("Вперед", "CreateCard2", "Profile",
+										new AjaxOptions
+										{
+											UpdateTargetId = "profileContent"
+										})
+				</div>
+			</div>
 
+			<script>
+				$('#next').click(function () {
+					if (flag[3] == 1) {
+						$('.expHeader p').text(cat[4]);
+					}
+				});
+			</script>
 		</div>
-
-		<div class="t2CreateWizard">
-			<div class="profileButton">Назад</div>
-			<div class="profileButton" id="next">Вперед</div>
-		</div>
-
-		<script>
-			$('#next').click(function () {
-				if (flag[3] == 1) {
-					$('.expHeader p').text(cat[4]);
-				}
-			});
-		</script>
 	</div>
 </div>

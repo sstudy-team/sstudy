@@ -5,7 +5,7 @@
 	
 	width:	60%;
 	padding:2vw;
-	height:	calc(20vh + 0.15vmin + 4.5vmax);
+	height:	calc(24vh + 0.15vmin + 4.5vmax);
 	
 	text-align:	center;
 	border:		0.35vmax double rgba(250, 250, 250, 0.35);
@@ -51,7 +51,7 @@
 	border:		none;
 	box-shadow:	0.15vmin 0.15vmin 0.5vmin rgb(180, 180, 180) inset;
 	 
-	color:	rgb(200, 200, 200);
+	color:	rgb(120, 120, 120);
 	font:	1vmax/1vmax 'Century Gothic';
 }
 
@@ -65,12 +65,7 @@
 	
 	background:	white;
 	box-shadow:	0.15vmin 0.15vmin 0.3vmin rgb(200, 200, 200) inset;
-}
-
-.regForm .confirmLog input[type=submit]{
 	border:		none;
-	background:	none;
-	box-shadow:	none;
 
 	color:	rgb(100, 100, 100);
 	font:	1vmax/1vmax 'Century Gothic';

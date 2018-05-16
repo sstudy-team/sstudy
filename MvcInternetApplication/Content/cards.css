@@ -247,7 +247,7 @@
 	font:		italic 1vmax/1.25vmax 'Century Gothic';
 }
 
-.expCard .expCardMain li{
+.expCard .expCardMain p{
 	padding:	1vh 0;
 	
 	text-align:	left;

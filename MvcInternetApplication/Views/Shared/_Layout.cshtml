@@ -26,23 +26,23 @@
 				<img src="img/close.png">
 			</div>
 			<header>
-				<img src="img/logo.png">
+				<img src="../img/logo.png">
 				<article>SStudy - Study Smart</article>
 			</header>
 
 			<nav>
-				@Html.ActionLink("Главная страница", "Index", "Home")
-				@Html.ActionLink("Карточки", "Cards", "Home")
+				@Html.ActionLink("Главная страница", "Index", "Home", null, new {@class= "layNavPoint" })
+				@Html.ActionLink("Карточки", "Cards", "Home", null, new { @class = "layNavPoint" })
 
 				@{
 					if (WebSecurity.IsAuthenticated)
 					{
-						@Html.ActionLink("Личный кабинет", "Profile", "Profile")
-						@Html.ActionLink("Выход", "LogOff", "Account")
+						@Html.ActionLink("Личный кабинет", "Profile", "Profile", null, new { @class = "layNavPoint" })
+						@Html.ActionLink("Выход", "LogOff", "Account", null, new { @class = "layNavPoint" })
 					}
 					else
 					{
-						@Html.ActionLink("Войти", "Login", "Account")
+						@Html.ActionLink("Войти", "Login", "Account", null, new { @class = "layNavPoint" })
 					}
 				}
 			</nav>
@@ -55,7 +55,7 @@
 					}
 					else
 					{
-						@Html.ActionLink("Зарегистрироваться", "Register", "Account")
+						@Html.ActionLink("Зарегистрироваться", "Register", "Account", null, new { @class = "layNavPoint" })
 					}
 				}
 
