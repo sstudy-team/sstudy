@@ -1,5 +1,6 @@
 ﻿@{
-    ViewBag.Title = "ProfCardMenu";
+	ViewBag.Title = "ProfCardMenu";
+	Layout = null;
 }
 <div id="t2">
 	<div id="t2OP">
@@ -11,10 +12,10 @@
 
 			<div>
 				@Ajax.ActionLink("Сохранённые карточки", "ProfCard", "Profile",
-				new AjaxOptions
-				{
-					UpdateTargetId = "profileContent"
-				})
+								new AjaxOptions
+								{
+									UpdateTargetId = "profileContent"
+								})
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae pharetra nunc.
 					Etiam vel mauris ut enim sollicitudin dictum.
@@ -23,10 +24,10 @@
 
 			<div>
 				@Ajax.ActionLink("Создать карточку", "CreateCard1", "Profile",
-					new AjaxOptions
-					{
-						UpdateTargetId = "profileContent"
-					})
+									new AjaxOptions
+									{
+										UpdateTargetId = "profileContent"
+									})
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae pharetra nunc.
 					Etiam vel mauris ut enim.
@@ -35,10 +36,10 @@
 
 			<div>
 				@Ajax.ActionLink("Одобрить карточки", "ApproveCard", "Profile",
-					new AjaxOptions
-					{
-						UpdateTargetId = "profileContent"
-					})
+									new AjaxOptions
+									{
+										UpdateTargetId = "profileContent"
+									})
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae pharetra nunc.
 					Etiam vel mauris ut enim sollicitudin dictum. Maecenas aliquam.

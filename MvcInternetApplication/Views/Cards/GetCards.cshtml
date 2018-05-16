@@ -29,24 +29,16 @@
 			}
 		</script>
 
-		<div id="@item.CardId" class="cards" onclick="@func1 rev()">
+		<div id="@item.CardId" class="cards" onclick="@func1">
 			<div class="header">
 				<p>@item.Section</p>
+				<img class="cardsHeaderRight" src="~/img/saveActive.png">
 			</div>
-			<div class="section">
-				<p>
-					@item.Subsection
-				</p>
-			</div>
-			<div class="sub-section">
-				<p>
-					@item.Title
-				</p>
-			</div>
+			
 			<div class="formula" id="@ff">
 			</div>
 			<div class="footer">
-				<footer><p></p></footer>
+				<p></p>
 			</div>
 		</div>
 
@@ -91,66 +83,6 @@
 			$(this).text('Теория');
 
 		}
-	});
-
-	var flag = [0, 0, 0, 0];
-
-	$(".thin").on("click", function () {
-		if ($(this).parent().hasClass('th_activated') == true) {
-
-			$(this).siblings().slideToggle(500, function () { });
-			$(this).parent().siblings('.th_activated').find('ol').hide(500);
-			$(this).siblings().find('ul').css('height', Math.round($(this).siblings().find('ul li').outerHeight(true) * 3));
-
-		}
-	});
-
-	$('ol ul li').on('click', function () {
-
-		var sel = $(this).parent().parent().parent().parent();
-		var next_digit = $(sel).attr('id').slice(2, 3);
-		var n = parseInt(next_digit);
-		var next_id = $(sel).next();
-
-		if (flag[n] == 0) {
-
-			$(this).addClass('dropItem_activated');
-			$(sel).find('ol').hide(500);
-			$(this).siblings().removeClass('dropItem_activated');
-
-			$(next_id).addClass('th_activated');
-
-			if ($(this).parent().parent().height() < $(this).outerHeight(true) * 3) {
-
-				$(next_id).find('ul').css('height', Math.round($(this).outerHeight(true) * 3));
-
-			}
-
-			$(next_id).find('ol').show();
-			$(next_id).find('ol ul li').hide();
-
-			var next_class = '.' + $(this).attr('id');
-
-			if (n == 5) {
-				search = $(this).attr('id');
-			}
-			else {
-				$(next_id).find(next_class).show();
-			}
-
-			flag[n]++;
-
-		}
-		else {
-
-			$(sel).nextAll().find('ol li').removeClass('dropItem_activated');
-			$(sel).nextAll().removeClass('th_activated');
-			$(sel).nextAll().find('ol').hide(500);
-			search = 'NULL';
-			for (var i = n; i < 5; i++) { flag[i] = 0; }
-
-		}
-
 	});
 
 	function SaveCard(cardId) {

@@ -4,63 +4,69 @@
 	Layout = null;
 }
 
-<section id="t1" class="tabs">
-	<div id="avatar">
-		
+<div id="t1">
+	<form>
 		<section>
-			<img src="~/img/avatar.png" width="100%">
+			<span>Почта</span>
+			<input type="text" value="example@sstudy" disabled>
 		</section>
-		
-		<div class="button">
-			В разработке :(
+
+		<section>
+			<span>Пароль</span>
+			<input type="password" value="******" disabled>
+		</section>
+
+		<section class="profileEdit">
+			<span>Потвердить пароль</span>
+			<input type="password" value="******" disabled>
+		</section>
+
+		<section>
+			<span>Аккаунт Соц-медии</span>
+			<input type="text" value="Dave Johnson" disabled>
+		</section>
+
+		<section style="display:flex">
+			<div class="profileButton editProfileButton">Edit profile</div>
+			<div class="profileButton profileEdit">Ok</div>
+		</section>
+	</form>
+
+	<script>
+		$(document).ready(function () {
+			$('#profile .profileEdit').hide();
+		});
+
+		$('.editProfileButton').on('click', function () {
+			if ($(this).hasClass('cancel') == false) {
+				$('.profileEdit').show(800);
+				$('#profile form input').prop('disabled', false);
+
+				$(this).text('Cancel');
+				$(this).addClass('cancel');
+			}
+			else {
+				$('.profileEdit').hide(800);
+				$('#profile form input').prop('disabled', true);
+
+				$(this).text('Edit profile');
+				$(this).removeClass('cancel');
+			}
+
+		});
+	</script>
+
+	<div id="profileData">
+		<div id="avatar">
+			<img src="img/avatarMale.png">
 		</div>
 
-		<div class="button" onclick="profile_edit(1)">
-			Изменить
-		</div>
-	
+		<div class="profileButton">Change profile pic</div>
+
+		<ul>
+			<li><span>Saved Cards:</span>	<p>5</p></li>
+			<li><span>Created Cards:</span>	<p>8</p></li>
+			<li><span>Approved Cards:</span><p>22</p></li>
+		</ul>
 	</div>
-
-	<div class="side_info">
-
-		<div class="acc">
-			<article>Ваш логин</article>
-			<input type="text" name="username" value="@WebSecurity.CurrentUserName" disabled>
-		</div>
-
-		@using (Html.BeginForm("Manage", "Account"))
-		{
-			@Html.AntiForgeryToken()
-			@Html.ValidationSummary()
-
-			<div class="edit_profile acc">
-				<article>Старый пароль</article>
-				@Html.PasswordFor(m => m.OldPassword)
-			</div>
-
-			<div class="edit_profile acc">
-				<article>Новый пароль</article>
-				@Html.PasswordFor(m => m.NewPassword)
-			</div>
-
-			<div class="edit_profile acc">
-				<article>Подтвердить пароля</article>
-				@Html.PasswordFor(m => m.ConfirmPassword)
-			</div>
-
-			<div id="prOK" class="button" onclick="profile_edit(2)">
-				<input type="submit" value="Сохранить" />
-			</div>
-
-			<div id="prCancel" class="button" onclick="profile_edit(2)">
-				Отменить
-			</div>
-		}
-
-	</div>
-</section>
-
-<script>
-	$(document).ready(function () { profile_edit_no_anim(2); });
-	profile_edit_no_anim(2);
-</script>
+</div>

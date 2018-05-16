@@ -31,23 +31,18 @@
 			</header>
 
 			<nav>
-				<div class="layNavPoint">	@Html.ActionLink("Главная страница" ,"Index", "Home")</div>
-				<div class="layNavPoint">	@Html.ActionLink("Карточки", "Cards", "Home")		</div>
+				@Html.ActionLink("Главная страница", "Index", "Home")
+				@Html.ActionLink("Карточки", "Cards", "Home")
+
 				@{
 					if (WebSecurity.IsAuthenticated)
 					{
-						<div class="layNavPoint">
-							@Html.ActionLink("Личный кабинет", "Profile", "Profile")
-						</div>
-						<div class="layNavPoint">
-							@Html.ActionLink("Выход", "LogOff", "Account")
-						</div>
+						@Html.ActionLink("Личный кабинет", "Profile", "Profile")
+						@Html.ActionLink("Выход", "LogOff", "Account")
 					}
 					else
 					{
-						<div class="layNavPoint">
-							@Html.ActionLink("Войти", "Login", "Account")
-						</div>
+						@Html.ActionLink("Войти", "Login", "Account")
 					}
 				}
 			</nav>
@@ -56,13 +51,11 @@
 				@{
 					if (WebSecurity.IsAuthenticated)
 					{
-						<a>Спасибо что зарегистрировались!</a>
+						<a>Спасибо!</a>
 					}
 					else
 					{
-						<div class="layNavPoint">
-							@Html.ActionLink("Зарегистрироваться", "Register", "Account")
-						</div>
+						@Html.ActionLink("Зарегистрироваться", "Register", "Account")
 					}
 				}
 
