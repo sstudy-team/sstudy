@@ -1,19 +1,29 @@
 ﻿@{
-    ViewBag.Title = "Карточки";
+	ViewBag.Title = "Карточки";
 }
+ 
 
-<div id="grid">
+<div class="filter">
+	<article class="filterTitul">Фильтр</article>
+
+	<section class="filterSearch">
+		<input type="search" results="0" />
+		<div class="searchButton"><img src="img/magn.png"></div>
+	</section>
+
+	<article class="limit">Искать внутри:</article>
 
 	@Html.Action("Filter", "Home")
 
-    <div id="layContent">
-        @Html.Action("GetCards", "Cards")
-    </div>
-
 </div>
+
+
+
+@Html.Action("GetCards", "Cards")
+
 <div class="screen">
 
-    <div id="active_zone" onclick="$('.screen').fadeOut(1000, function () { });"></div>
+	<div id="active_zone" onclick="$('.screen').fadeOut(1000, function () { });"></div>
 
 	<div class="expCard">
 

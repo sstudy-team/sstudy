@@ -1,3 +1,57 @@
 ﻿@{
 	Layout = null;
-}
+} 
+<div id="t2Content">
+	<div id="createCards">
+		<div id="t2CreateStep3" style="display:none;">
+			<div class="expCard" id="expFroggie">
+				<div class="expHeader">
+					<p>Header</p>
+				</div>
+				<div class="expNav">
+					<section><article onclick="$('#screen').fadeOut(800, function () { });">Сохранить</article></section>
+					<section><article onclick="$('#screen').fadeOut(800, function () { });">Закрыть</article></section>
+				</div>
+
+				<div class="expScroll">
+					<div id="tf-1" class="expDefinition">
+						<p class="textField" contenteditable onclick="lastSection = '#tf-1';">Термин</p>
+					</div>
+
+					<div id="tf-2" class="expFormula">
+						<p class="textField" contenteditable onclick="lastSection = '#tf-2'">Формула</p>
+					</div>
+
+					<div id="tf-3" class="expCardMain">
+						<p class="textField" contenteditable onclick="lastSection = '#tf-3'">•  Дополнительная информация</p>
+					</div>
+				</div>
+				<div id="tf-4" class="expFooter">
+					<p class="textField" contenteditable onclick="lastSection = '#tf-4'">Footer</p>
+				</div>
+
+			</div>
+
+			<div class="cards">
+				<div class="header">
+					<p>Header</p>
+					<img class="cardsHeaderRight" src="img/saveActive.png">
+				</div>
+
+				<div class="formula">
+					<p>Formula</p>
+				</div>
+
+				<div class="footer">
+					<p>Footer</p>
+				</div>
+			</div>
+		</div>
+
+		<div id="3rdWizard" class="t2CreateWizard" style="display:none;">
+			<div class="profileButton">Назад</div>
+			<div class="profileButton">Вперед</div>
+		</div>
+
+	</div>
+</div>

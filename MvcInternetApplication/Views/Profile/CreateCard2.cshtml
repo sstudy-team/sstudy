@@ -1,3 +1,215 @@
 ﻿@{
 	Layout = null;
 }
+<div id="t2Content">
+	<div id="createCards">
+		<div id="t2CreateStep2" style="display:none;">
+			<div class="expCard" id="expFroggie">
+				<div class="expHeader">
+					<p>Header</p>
+				</div>
+				<div class="expNav">
+					<section><article onclick="$('#screen').fadeOut(800, function () { });">Сохранить</article></section>
+					<section><article onclick="$('#screen').fadeOut(800, function () { });">Закрыть</article></section>
+				</div>
+
+				<div class="expScroll">
+					<div id="tf-1" class="expDefinition">
+						<p class="textField" contenteditable onclick="lastSection = '#tf-1';">Термин</p>
+					</div>
+
+					<div id="tf-2" class="expFormula">
+						<p id="froggieFormula" class="mathField" onclick="lastSection = '#tf-2'; lastField = 0">Формула</p>
+					</div>
+
+					<div id="tf-3" class="expCardMain">
+						<p class="textField" contenteditable onclick="lastSection = '#tf-3'">•  Дополнительная информация</p>
+					</div>
+				</div>
+				<div id="tf-4" class="expFooter">
+					<p class="textField" contenteditable onclick="lastSection = '#tf-4'">Footer</p>
+				</div>
+
+			</div>
+
+			<div id="createRight">
+				<section id="opSym">
+
+					<div class="dr" id="op">
+						<article>Операции</article>
+
+						<div class="button tiny" onclick="add('\\+')">			<p>+						</p></div>
+						<div class="button tiny" onclick="add('-')">			<p>-						</p></div>
+						<div class="button tiny" onclick="add('⋅')">			<p>⋅						</p></div>
+						<div class="button tiny" onclick="add(':')">			<p>:						</p></div>
+						<div class="button tiny" onclick="add('\\pm')">			<p>±						</p></div>
+
+						<div class="button" onclick="add('\\sin{}')">		<p>$$\sin{\alpha}$$			</p></div>
+						<div class="button" onclick="add('\\cos{}')">		<p>$$\cos{\alpha}$$			</p></div>
+						<div class="button" onclick="add('\\tan')">			<p>$$\tan{\alpha}$$			</p></div>
+						<div class="button" onclick="add('\\cot()')">		<p>$$\cot{\alpha}$$			</p></div>
+
+						<div class="button" onclick="add('>')">				<p>>						</p></div>
+						<div class="button" onclick="add('<')">				<p>&lt;						</p></div>
+						<div class="button" onclick="add('≤')">				<p>≤						</p></div>
+						<div class="button" onclick="add('≥')">				<p>≥						</p></div>
+						<div class="button" onclick="add('°')">				<p>X°						</p></div>
+
+						<div class="button" onclick="add('\\int^{}_{}{}')">	<p>$$\int_b^a f(x) dx$$		</p></div>
+						<div class="button" onclick="add('\\oint')">		<p>$$\unicode{x222F}$$		</p></div>
+
+						<div class="button" onclick="add('\\lim_{}')">		<p>$$\lim_{x\to 0} f(x)$$	</p></div>
+						<div class="button" onclick="add('\\to')">			<p>$$\to$$					</p></div>
+
+						<div class="button" onclick="add('\\Sigma_{}')">	<p>Σ					</p></div>
+						<div class="button" onclick="add('\\prod_{}')">		<p>∏					</p></div>
+
+						<div class="button" onclick="add('\\frac{}{}')">	<p>$$\frac{a}{b}$$		</p></div>
+						<div class="button" onclick="add('\\vec{}')">		<p>$$\vec{a}$$			</p></div>
+						<div class="button" onclick="add('\\sqrt{}')">		<p>$$\sqrt{a}$$			</p></div>
+						<div class="button" onclick="add('\\sqrt[]{}')">	<p>$$\sqrt[x]{a}$$		</p></div>
+					</div>
+
+					<div class="dr" id="sym">
+						<article>Символы</article>
+
+						<div class="button" onclick="add('\\Sigma')">		<p>Σ Сигма				</p></div>
+						<div class="button" onclick="add('\\pi')">			<p>π Пи					</p></div>
+						<div class="button" onclick="add('e')">				<p>e 					</p></div>
+						<div class="button" onclick="add('\\alpha')">		<p>$$\alpha$$ Альфа		</p></div>
+						<div class="button" onclick="add('\\beta')">		<p>$$\beta$$ Бета		</p></div>
+						<div class="button sym" onclick="add('\\gamma')">	<p>$$\gamma$$ Гамма		</p></div>
+						<div class="button sym" onclick="add('\\delta')">	<p>$$\delta$$ Дельта	</p></div>
+						<div class="button sym" onclick="add('\\epsilon')">	<p>$$\epsilon$$	Эпсилон	</p></div>
+						<div class="button sym" onclick="add('\\zeta')">	<p>$$\zeta$$ Зета		</p></div>
+						<div class="button sym" onclick="add('\\eta')">		<p>$$\eta$$	Эта			</p></div>
+						<div class="button sym" onclick="add('\\theta')">	<p>$$\theta$$ Тета		</p></div>
+						<div class="button sym" onclick="add('\\iota')">	<p>$$\iota$$ Иота		</p></div>
+						<div class="button sym" onclick="add('\\kappa')">	<p>$$\kappa$$ Карра		</p></div>
+						<div class="button sym" onclick="add('\\lambda')">	<p>$$\lambda$$ Лямбда	</p></div>
+						<div class="button sym" onclick="add('\\mu')">		<p>$$\mu$$	Мю			</p></div>
+						<div class="button sym" onclick="add('\\nu')">		<p>$$\nu$$	Ню			</p></div>
+						<div class="button sym" onclick="add('\\xi')">		<p>$$\xi$$	Кси			</p></div>
+						<div class="button sym" onclick="add('\\o')">		<p>$$o$$	О			</p></div>
+						<div class="button sym" onclick="add('\\rho')">		<p>$$\rho$$	Ро			</p></div>
+						<div class="button sym" onclick="add('\\tau')">		<p>$$\tau$$	Тау			</p></div>
+						<div class="button sym" onclick="add('\\upsilon')">	<p>$$\upsilon$$ Апсилон	</p></div>
+						<div class="button sym" onclick="add('\\phi')">		<p>$$\phi$$	Фи			</p></div>
+						<div class="button sym" onclick="add('\\chi')">		<p>$$\chi$$	Чи			</p></div>
+						<div class="button sym" onclick="add('\\psi')">		<p>$$\psi$$	Пси			</p></div>
+						<div class="button sym" onclick="add('\\omega')">	<p>$$\omega$$ Омега		</p></div>
+					</div>
+				</section>
+
+				<div id="add">
+					<article>Добавить<span>:</span></article>
+
+					<div class="add" id="addFormula">Add Formula</div>
+					<div class="add" id="addList">Add List</div>
+					<div class="del" id="delete">Delete</div>
+				</div>
+
+				<div class="t2CreateWizard">
+					<div class="profileButton">Назад</div>
+					<div class="profileButton" id="next2">
+						@Ajax.ActionLink("Вперед", "CreateCard3", "Profile",
+						new AjaxOptions
+						{
+							UpdateTargetId = "profileContent"
+						})
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script> 
+	//ul li
+
+	$('#addList').on('click', function () {
+		$(lastSection).append('<p contenteditable>•  Something</p>');
+	});
+
+	//add formula
+	var lastSection = 0;
+	var lastField;
+	//lastField and lastSection are defined in html (onclick="..")
+	var i = 1;
+	var a = [], b = [], latex = [];	//latex[] contains LaTex
+	var MQ = MathQuill.getInterface(2);
+
+	a[0] = document.getElementById('froggieFormula');
+	b[0] = MQ.MathField(a[0], { spaceBehavesLikeTab: false });
+
+	$('#addFormula').on('click', function () {
+
+		if (lastSection == 0) {
+			alert('Выберите текстбокс');
+		}
+
+		else {
+			var id = 'math-field-' + i;
+			var uponclick = 'lastField = ' + i;
+
+			var newMathField = $("<div>", { id: id, 'class': 'mathField', onclick: uponclick });
+			$(lastSection).append(newMathField);
+
+			a[i] = document.getElementById(id);
+			b[i] = MQ.MathField(a[i], { spaceBehavesLikeTab: false });
+
+			i++;
+		}
+	});
+
+	//save LaTex
+
+	$('#next2').click(function () {
+		for (var ind; ind <= i + 1; ind++) {
+			if (a[ind] != 0) {
+				latex[ind] = a[ind].latex();
+			}
+
+			if (ind == i + 1) {
+				latex[ind] = formulaLatex.latex();
+			}
+		}
+
+		//next
+
+	});
+
+	//remove formula
+
+	$('#delete').on('click', function () {
+		a[lastField].remove();
+		a[lastField] = 0;
+	});
+
+	//add symbol
+
+	function add(symbol) {
+		b[lastField].write(symbol);
+		b[lastField].focus();
+	}
+
+	//visual aesthetics
+
+	$('.add').hover(
+		function () {
+			$(lastSection).css('background', 'rgba(40, 40, 40, 0.05)');
+		},
+		function () {
+			$(lastSection).css('background', 'none');
+		}
+	);
+
+	$('.del').hover(
+		function () {
+			a[lastField].css('opacity', '0.5');
+		},
+		function () {
+			a[lastField].css('opacity', '1');
+		}
+	);
+</script>

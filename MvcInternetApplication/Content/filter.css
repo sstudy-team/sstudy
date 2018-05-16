@@ -10,7 +10,7 @@
 	text-align:	center;
 }
 
-.filter .filterTitul{
+.filterTitul{
 	box-sizing:	border-box;
 	padding:	2vh 0;
 		
@@ -80,7 +80,7 @@ input[type=search]::-webkit-search-results-decoration { display: none; }
 	list-style-type:	none;
 }
 
-.filter .th_container{
+.th_container{
 	margin-left:5%;
 	
 	width:	90%;
@@ -97,13 +97,18 @@ input[type=search]::-webkit-search-results-decoration { display: none; }
 	background:		rgb(250, 250, 250);
 	border-bottom:	0.175vmin solid rgb(150, 150, 150);
 	text-align:	center;
-	
+}
+
+.th_container .thin article, .th_container .thin span{
 	color:	rgb(120, 120, 120);
 	font:	1vmax/1vmax 'Century Gothic';
 }
 
 .th_activated .thin{
 	background:	rgb(140, 140, 140);
+}
+
+.th_activated .thin article, .th_activated .thin span{
 	color:		rgb(240, 240, 240);
 }
 
@@ -115,8 +120,8 @@ input[type=search]::-webkit-search-results-decoration { display: none; }
 }
 
 .th_search input{
-	width:	90%;
-	height:	3vh;
+	width:	100%;
+	height:	3vmin;
 	
 	border-color:	rgb(245, 245, 245);
 	box-shadow:		0.15vmin 0 0.3vmin rgb(200, 200, 200) inset;
@@ -125,10 +130,9 @@ input[type=search]::-webkit-search-results-decoration { display: none; }
 }
 
 .foo_container{
-	width:			90%;
-	margin-left:	5%;
+	width:			100%;
 }
-
+ 
 .th_container ul{
 	padding:0;
 	width:	100%;
@@ -155,15 +159,19 @@ input[type=search]::-webkit-search-results-decoration { display: none; }
 	background:	rgb(230, 230, 230);
 }
 
+.th_container ul li:hover{
+	background:	rgb(240, 240, 240);
+}
+
 /*------------------------------------------*/
 
 @media only screen and (max-width: 600px) {
 	
-	.filter .th_container{
+	.th_container{
 		flex-wrap:	wrap;
 	}
 	
-	.filter .th_container .th{
+	.th_container .th{
 		margin:	0.5vh 0;
 		
 		width:	30vw;
@@ -192,7 +200,7 @@ input[type=search]::-webkit-search-results-decoration { display: none; }
 		font:	1.5vmax/2vmax 'Century Gothic';
 	}
 	
-	.filter .filterTitul{
+	.filterTitul{
 		font:	2vmax/2vmax 'Century Gothic';
 	}
 

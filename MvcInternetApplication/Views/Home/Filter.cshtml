@@ -1,123 +1,124 @@
 ﻿@{
 	Layout = null;
 }
-
-<div class="filter">
-	<article class="filterTitul">Фильтр</article>
-
-	<section class="filterSearch">
-		<input type="search" results="0" />
-		<div class="searchButton"><img src="img/magn.png"></div>
-	</section>
-
-	<article class="limit">Искать внутри:</article>
-
-	<div class="th_container">
-		<div class="th th_activated" id="th1">
-			<p class="thin">     Предмет		<span></span></p>
-
-			<ol>
-				<li class="th_search"><input type="search" placeholder="Search" /></li>
-				<li class="foo_container">
-					<ul class="foo">
-						<li id="subject1">Ведутся работы</li>
-						<li id="subject2">Ведутся работы</li>
-						<li id="subject3">Ведутся работы</li>
-					</ul>
-				</li>
-			</ol>
-
+ 
+<div class="th_container">
+	<div class="th th_activated" id="th1">
+		<div class="thin">     
+			<article>Предмет</article>		
+			<span style="display:none;"></span>
 		</div>
 
-		<div class="th" id="th2">
-			<p class="thin">     Раздел		</p>
+		<ol>
+			<li class="th_search"><input type="search" placeholder="Search" /></li>
+			<li class="foo_container">
+				<ul class="foo">
+					<li id="subject1">1</li>
+					<li id="subject2">2</li>
+					<li id="subject3">3</li>
+				</ul>
+			</li>
+		</ol>
 
-			<ol>
-				<li class="th_search"><input type="search" placeholder="Search" /></li>
-				<li class="foo_container">
-					<ul class="foo">
-						<li class="subject1" id="section1_1">Ведутся работы</li>
-						<li class="subject1" id="section1_2">Ведутся работы</li>
-						<li class="subject2" id="section2_1">Ведутся работы</li>
-						<li class="subject2" id="section2_2">Ведутся работы</li>
-						<li class="subject3" id="section3_1">Ведутся работы</li>
-						<li class="subject3" id="section3_2">Ведутся работы</li>
-					</ul>
-				</li>
-			</ol>
+	</div>
 
+	<div class="th" id="th2">
+		<div class="thin">
+			<article>Раздел</article>
+			<span style="display:none;"></span>
 		</div>
 
-		<div class="th" id="th3">
-			<p class="thin">     Подраздел		</p>
+		<ol>
+			<li class="th_search"><input type="search" placeholder="Search" /></li>
+			<li class="foo_container">
+				<ul class="foo">
+					<li class="subject1" id="section1_1">1.1</li>
+					<li class="subject1" id="section1_2">1.2</li>
+					<li class="subject2" id="section2_1">2.1</li>
+					<li class="subject2" id="section2_2">2.2</li>
+					<li class="subject3" id="section3_1">3.1</li>
+					<li class="subject3" id="section3_2">3.2</li>
+				</ul>
+			</li>
+		</ol>
 
-			<ol>
-				<li class="th_search"><input type="search" placeholder="Search" /></li>
-				<li class="foo_container">
-					<ul class="foo">
-						<li class="section1_1" id="sub-section1_1_1">Ведутся работы</li>
-						<li class="section1_1" id="sub-section1_1_2">Ведутся работы</li>
+	</div>
 
-						<li class="section1_2" id="sub-section1_2_1">Ведутся работы</li>
-						<li class="section1_2" id="sub-section1_2_2">Ведутся работы</li>
-
-						<li class="section2_1" id="sub-section2_1_1">Ведутся работы</li>
-						<li class="section2_1" id="sub-section2_1_2">Ведутся работы</li>
-
-						<li class="section2_2" id="sub-section2_2_1">Ведутся работы</li>
-						<li class="section2_2" id="sub-section2_2_2">Ведутся работы</li>
-
-						<li class="section3_1" id="sub-section3_1_1">Ведутся работы</li>
-						<li class="section3_1" id="sub-section3_1_2">Ведутся работы</li>
-
-						<li class="section3_2" id="sub-section3_2_1">Ведутся работы</li>
-						<li class="section3_2" id="sub-section3_2_2">Ведутся работы</li>
-					</ul>
-				</li>
-			</ol>
-
+	<div class="th" id="th3">
+		<div class="thin">
+			<article>Подраздел</article>
+			<span style="display:none;"></span>
 		</div>
 
-		<div class="th" id="th4">
-			<p class="thin">     Тема		</p>
+		<ol>
+			<li class="th_search"><input type="search" placeholder="Search" /></li>
+			<li class="foo_container">
+				<ul class="foo">
+					<li class="section1_1" id="sub-section1_1_1">1.1.1</li>
+					<li class="section1_1" id="sub-section1_1_2">1.1.2</li>
 
-			<ol>
-				<li class="th_search"><input type="search" placeholder="Search" /></li>
-				<li class="foo_container">
-					<ul class="foo">
-						<li class="sub-section1_1_1">Ведутся работы</li>
-						<li class="sub-section1_1_1">Ведутся работы</li>
+					<li class="section1_2" id="sub-section1_2_1">1.2.1</li>
+					<li class="section1_2" id="sub-section1_2_2">1.2.2</li>
 
-						<li class="sub-section1_1_2">Ведутся работы</li>
-						<li class="sub-section1_1_2">Ведутся работы</li>
+					<li class="section2_1" id="sub-section2_1_1">2.1.1</li>
+					<li class="section2_1" id="sub-section2_1_2">2.1.2</li>
 
-						<li class="sub-section1_2_1">Ведутся работы</li>
-						<li class="sub-section1_2_1">Ведутся работы</li>
+					<li class="section2_2" id="sub-section2_2_1">2.2.1</li>
+					<li class="section2_2" id="sub-section2_2_2">2.2.2</li>
 
-						<li class="sub-section1_2_2">Ведутся работы</li>
-						<li class="sub-section1_2_2">Ведутся работы</li>
+					<li class="section3_1" id="sub-section3_1_1">3.1.1</li>
+					<li class="section3_1" id="sub-section3_1_2">3.1.2</li>
 
-						<li class="sub-section2_1_1">Ведутся работы</li>
-						<li class="sub-section2_1_2">Ведутся работы</li>
+					<li class="section3_2" id="sub-section3_2_1">3.2.1</li>
+					<li class="section3_2" id="sub-section3_2_2">3.2.2</li>
+				</ul>
+			</li>
+		</ol>
 
-						<li class="sub-section2_2_1">Ведутся работы</li>
-						<li class="sub-section2_2_2">Ведутся работы</li>
+	</div>
 
-						<li class="sub-section3_1_1">Ведутся работы</li>
-						<li class="sub-section3_1_2">Ведутся работы</li>
-
-						<li class="sub-section3_2_1">Ведутся работы</li>
-						<li class="sub-section3_2_2">Ведутся работы</li>
-					</ul>
-				</li>
-			</ol>
+	<div class="th" id="th4">
+		<div class="thin">
+			<article>Тема</article>
+			<span style="display:none;"></span>
 		</div>
+
+		<ol>
+			<li class="th_search"><input type="search" placeholder="Search" /></li>
+			<li class="foo_container">
+				<ul class="foo">
+					<li class="sub-section1_1_1">Ведутся работы</li>
+					<li class="sub-section1_1_1">Ведутся работы</li>
+
+					<li class="sub-section1_1_2">Ведутся работы</li>
+					<li class="sub-section1_1_2">Ведутся работы</li>
+
+					<li class="sub-section1_2_1">Ведутся работы</li>
+					<li class="sub-section1_2_1">Ведутся работы</li>
+
+					<li class="sub-section1_2_2">Ведутся работы</li>
+					<li class="sub-section1_2_2">Ведутся работы</li>
+
+					<li class="sub-section2_1_1">Ведутся работы</li>
+					<li class="sub-section2_1_2">Ведутся работы</li>
+
+					<li class="sub-section2_2_1">Ведутся работы</li>
+					<li class="sub-section2_2_2">Ведутся работы</li>
+
+					<li class="sub-section3_1_1">Ведутся работы</li>
+					<li class="sub-section3_1_2">Ведутся работы</li>
+
+					<li class="sub-section3_2_1">Ведутся работы</li>
+					<li class="sub-section3_2_2">Ведутся работы</li>
+				</ul>
+			</li>
+		</ol>
 	</div>
 </div>
 
 <script>
 	var flag = [0, 0, 0, 0];
-	var cat = ['Bananas', 'in', 'pajamas', 'dahdahdahda'];
+	var cat = ['Bananas', 'in', 'pajamas', 'dahdahdahda'];	//категории
 
 	$(".thin").on("click", function () {
 		if ($(this).parent().hasClass('th_activated') == true) {
@@ -155,6 +156,10 @@
 			$(next_id).find('ol').show();
 			$(next_id).find('ol ul li').hide();
 
+			$(sel).find('.thin article').hide();
+			$(sel).find('.thin span').show();
+			$(sel).find('.thin span').text($(this).text());
+
 			var next_class = '.' + $(this).attr('id');
 
 			if (n == 5) {
@@ -172,6 +177,11 @@
 		else {
 			$(sel).nextAll().find('ol li').removeClass('dropItem_activated');
 			$(sel).nextAll().removeClass('th_activated');
+
+			$(sel).nextAll().find('.thin article').show();
+			$(sel).nextAll().find('.thin span').hide();
+
+
 			$(sel).nextAll().find('ol').hide(500);
 			search = 'NULL';
 			for (var i = n; i < 5; i++) {
