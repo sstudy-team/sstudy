@@ -3,23 +3,26 @@
 }
 
 <div id="profile">
-	<article id="profileTitul">Личный кабинет</article>
+	<article id="profileTitul">
+			 Личный кабинет
+		<h2>@ViewBag.Msg</h2>
+	</article>
 
 	<nav>
 		<article class="profileNavActive">
 			@Ajax.ActionLink("Профиль", "PersonalPage",
-			new AjaxOptions
-			{
-				UpdateTargetId = "profileContent"
-			})
+						new AjaxOptions
+						{
+							UpdateTargetId = "profileContent"
+						})
 		</article>
 
 		<article>
 			@Ajax.ActionLink("Карточки", "ProfCardMenu",
-			new AjaxOptions
-			{
-				UpdateTargetId = "profileContent"
-			})
+						new AjaxOptions
+						{
+							UpdateTargetId = "profileContent"
+						})
 		</article>
 	</nav>
 

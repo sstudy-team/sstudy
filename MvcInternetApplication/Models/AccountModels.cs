@@ -11,7 +11,7 @@ namespace MvcInternetApplication.Models
 	public class UsersContext : DbContext
 	{
 		public UsersContext()
-			: base("SStudy1")
+			: base("SStudy2")
 		{
 		}
 

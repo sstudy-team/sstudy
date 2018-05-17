@@ -43,7 +43,7 @@ namespace MvcInternetApplication.Filters
                     // 2 параметр - таблица, которая содержит информацию о пользователях
                     // 3 параметр - имя колонки в таблице, которая отвечает за хранение логина
                     // 4 параметр - autoCreateTables автоматическое создание таблиц если они не существуют в базе
-                    WebSecurity.InitializeDatabaseConnection("SStudy1", "UserProfile", "UserId", "UserMail", autoCreateTables: true);
+                    WebSecurity.InitializeDatabaseConnection("SStudy2", "UserProfile", "UserId", "UserMail", autoCreateTables: true);
 
                     SimpleRoleProvider roles = (SimpleRoleProvider)Roles.Provider;
                     SimpleMembershipProvider membership = (SimpleMembershipProvider)Membership.Provider;
