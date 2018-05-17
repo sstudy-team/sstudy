@@ -131,92 +131,95 @@
 		</div>
 	</div>
 </div>
-	<script>
-		//ul li
+<script>
+	//ul li
 
-		$('#addList').on('click', function () {
-			$(lastSection).append('<p contenteditable>•  Something</p>');
-		});
+	$('#addList').on('click', function () {
+		$(lastSection).append('<p contenteditable>•  Something</p>');
+	});
 
-		//add formula
-		var lastSection = 0;
-		var lastField;
-		//lastField and lastSection are defined in html (onclick="..")
-		var i = 1;
-		var a = [], b = [], latex = [];	//latex[] contains LaTex
-		var MQ = MathQuill.getInterface(2);
+	//add formula
+	var lastSection = 0;
+	var lastField;
+	//lastField and lastSection are defined in html (onclick="..")
+	var i = 1;
+	var a = [], b = [], latex = [];	//latex[] contains LaTex
+	var MQ = MathQuill.getInterface(2);
 
-		a[0] = document.getElementById('froggieFormula');
-		b[0] = MQ.MathField(a[0], { spaceBehavesLikeTab: false });
+	a[0] = document.getElementById('froggieFormula');
+	b[0] = MQ.MathField(a[0], { spaceBehavesLikeTab: false });
 
-		$('#addFormula').on('click', function () {
+	$('#addFormula').on('click', function () {
 
-			if (lastSection == 0) {
-				alert('Выберите текстбокс');
-			}
-
-			else {
-				var id = 'math-field-' + i;
-				var uponclick = 'lastField = ' + i;
-
-				var newMathField = $("<div>", { id: id, 'class': 'mathField', onclick: uponclick });
-				$(lastSection).append(newMathField);
-
-				a[i] = document.getElementById(id);
-				b[i] = MQ.MathField(a[i], { spaceBehavesLikeTab: false });
-
-				i++;
-			}
-		});
-
-		//save LaTex
-
-		$('#next2').click(function () {
-			for (var ind; ind <= i + 1; ind++) {
-				if (a[ind] != 0) {
-					latex[ind] = a[ind].latex();
-				}
-
-				if (ind == i + 1) {
-					latex[ind] = formulaLatex.latex();
-				}
-			}
-
-			//next
-
-		});
-
-		//remove formula
-
-		$('#delete').on('click', function () {
-			a[lastField].remove();
-			a[lastField] = 0;
-		});
-
-		//add symbol
-
-		function add(symbol) {
-			b[lastField].write(symbol);
-			b[lastField].focus();
+		if (lastSection == 0) {
+			alert('Выберите текстбокс');
 		}
 
-		//visual aesthetics
+		else {
+			var id = 'math-field-' + i;
+			var uponclick = 'lastField = ' + i;
 
-		$('.add').hover(
-			function () {
-				$(lastSection).css('background', 'rgba(40, 40, 40, 0.05)');
-			},
-			function () {
-				$(lastSection).css('background', 'none');
-			}
-		);
+			var newMathField = $("<div>", { id: id, 'class': 'mathField', onclick: uponclick });
+			$(lastSection).append(newMathField);
 
-		$('.del').hover(
-			function () {
-				a[lastField].css('opacity', '0.5');
-			},
-			function () {
-				a[lastField].css('opacity', '1');
+			a[i] = document.getElementById(id);
+			b[i] = MQ.MathField(a[i], { spaceBehavesLikeTab: false });
+
+			i++;
+		}
+	});
+
+	//save LaTex
+
+	$('#next2').click(function () {
+		for (var ind; ind <= i + 1; ind++) {
+			if (a[ind] != 0) {
+				latex[ind] = a[ind].latex();
 			}
-		);
-	</script>
+
+			if (ind == i + 1) {
+				latex[ind] = formulaLatex.latex();
+			}
+		}
+
+		//next
+
+	});
+
+	//remove formula
+
+	$('#delete').on('click', function () {
+		a[lastField].remove();
+		a[lastField] = 0;
+	});
+
+	//add symbol
+
+	function add(symbol) {
+		b[lastField].write(symbol);
+		b[lastField].focus();
+	}
+
+	//visual aesthetics
+
+	$('.add').hover(
+		function () {
+			$(lastSection).css('background', 'rgba(40, 40, 40, 0.05)');
+		},
+		function () {
+			$(lastSection).css('background', 'none');
+		}
+	);
+
+	$('.del').hover(
+		function () {
+			a[lastField].css('opacity', '0.5');
+		},
+		function () {
+			a[lastField].css('opacity', '1');
+		}
+	);
+
+	MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+
+</script>

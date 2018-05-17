@@ -135,7 +135,7 @@ namespace MvcInternetApplication.Controllers
 
                 if (changePasswordSucceeded)
                 {
-                    return RedirectToAction("Cabinet", "Home", new { Message = 1 });
+                    return RedirectToAction("Profile", "Profile", new { Message = 1 });
                 }
                 else
                 {
@@ -145,7 +145,7 @@ namespace MvcInternetApplication.Controllers
             }
 
             // If we got this far, something failed, redisplay form
-            return RedirectToAction("Cabinet", "Home", new { Message = 0 });
+            return RedirectToAction("Profile", "Profile", new { Message = 0 });
         }
 
         #region Helpers

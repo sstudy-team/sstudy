@@ -5,32 +5,42 @@
 }
 
 <div id="t1">
-	<form>
+
+	@using (Html.BeginForm("Manage", "Account"))
+	{
+		@Html.AntiForgeryToken()
+		@Html.ValidationSummary()
+
 		<section>
 			<span>Почта</span>
 			<input type="text" value="example@sstudy" disabled>
 		</section>
 
-		<section>
-			<span>Пароль</span>
-			<input type="password" value="******" disabled>
+		<section class="profileEdit">
+			<span>Старый пароль</span>
+			@Html.PasswordFor(m => m.OldPassword)
+		</section>
+
+		<section class="profileEdit">
+			<span>Новый пароль</span>
+			@Html.PasswordFor(m => m.NewPassword)
 		</section>
 
 		<section class="profileEdit">
 			<span>Потвердить пароль</span>
-			<input type="password" value="******" disabled>
+			@Html.PasswordFor(m => m.ConfirmPassword)
 		</section>
 
 		<section>
-			<span>Аккаунт Соц-медии</span>
+			<span>Имя</span>
 			<input type="text" value="Dave Johnson" disabled>
 		</section>
 
 		<section style="display:flex">
-			<div class="profileButton editProfileButton">Edit profile</div>
-			<div class="profileButton profileEdit">Ok</div>
+			<div class="profileButton editProfileButton">Редактировать</div>
+			<div class="profileButton profileEdit"><input type="submit" value="Сохранить пароль" /></div>
 		</section>
-	</form>
+	}
 
 	<script>
 		$(document).ready(function () {
@@ -40,16 +50,16 @@
 		$('.editProfileButton').on('click', function () {
 			if ($(this).hasClass('cancel') == false) {
 				$('.profileEdit').show(800);
-				$('#profile form input').prop('disabled', false);
+				//$('#profile form input').prop('disabled', false);
 
-				$(this).text('Cancel');
+				$(this).text('Отменить');
 				$(this).addClass('cancel');
 			}
 			else {
 				$('.profileEdit').hide(800);
 				$('#profile form input').prop('disabled', true);
 
-				$(this).text('Edit profile');
+				$(this).text('Редактировать');
 				$(this).removeClass('cancel');
 			}
 
@@ -61,12 +71,12 @@
 			<img src="~/img/avatarMale.png">
 		</div>
 
-		<div class="profileButton">Change profile pic</div>
+		<div class="profileButton">Изменить фото</div>
 
 		<ul>
-			<li><span>Saved Cards:</span>	<p>5</p></li>
-			<li><span>Created Cards:</span>	<p>8</p></li>
-			<li><span>Approved Cards:</span><p>22</p></li>
+			<li><span>Сохраненных карточек:</span>	<p>5</p></li>
+			<li><span>Созданных карточек:</span>	<p>8</p></li>
+			<li><span>Одобренных карточек:</span><p>22</p></li>
 		</ul>
 	</div>
 </div>

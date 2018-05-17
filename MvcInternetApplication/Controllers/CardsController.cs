@@ -97,5 +97,116 @@ namespace MvcInternetApplication.Controllers
 			}
 		}
 
+		[Authorize]
+		public void CreateCard(Card NewCard)
+		{
+			NewCard.Founder = WebSecurity.CurrentUserId;
+			NewCard.Expert1 = 0;
+			NewCard.Expert2 = 0;
+			NewCard.Expert3 = 0;
+			NewCard.Expert4 = 0;
+			NewCard.Expert5 = 0;
+			NewCard.Expert6 = 0;
+			NewCard.Expert7 = 0;
+			NewCard.Expert8 = 0;
+			NewCard.Expert9 = 0;
+			db.Cards.Add(NewCard);
+			db.SaveChanges();
+		}
+
+		[Authorize]
+		public void ApproveCard(int CardId, int Move)
+		{
+			UnApprovedCard Card = db.UnApprovedCards.Where(unCard => unCard.UnApprovedCardId == CardId).FirstOrDefault();
+			
+			if (Move == 1)
+			{
+				if (db.UserProfile.Where(user => user.UserId == WebSecurity.CurrentUserId).FirstOrDefault().Role == 1)
+				{
+					if (Card.Expert1 == 0)
+					{
+						Card.Expert1 = WebSecurity.CurrentUserId;
+					}
+					else if (Card.Expert2 == 0)
+					{
+						Card.Expert2 = WebSecurity.CurrentUserId;
+					}
+					else
+					{
+						Card.Expert3 = WebSecurity.CurrentUserId;
+					}
+				}
+				else if (db.UserProfile.Where(user => user.UserId == WebSecurity.CurrentUserId).FirstOrDefault().Role == 2)
+				{
+					if (Card.Expert4 == 0)
+					{
+						Card.Expert4 = WebSecurity.CurrentUserId;
+					}
+					else if (Card.Expert5 == 0)
+					{
+						Card.Expert5 = WebSecurity.CurrentUserId;
+					}
+					else
+					{
+						Card.Expert6 = WebSecurity.CurrentUserId;
+					}
+				}
+				else if (db.UserProfile.Where(user => user.UserId == WebSecurity.CurrentUserId).FirstOrDefault().Role == 3)
+				{
+					if (Card.Expert7 == 0)
+					{
+						Card.Expert7 = WebSecurity.CurrentUserId;
+					}
+					else if (Card.Expert8 == 0)
+					{
+						Card.Expert8 = WebSecurity.CurrentUserId;
+					}
+					else
+					{
+						Card.Expert9 = WebSecurity.CurrentUserId;
+
+
+						Card NewCard = new Card();
+						NewCard.Title = Card.Title ;
+						NewCard.Prev = Card.Prev;
+						NewCard.Information = Card.Information;
+						NewCard.Subject = Card.Subject;
+						NewCard.Section = Card.Section;
+						NewCard.Subsection = Card.Subsection;
+						NewCard.Topic = Card.Topic;
+						NewCard.Founder = Card.Founder;
+						NewCard.Expert1 = Card.Expert1;
+						NewCard.Expert2 = Card.Expert2;
+						NewCard.Expert3 = Card.Expert3;
+						NewCard.Expert4 = Card.Expert4;
+						NewCard.Expert5 = Card.Expert5;
+						NewCard.Expert6 = Card.Expert6;
+						NewCard.Expert7 = Card.Expert7;
+						NewCard.Expert8 = Card.Expert8;
+						NewCard.Expert9 = Card.Expert9;
+
+						db.UnApprovedCards.Remove(Card);
+						db.Cards.Add(NewCard);
+
+						db.SaveChanges();
+					}
+				}
+			}
+			else if (Move == -1)
+			{
+
+			}
+			else if (Move == 0)
+			{
+
+			}
+		}
+
+		[Authorize]
+		public void EditCard()
+		{
+
+		}
+
 	}
 }
