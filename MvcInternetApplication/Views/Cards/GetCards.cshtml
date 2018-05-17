@@ -58,12 +58,6 @@
 
 	}
 
-	<script>
-		$('.cards').on('click', function () {
-			$('.screen').fadeIn(1000, function () { })
-		});
-	</script>
-
 </div>
 
 @Html.Action("Pages", "Cards", new { number = ViewBag.Number, saved = ViewBag.Number, count = Model.Count() })
@@ -88,20 +82,25 @@
 	});
 
 	function SaveCard(cardId) {
-        $.get("/Cards/SaveCard?CardId=" + cardId);
+		$.get("/Cards/SaveCard?CardId=" + cardId);
+		var realId = '#' + cardId;
+		$(realId).find('.cardsHeaderRight').attr('src', '../img/saveActive.png')
     }
 
 	function DeleteCard(cardId) {
 		$.get("/Cards/DeleteCard?CardId=" + cardId);
-		var realId = '#' + cardId;
+		$(realId).find('.cardsHeaderRight').attr('src', '../img/saveInactive.png')
 	}
 
-	$('.cardsHeaderRight').click(function () {
-		if ($(this).attr('src') == '../img/saveActive.png') {
-			$(this).attr('src', '../img/saveInactive.png')
-		}
-		else {
-			$(this).attr('src', '../img/saveActive.png');
-		}
+	var currentCard;
+
+	$('.cards').on('click', function () {
+		$('.screen').fadeIn(1000, function () { })
+		currentCard = $(this).attr('id');
 	});
+
+	$('.expSave').click(function () {
+		SaveCard(currentCard);
+	});
+
 </script>

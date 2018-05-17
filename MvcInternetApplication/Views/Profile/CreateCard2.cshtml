@@ -120,12 +120,13 @@
 						<div class="profileButton">Назад</div>
 						<div class="profileButton" id="next2">
 							@Ajax.ActionLink("Вперед", "CreateCard3", "Profile",
-																									new AjaxOptions
-																									{
-																										UpdateTargetId = "profileContent"
-																									})
+								new AjaxOptions
+								{
+									UpdateTargetId = "profileContent"
+								})
 						</div>
 					</div>
+
 				</div>
 			</div>
 		</div>
@@ -135,7 +136,11 @@
 	//ul li
 
 	$('#addList').on('click', function () {
-		$(lastSection).append('<p contenteditable>•  Something</p>');
+		$(lastSection).append('<p contenteditable class="expCardList">•  Something</p>');
+	});
+
+	$('.expCardList').click(function () {
+		lastSection = '#tf-3';
 	});
 
 	//add formula
@@ -143,11 +148,12 @@
 	var lastField;
 	//lastField and lastSection are defined in html (onclick="..")
 	var i = 1;
-	var a = [], b = [], latex = [];	//latex[] contains LaTex
+	var a = [], b = [], c = [], latex = [];	//latex[] contains LaTex
 	var MQ = MathQuill.getInterface(2);
 
 	a[0] = document.getElementById('froggieFormula');
 	b[0] = MQ.MathField(a[0], { spaceBehavesLikeTab: false });
+	latex[0] = b[0].latex();
 
 	$('#addFormula').on('click', function () {
 
@@ -157,39 +163,68 @@
 
 		else {
 			var id = 'math-field-' + i;
+			var containerId = 'container-' + id;
 			var uponclick = 'lastField = ' + i;
+			var MathTag = '<article class="mathTag"> ◄' + i + '</article>';
 
+			var newMathFieldContainer = $("<article>", { id: containerId });
 			var newMathField = $("<div>", { id: id, 'class': 'mathField', onclick: uponclick });
-			$(lastSection).append(newMathField);
+
+			$(lastSection).append(newMathFieldContainer);
+
+			$(newMathFieldContainer).append(MathTag);
+
+			$(newMathFieldContainer).append(newMathField);
+
+			$(newMathFieldContainer).append('<article class="mathTag">►</article>');
 
 			a[i] = document.getElementById(id);
 			b[i] = MQ.MathField(a[i], { spaceBehavesLikeTab: false });
+			latex[i] = b[i].latex();
+
+			var contId = '#' + containerId;
+			c[i] = $(contId);
 
 			i++;
+
+			lastField = i;
 		}
 	});
 
 	//save LaTex
 
-	$('#next2').click(function () {
-		for (var ind; ind <= i + 1; ind++) {
-			if (a[ind] != 0) {
-				latex[ind] = a[ind].latex();
-			}
+	function mathQuillConvert(string) {
+		var first, second, mathQuillNonsense, latexInd;
 
-			if (ind == i + 1) {
-				latex[ind] = formulaLatex.latex();
-			}
+		while (string.includes('◄') == true) {
+			first = string.indexOf('◄');
+			second = string.indexOf('►');
+
+			mathQuillNonsense = string.substring(first + 1, second);
+			latexInd = mathQuillNonsense.charAt(0);
+
+			string = string.replace(mathQuillNonsense, b[latexInd].latex());
+			string = string.replace('◄', '!LATEX!');
+			string = string.replace('►', '!LATEX!');
 		}
 
-		//next
+		return string;
+	}
 
+	var expDef, expFormula, expMain, expFooter;
+
+	$('#next2').click(function () {
+
+		expDef = mathQuillConvert($('.expDefinition').text());
+		expFormula = mathQuillConvert($('.expFormula').text());
+		expMain = mathQuillConvert($('.expCardMain').text());
+		expFooter = mathQuillConvert($('.expFooter').text());
 	});
 
 	//remove formula
 
 	$('#delete').on('click', function () {
-		a[lastField].remove();
+		c[lastField].remove();
 		a[lastField] = 0;
 	});
 
@@ -213,13 +248,12 @@
 
 	$('.del').hover(
 		function () {
-			a[lastField].css('opacity', '0.5');
+			c[lastField].find('.mathField').css('opacity', '0.5');
 		},
 		function () {
-			a[lastField].css('opacity', '1');
+			c[lastField].find('.mathField').css('opacity', '1');
 		}
 	);
 
 	MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
-
 </script>
