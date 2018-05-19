@@ -14,7 +14,7 @@
 				@Ajax.ActionLink("Сохранённые карточки", "GetUserCards", "Cards",
 								new AjaxOptions
 								{
-									UpdateTargetId = "profileContent"
+									UpdateTargetId = "profileTab"
 								})
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae pharetra nunc.
@@ -26,7 +26,7 @@
 				@Ajax.ActionLink("Создать карточку", "CreateCard1", "Profile",
 									new AjaxOptions
 									{
-										UpdateTargetId = "profileContent"
+										UpdateTargetId = "profileTab"
 									})
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae pharetra nunc.
@@ -38,7 +38,7 @@
 				@Ajax.ActionLink("Одобрить карточки", "ApproveCard", "Profile",
 									new AjaxOptions
 									{
-										UpdateTargetId = "profileContent"
+										UpdateTargetId = "profileTab"
 									})
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae pharetra nunc.
@@ -50,3 +50,7 @@
 
 	</div>
 </div>
+
+<script>
+	profileCard = true;	
+</script>

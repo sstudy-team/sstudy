@@ -31,7 +31,7 @@
 	padding:	2vh 0;
 	
 	border-bottom:	0.15vmin solid rgb(200, 200, 200);
-	background:		rgba(255, 255, 255, 0.8);
+	background:		rgb(255, 255, 255);
 	
 	color:	rgb(100, 100, 100);
 	font:	1.25vmax/1.5vmax 'Century Gothic';
@@ -48,8 +48,10 @@
 	width:		50%;
 	
 	background:	rgb(230, 230, 230);
-	box-shadow:	0.15vmin 0.15vmin 0.3vmin rgb(200, 200, 200) inset;
-	
+	box-shadow:	0.15vmin 0.15vmin 0.3vmin rgb(200, 200, 200) inset;	
+}
+
+#profile nav article a{
 	color:	rgb(100, 100, 100);
 	font:	1vmax/1vmax 'Century Gothic';
 }

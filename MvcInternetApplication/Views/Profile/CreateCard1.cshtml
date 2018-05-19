@@ -1,13 +1,10 @@
 ﻿@{
 	Layout = null;
 }
- 
+
 <div id="t2">
 	<div id="t2Content">
-		<div id="t2Nav">
-			<a href="profile_t2.html"><img src="~/img/home.png"></a>
-			<article>Current page</article>
-		</div>
+
 		<div id="createCards">
 			<article class="step">Select category</article>
 
@@ -31,10 +28,10 @@
 				<div class="profileButton">Назад</div>
 				<div class="profileButton" id="next">
 					@Ajax.ActionLink("Вперед", "CreateCard2", "Profile",
-										new AjaxOptions
-										{
-											UpdateTargetId = "profileContent"
-										})
+															new AjaxOptions
+															{
+																UpdateTargetId = "profileTab"
+															})
 				</div>
 			</div>
 

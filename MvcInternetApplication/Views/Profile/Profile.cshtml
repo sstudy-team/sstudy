@@ -13,7 +13,7 @@
 			@Ajax.ActionLink("Профиль", "PersonalPage",
 						new AjaxOptions
 						{
-							UpdateTargetId = "profileContent"
+							UpdateTargetId = "profileTab"
 						})
 		</article>
 
@@ -21,13 +21,15 @@
 			@Ajax.ActionLink("Карточки", "ProfCardMenu",
 						new AjaxOptions
 						{
-							UpdateTargetId = "profileContent"
+							UpdateTargetId = "profileTab"
 						})
 		</article>
 	</nav>
 
 	<div id="profileContent">
-		@Html.Action("PersonalPage")
+		<div id="profileTab">
+			@Html.Action("PersonalPage")
+		</div>
 	</div>
 
 </div>

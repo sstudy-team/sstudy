@@ -29,20 +29,43 @@
 			}
 		</script>
 
-		<div id="@item.CardId" class="cards" onclick="@func1 rev()">
-			
-			<div class="header">
-				<p>@item.Section</p>
-				<img class="cardsHeaderRight" src="../img/saveActive.png">
-			</div>
 
-			<div class="formula" id="@ff">
-			</div>
+		if (WebSecurity.IsAuthenticated)
+		{
+			<div id="@item.CardId" class="cards" onclick="@func1">
 
-			<div class="footer">
-				<footer><p></p></footer>
+				<div class="header">
+					<p>@item.Section</p>
+					<img class="cardsHeaderRight" src="../img/saveInactive.png">
+				</div>
+
+				<div class="formula" id="@ff">
+				</div>
+
+				<div class="footer">
+					<footer><p></p></footer>
+				</div>
 			</div>
-		</div>
+		}
+		else
+		{
+			<div id="@item.CardId" class="cards" onclick="@func1">
+
+				<div class="header">
+					<p>@item.Section</p>
+				</div>
+
+				<div class="formula" id="@ff">
+				</div>
+
+				<div class="footer">
+					<footer><p></p></footer>
+				</div>
+			</div>
+		}
+
+
+		
 
 		<script type="text/javascript">
             function @func2 {
@@ -50,7 +73,6 @@
                     document.getElementById('@item.CardId').firstElementChild.className += ' saved';
                 document.getElementById('@ff').innerHTML = "<p>@item.Prev</p>";
                 MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
-                ref_cards();
                 }
 			@func2 ;
 		</script>
@@ -89,6 +111,7 @@
 
 	function DeleteCard(cardId) {
 		$.get("/Cards/DeleteCard?CardId=" + cardId);
+		var realId = '#' + cardId;
 		$(realId).find('.cardsHeaderRight').attr('src', '../img/saveInactive.png')
 	}
 
@@ -99,8 +122,44 @@
 		currentCard = $(this).attr('id');
 	});
 
-	$('.expSave').click(function () {
-		SaveCard(currentCard);
+	$('.cardsHeaderRight').click(function (e) {
+		e.stopPropagation();
+
+		currentCard = $(this).parent().parent().attr('id');
+		var realId = '#' + currentCard;
+
+		if (profileCard == true) {
+			if ($(this).parent().parent().hasClass('savedCard') == false) {
+				SaveCard(currentCard);
+				$(realId).addClass('savedCard');
+				$(realId).css('opacity', '1');
+			}
+			else {
+				DeleteCard(currentCard);
+				$(realId).removeClass('savedCard');
+				$(realId).css('opacity', '0.8');
+			}
+		}
+		else {
+			if ($(this).parent().parent().hasClass('savedCard') == false) {
+				SaveCard(currentCard);
+				$(realId).addClass('savedCard');
+			}
+			else {
+				DeleteCard(currentCard);
+				$(realId).removeClass('savedCard');
+			}
+		}
 	});
+
+	$(document).ready(function () {
+		if (profileCard == true) {
+			$('.cards').each(function () {
+				$(this).addClass('savedCard');
+				$(this).find('.cardsHeaderRight').attr('src', '../img/saveActive.png')
+			});
+		}
+	});
+	
 
 </script>

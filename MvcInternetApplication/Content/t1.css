@@ -1,7 +1,7 @@
 #profile #t1{
 	width:	100%;
 	
-	background:	rgba(100, 100, 100, 0.1);
+	background:	rgba(250, 250, 250, 0.25);
 	
 	
 	display:flex;
@@ -12,7 +12,7 @@
 	padding:	2vh 2vw;
 	width:		61.8%;
 	
-	background:	rgba(250, 250, 250, 0.8);
+	background:	rgba(250, 250, 250, 0.75);
 }
 
 #profile form section{
@@ -20,7 +20,8 @@
 	text-align:	left;
 	
 	display:	flex;
-	align-items:center;
+	justify-content:	center;
+	align-items:		center;
 }
 
 #profile form span{
@@ -51,11 +52,15 @@
 	-webkit-appearance: none;
 }
 
+#profile form .ProfileEdit{
+	visibility:	hidden;
+}
+
 #profile #profileData{
 	padding-bottom:	1vw;
 	width:		38.2%;
 	
-	background:	rgba(250, 250, 250, 0.2);
+	background:	rgb(250, 250, 250);
 	text-align:	center;
 }
 
@@ -84,8 +89,9 @@
 	padding:0;
 	width:	61.8%;
 	
+	background:			rgba(240, 240, 240, 0.6);
 	list-style-type:	none;	
-	text-align:	left;
+	text-align:			left;
 }
 
 #profile #profileData ul li{
@@ -96,7 +102,7 @@
 	border:	0.15vmin solid rgb(200, 200, 200, 0.6);	
 	display:flex;
 	
-	color:	rgb(150, 150, 150);
+	color:	rgb(120, 120, 120);
 	font:	1vmax/1vmax 'Century Gothic';
 }
 
