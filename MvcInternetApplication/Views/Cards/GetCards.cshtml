@@ -5,13 +5,9 @@
 }
 
 <div class="cardsContainer">
+	@{ int co = 0; }
 
-	@{
-		int skip = (ViewBag.Number - 1) * 8;
-		var m = Model.OrderBy(Card => Card.CardId).Skip(skip).Take(8);
-	}
-
-	@foreach (var item in m)
+	@foreach (var item in Model)
 	{
 		string func2 = "ff" + @item.CardId + "()";
 		string func1 = "f" + @item.CardId + "();";
@@ -36,7 +32,17 @@
 
 				<div class="header">
 					<p>@item.Section</p>
-					<img class="cardsHeaderRight" src="../img/saveInactive.png">
+					@{
+						if (ViewBag.Save[co] == 1)
+						{
+							<img class="cardsHeaderRight" src="../img/saveActive.png">
+						}
+						if (ViewBag.Save[co] == 0)
+						{
+							<img class="cardsHeaderRight" src="../img/saveInactive.png">
+						}
+						co++;
+					}
 				</div>
 
 				<div class="formula" id="@ff">
@@ -82,7 +88,7 @@
 
 </div>
 
-@Html.Action("Pages", "Cards", new { number = ViewBag.Number, saved = ViewBag.Number, count = Model.Count() })
+@Html.Action("Pages", "Cards", new { number = ViewBag.Number, saved = ViewBag.Saved, count = ViewBag.Count })
 
 <script>
 

@@ -19,21 +19,43 @@ namespace MvcInternetApplication.Controllers
 
 		public ActionResult GetCards(int? number)
 		{
+			int page = 1;
+
+			page = number != null ? (int)number : 1;
+
 			if (number != null)
 			{
 				ViewBag.Number = number;
+				page = (int)number;
 			}
 			else
 			{
 				ViewBag.Number = 1;
 			}
 			ViewBag.Saved = 0;
+			ViewBag.Count = db.Cards.Count();
 
-			return View("GetCards", db.Cards.ToList());
+			List<Card> NewList = db.Cards.OrderBy(Card => Card.CardId).Skip((page - 1) * 8).Take(8).ToList();
+
+			ViewBag.Save = new int[8];
+
+			for (int i = 0; i < NewList.Count(); i++)
+			{
+				if (db.UserCards.Where(user => user.UserId == WebSecurity.CurrentUserId).Where(us => us.CardId == db.Cards.OrderBy(Card => Card.CardId).Skip((page - 1) * 8 + i).First().CardId) == null)
+					ViewBag.Save[i] = 0;
+				else
+					ViewBag.Save[i] = 1;
+			}
+
+			return View("GetCards", NewList);
 		}
 
 		public ActionResult GetUserCards(int? number)
 		{
+			int page = 1;
+
+			page = number != null ? (int)number : 1;
+
 			if (number != null)
 			{
 				ViewBag.Number = number;
@@ -44,12 +66,22 @@ namespace MvcInternetApplication.Controllers
 			}
 
 			ViewBag.Saved = 1;
+			ViewBag.Count = db.Cards.Count();
+
+			List<UserCard> NewList = db.UserCards.Where(Card => Card.UserId == WebSecurity.CurrentUserId).OrderBy(Card => Card.UserCardId).Skip((page - 1) * 8).Take(8).ToList();
 
 			List<Card> cards = new List<Card>();
-			List<UserCard> store = db.UserCards.Where(Card => Card.UserId == WebSecurity.CurrentUserId).ToList();
-			foreach (var item in store)
+			
+			foreach (var item in NewList)
 			{
 				cards.Add(db.Cards.Where(Card => Card.CardId == item.CardId).FirstOrDefault());
+			}
+
+			ViewBag.Save = new int[8];
+
+			for (int i = 0; i < 8; i++)
+			{
+				ViewBag.Save[i] = 1;
 			}
 
 			return View("GetCards", cards.ToList());
@@ -110,6 +142,7 @@ namespace MvcInternetApplication.Controllers
 			NewCard.Expert7 = 0;
 			NewCard.Expert8 = 0;
 			NewCard.Expert9 = 0;
+
 			db.Cards.Add(NewCard);
 			db.SaveChanges();
 		}

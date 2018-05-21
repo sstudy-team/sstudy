@@ -53,14 +53,30 @@ namespace MvcInternetApplication.Controllers
 			return View();
 		}
 
-		public ActionResult CreateCard2()
+		public ActionResult CreateCard2(Subject Sub, Section Sec, Subsection Subsec, Topic Top)
 		{
+			ViewBag.Sub = Sub;
+			ViewBag.Sec = Sec;
+			ViewBag.Subsec = Subsec;
+			ViewBag.Top = Top;
+
 			return View();
 		}
 		
-		public ActionResult CreateCard3()
+		public ActionResult CreateCard3(Subject Sub, Section Sec, Subsection Subsec, Topic Top, string Title, string Prev, string Inf)
 		{
-			return View();
+			Card NewCard = new Card();
+			NewCard.Title = Title;
+			NewCard.Prev = Prev;
+			NewCard.Information = Inf;
+
+			NewCard.Subject = Sub;
+			NewCard.Section = Sec;
+			NewCard.Subsection = Subsec;
+			NewCard.Topic = Top;
+
+
+			return View(NewCard);
 		}
 
 	}
